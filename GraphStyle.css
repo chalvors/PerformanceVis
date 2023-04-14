@@ -1,0 +1,341 @@
+<style>
+.node {
+  cursor: pointer;
+}
+.node circle {
+  fill: #fff;
+  stroke: steelblue;
+  stroke-width: 0.8px;
+  cursor: pointer;
+
+}
+.node text {
+  font: 10px sans-serif;
+}
+.link {
+  fill: none;
+  stroke: #ccc;
+  stroke-width: 1.5px;
+}
+.links line {
+  stroke: #999;
+  stroke-opacity: 0.6;
+}
+#tree {
+  font-family: sans-serif;
+  font-size: 10px;
+}
+
+#tree {
+  position: absolute;
+  top: 250px;
+  left: 10px;
+/*  background-color: yellow;*/
+} 
+#force {
+  position: absolute;
+/*  background-color: yellow;*/
+}
+
+#input_data_label{
+  position: absolute;
+  top: 59px;
+  left: 10px;
+  font-size: 16px;
+  font-weight: 900; 
+}
+  
+#input_data {
+  position: absolute;
+  top: 74px;
+  left: 126px;
+  font-size: 10pt;
+}
+
+#force_tree_color_dropdown_label{
+  position: absolute;
+  top: 93px;
+  left: 10px;
+  font-size: 16px;
+  font-weight: 900; 
+}
+
+#force_tree_color_dropdown {
+  position: absolute;
+  top: 136px;
+  left: 30px;
+  font-size: 10pt;
+}
+
+#legend {
+  position: absolute;
+  top: 143px;
+  left: 10px;
+}
+
+#force_title{
+  position: absolute;
+  top: 0px;
+  left: 10px;
+  font-size: 17px;
+  padding: 14px 16px;
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+
+#tree_title{
+  position: absolute;
+  top: 360px;
+  left: 10px;
+  font-size: 17px;
+  padding: 14px 16px;
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+
+#color_blind_switch {
+  position: absolute;
+  top: 8px;
+  left: 1454px;
+
+  background-color: inherit;
+  float: left;
+  border: 2px solid #9191ff;
+  outline: none;
+  cursor: pointer;
+  border-radius: 6px; 
+  padding: 8px 10px;
+  transition: 0.3s;
+  font-size: 15px;
+}
+
+#color_blind_switch:hover {
+  background-color: #9191ff;
+  color: white; 
+}
+
+
+#color_blind_switch.active {
+  background-color: #7272ff;
+  color: white; 
+}
+
+
+/*sankey*/
+#sankey {
+  font-family: Arial;
+}
+.node rect {
+/*  cursor: move;*/
+  fill-opacity: .9;
+  shape-rendering: crispEdges;
+  stroke-width: 0;
+}
+
+.node text {
+  pointer-events: none;
+  text-shadow: 0 1px 0 #fff;
+}
+
+.slink {
+  fill: none;
+  stroke: #000;
+  stroke-opacity: .3;
+  cursor: pointer;
+}
+
+.slink:hover {
+  stroke-opacity: .5;
+  cursor: pointer;
+}
+
+#SExam1 {
+  position: absolute;
+  top: 790px;
+  left: 11px;
+  font-size: 19px;
+}
+#SExam2 {
+  position: absolute;
+  top: 790px;
+  left: 285px;
+  font-size: 19px;
+}
+#SExam3 {
+  position: absolute;
+  top: 790px;
+  left: 566px;
+  font-size: 19px;
+}
+#SFinal {
+  position: absolute;
+  top: 790px;
+  left: 853px;
+  font-size: 19px;
+}
+
+/*parallel*/
+#barChart {
+  position: absolute;
+  top: 130px;
+  left: 1458px;
+/*  background-color: yellow;*/
+}
+
+#variableImportance {
+  position: absolute;
+  top: 258px;
+  left: 1259.5px;
+/*  background-color: yellow;*/
+}
+
+#filtercheckbox {
+  position: absolute;
+  top: 70px;
+  left: 1259px;
+}
+
+#selectColor{
+  position: absolute;
+  top: -1px;
+  left: 205px;
+  font-size: 10pt;
+}
+
+div.cb{
+  height: 2.2em;
+  width: 25.1em;
+  position: relative
+}
+div.cb input{
+   position: absolute;              
+   top: 40%;                         
+   transform: translate(35px, -50%)
+}
+div.cb label{
+   position: absolute;              
+   top: 50%;
+   left: 22px;                         
+   transform: translate(35px, -50%)
+}
+
+.bodertop{
+  border-top-style: solid;
+  border-top-width: 0.1px;
+  border-left-style: solid;
+  border-left-width: 0.1px;
+  border-right-style: solid;
+  border-right-width: 0.1px;
+}
+.bodermiddle{
+  border-left-style: solid;
+  border-left-width: 0.1px;
+  border-right-style: solid;
+  border-right-width: 0.1px;
+}
+.boderbottom{
+  border-bottom-style: solid;
+  border-bottom-width: 0.1px;
+  border-left-style: solid;
+  border-left-width: 0.1px;
+  border-right-style: solid;
+  border-right-width: 0.1px;
+}
+
+#compares {
+  position: absolute;
+  top: 670px;
+  left: 180px;
+}
+
+#Ex1 {
+  position: absolute;
+  top: 720px;
+  left: 190px;
+}
+#Ex2 {
+  position: absolute;
+  top: 720px;
+  left: 235px;
+}
+#Ex3 {
+  position: absolute;
+  top: 720px;
+  left: 282px;
+}
+#Final {
+  position: absolute;
+  top: 720px;
+  left: 325px;
+}
+
+
+.axis {
+  opacity: 0.4;
+}
+.axis:hover {
+  opacity: 1;
+}
+
+.highlight{ 
+  font-weight: 900; 
+}
+
+.highlight label{ 
+  font-weight: 900;
+}
+
+
+#container {
+  position: absolute;
+  top: 3px;
+  left: 700px;
+}
+
+
+.tab {
+/*  overflow: hidden;*/
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+
+.tab button:hover {
+  background-color: #ddd;
+}
+
+
+.tab button.active {
+  background-color: #ccc;
+}
+
+
+.tabcontent {
+  display: none;
+  border-top: none;
+  animation: fadeEffect 0.8s;
+}
+
+@-webkit-keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+</style>

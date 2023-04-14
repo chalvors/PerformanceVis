@@ -1,0 +1,236 @@
+{
+ "nodes": [
+  {
+   "id": "1: Keq (5.0 pts)",
+   "difficulty": 1,
+   "chapter": 5,
+   "dindex": 0.948
+  },
+  {
+   "id": "2: Delta S Rxn (5.0 pts)",
+   "difficulty": 2,
+   "chapter": 6,
+   "dindex": 0.834
+  },
+  {
+   "id": "3: Temp Rxn is Spontaneous (5.0 pts)",
+   "difficulty": 2,
+   "chapter": 6,
+   "dindex": 0.793
+  },
+  {
+   "id": "4: pH of Buffer (5.0 pts)",
+   "difficulty": 3,
+   "chapter": 5,
+   "dindex": 0.632
+  },
+  {
+   "id": "5: SA SB Titration (5.0 pts)",
+   "difficulty": 2,
+   "chapter": 5,
+   "dindex": 0.707
+  },
+  {
+   "id": "6: Specific Heat Capacity (5.0 pts)",
+   "difficulty": 2,
+   "chapter": 6,
+   "dindex": 0.872
+  },
+  {
+   "id": "7: Rxn enthalpy (5.0 pts)",
+   "difficulty": 3,
+   "chapter": 6,
+   "dindex": 0.529
+  },
+  {
+   "id": "8: BDE (5.0 pts)",
+   "difficulty": 1,
+   "chapter": 6,
+   "dindex": 0.958
+  },
+  {
+   "id": "9: PV=nRT (5.0 pts)",
+   "difficulty": 3,
+   "chapter": 7,
+   "dindex": 0.681
+  },
+  {
+   "id": "10: (OH-) (5.0 pts)",
+   "difficulty": 1,
+   "chapter": 5,
+   "dindex": 0.976
+  },
+  {
+   "id": "11: Delta G and K (5.0 pts)",
+   "difficulty": 1,
+   "chapter": 6,
+   "dindex": 0.996
+  },
+  {
+   "id": "12: Hess's Law (5.0 pts)",
+   "difficulty": 1,
+   "chapter": 6,
+   "dindex": 0.941
+  },
+  {
+   "id": "13: Identify Weak Base (5.0 pts)",
+   "difficulty": 3,
+   "chapter": 5,
+   "dindex": 0.691
+  },
+  {
+   "id": "14: Initial Concentration Weak Base (5.0 pts)",
+   "difficulty": 2,
+   "chapter": 5,
+   "dindex": 0.744
+  },
+  {
+   "id": "15: Endpoint/Equivalence Pt Titration (5.0 pts)",
+   "difficulty": 1,
+   "chapter": 5,
+   "dindex": 0.904
+  },
+  {
+   "id": "16: Exothermic Rxns (5.0 pts)",
+   "difficulty": 2,
+   "chapter": 6,
+   "dindex": 0.898
+  },
+  {
+   "id": "17: Spontaneous at Low T (5.0 pts)",
+   "difficulty": 2,
+   "chapter": 6,
+   "dindex": 0.751
+  },
+  {
+   "id": "18: Spontaneous in Reverse (5.0 pts)",
+   "difficulty": 3,
+   "chapter": 6,
+   "dindex": 0.693
+  },
+  {
+   "id": "19: Pressure and Products (5.0 pts)",
+   "difficulty": 3,
+   "chapter": 6,
+   "dindex": 0.680
+  },
+  {
+   "id": "20: Temperature and Products (5.0 pts)",
+   "difficulty": 3,
+   "chapter": 6,
+   "dindex": 0.655
+  }
+ ],
+ "links": [
+  {
+   "source": "1: Keq (5.0 pts)",
+   "target": "8: BDE (5.0 pts)",
+   "value": 0.376
+  },
+  {
+   "source": "2: Delta S Rxn (5.0 pts)",
+   "target": "17: Spontaneous at Low T (5.0 pts)",
+   "value": 0.548
+  },
+  {
+   "source": "2: Delta S Rxn (5.0 pts)",
+   "target": "18: Spontaneous in Reverse (5.0 pts)",
+   "value": 0.586
+  },
+  {
+   "source": "3: Temp Rxn is Spontaneous (5.0 pts)",
+   "target": "17: Spontaneous at Low T (5.0 pts)",
+   "value": 1.037
+  },
+  {
+   "source": "3: Temp Rxn is Spontaneous (5.0 pts)",
+   "target": "18: Spontaneous in Reverse (5.0 pts)",
+   "value": 0.534
+  },
+  {
+   "source": "4: pH of Buffer (5.0 pts)",
+   "target": "5: SA SB Titration (5.0 pts)",
+   "value": 0.581
+  },
+  {
+   "source": "5: SA SB Titration (5.0 pts)",
+   "target": "18: Spontaneous in Reverse (5.0 pts)",
+   "value": 0.66
+  },
+  {
+   "source": "6: Specific Heat Capacity (5.0 pts)",
+   "target": "18: Spontaneous in Reverse (5.0 pts)",
+   "value": 0.202
+  },
+  {
+   "source": "7: Rxn enthalpy (5.0 pts)",
+   "target": "14: Initial Concentration Weak Base (5.0 pts)",
+   "value": 0.164
+  },
+  {
+   "source": "8: BDE (5.0 pts)",
+   "target": "11: Delta G and K (5.0 pts)",
+   "value": 0.416
+  },
+  {
+   "source": "9: PV=nRT (5.0 pts)",
+   "target": "14: Initial Concentration Weak Base (5.0 pts)",
+   "value": 0.246
+  },
+  {
+   "source": "10: (OH-) (5.0 pts)",
+   "target": "11: Delta G and K (5.0 pts)",
+   "value": 0.807
+  },
+  {
+   "source": "11: Delta G and K (5.0 pts)",
+   "target": "12: Hess's Law (5.0 pts)",
+   "value": 0.276
+  },
+  {
+   "source": "12: Hess's Law (5.0 pts)",
+   "target": "17: Spontaneous at Low T (5.0 pts)",
+   "value": 0.296
+  },
+  {
+   "source": "13: Identify Weak Base (5.0 pts)",
+   "target": "14: Initial Concentration Weak Base (5.0 pts)",
+   "value": 0.408
+  },
+  {
+   "source": "14: Initial Concentration Weak Base (5.0 pts)",
+   "target": "17: Spontaneous at Low T (5.0 pts)",
+   "value": 0.548
+  },
+  {
+   "source": "14: Initial Concentration Weak Base (5.0 pts)",
+   "target": "18: Spontaneous in Reverse (5.0 pts)",
+   "value": 0.534
+  },
+  {
+   "source": "15: Endpoint/Equivalence Pt Titration (5.0 pts)",
+   "target": "16: Exothermic Rxns (5.0 pts)",
+   "value": 0.064
+  },
+  {
+   "source": "16: Exothermic Rxns (5.0 pts)",
+   "target": "20: Temperature and Products (5.0 pts)",
+   "value": 0.376
+  },
+  {
+   "source": "17: Spontaneous at Low T (5.0 pts)",
+   "target": "18: Spontaneous in Reverse (5.0 pts)",
+   "value": 0.853
+  },
+  {
+   "source": "18: Spontaneous in Reverse (5.0 pts)",
+   "target": "20: Temperature and Products (5.0 pts)",
+   "value": 0.174
+  },
+  {
+   "source": "19: Pressure and Products (5.0 pts)",
+   "target": "20: Temperature and Products (5.0 pts)",
+   "value": 0.63
+  }
+ ]
+}

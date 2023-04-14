@@ -1,0 +1,458 @@
+{
+ "nodes": [
+  {
+   "id": "1: Quantum Number (4.0 pts)",
+   "difficulty": 1,
+   "chapter": 1,
+   "dindex": 0.954
+  },
+  {
+   "id": "2: Name Orbital (4.0 pts)",
+   "difficulty": 2,
+   "chapter": 1,
+   "dindex": 0.769
+  },
+  {
+   "id": "3: Electron Configuration (4.0 pts)",
+   "difficulty": 1,
+   "chapter": 1,
+   "dindex": 0.966
+  },
+  {
+   "id": "4: Rydberg (4.0 pts)",
+   "difficulty": 1,
+   "chapter": 1,
+   "dindex": 0.898
+  },
+  {
+   "id": "5: Lewis Structure (4.0 pts)",
+   "difficulty": 1,
+   "chapter": 2,
+   "dindex": 0.904
+  },
+  {
+   "id": "6: Weak Acid H3O+ (4.0 pts)",
+   "difficulty": 1,
+   "chapter": 5,
+   "dindex": 0.908
+  },
+  {
+   "id": "7: Gibbs Free Energy and K (4.0 pts)",
+   "difficulty": 2,
+   "chapter": 4,
+   "dindex": 0.815
+  },
+  {
+   "id": "8: Ksp (4.0 pts)",
+   "difficulty": 2,
+   "chapter": 5,
+   "dindex": 0.785
+  },
+  {
+   "id": "9: Vapor Pressure (4.0 pts)",
+   "difficulty": 2,
+   "chapter": 4,
+   "dindex": 0.866
+  },
+  {
+   "id": "10: Heating Curve (4.0 pts)",
+   "difficulty": 2,
+   "chapter": 6,
+   "dindex": 0.806
+  },
+  {
+   "id": "11: LeChateliers (4.0 pts)",
+   "difficulty": 2,
+   "chapter": 4,
+   "dindex": 0.849
+  },
+  {
+   "id": "12: Thermo Signs (4.0 pts)",
+   "difficulty": 2,
+   "chapter": 7,
+   "dindex": 0.790
+  },
+  {
+   "id": "13: PV=nRT (4.0 pts)",
+   "difficulty": 1,
+   "chapter": 7,
+   "dindex": 0.954
+  },
+  {
+   "id": "14: Identify Titration (4.0 pts)",
+   "difficulty": 3,
+   "chapter": 5,
+   "dindex": 0.767
+  },
+  {
+   "id": "15: Hybridization (4.0 pts)",
+   "difficulty": 1,
+   "chapter": 2,
+   "dindex": 0.889
+  },
+  {
+   "id": "16: Hydrogen Bonding (4.0 pts)",
+   "difficulty": 2,
+   "chapter": 7,
+   "dindex": 0.806
+  },
+  {
+   "id": "17.1: Resonance and Formal Charges (6.0 pts)",
+   "difficulty": 2,
+   "chapter": 2,
+   "dindex": 0.828
+  },
+  {
+   "id": "17.2: C-N Bond Order (1.0 pts)",
+   "difficulty": 2,
+   "chapter": 2,
+   "dindex": 0.826
+  },
+  {
+   "id": "17.3: C-S Bond Order (1.0 pts)",
+   "difficulty": 2,
+   "chapter": 2,
+   "dindex": 0.802
+  },
+  {
+   "id": "18.1: Diagram Labeling (5.0 pts)",
+   "difficulty": 1,
+   "chapter": 2,
+   "dindex": 0.889
+  },
+  {
+   "id": "18.2: Ionization Energy (1.0 pts)",
+   "difficulty": 1,
+   "chapter": 1,
+   "dindex": 1.000
+  },
+  {
+   "id": "18.3: Identify Orbital Name (2.0 pts)",
+   "difficulty": 3,
+   "chapter": 2,
+   "dindex": 0.676
+  },
+  {
+   "id": "18.4: Bond Length (1.0 pts)",
+   "difficulty": 2,
+   "chapter": 2,
+   "dindex": 0.838
+  },
+  {
+   "id": "18.5: BDE (1.0 pts)",
+   "difficulty": 2,
+   "chapter": 6,
+   "dindex": 0.776
+  },
+  {
+   "id": "19.1: Volume to Equivalence (1.0 pts)",
+   "difficulty": 2,
+   "chapter": 5,
+   "dindex": 0.866
+  },
+  {
+   "id": "19.2: pH at Equivalence (3.0 pts)",
+   "difficulty": 3,
+   "chapter": 5,
+   "dindex": 0.388
+  },
+  {
+   "id": "19.3: pH at half Equivalence (1.0 pts)",
+   "difficulty": 2,
+   "chapter": 5,
+   "dindex": 0.809
+  },
+  {
+   "id": "19.4: pH of buffer (3.0 pts)",
+   "difficulty": 3,
+   "chapter": 5,
+   "dindex": 0.305
+  },
+  {
+   "id": "20.1: Point A equilibrium (1.0 pts)",
+   "difficulty": 1,
+   "chapter": 4,
+   "dindex": 0.974
+  },
+  {
+   "id": "20.2: Point A reaction (2.0 pts)",
+   "difficulty": 1,
+   "chapter": 4,
+   "dindex": 0.939
+  },
+  {
+   "id": "20.3: Pressure at point A (4.0 pts)",
+   "difficulty": 2,
+   "chapter": 4,
+   "dindex": 0.882
+  },
+  {
+   "id": "20.4: Entropy of reaction (3.0 pts)",
+   "difficulty": 3,
+   "chapter": 6,
+   "dindex": 0.645
+  }
+ ],
+ "links": [
+  {
+   "source": "1: Quantum Number (4.0 pts)",
+   "target": "2: Name Orbital (4.0 pts)",
+   "value": 0.21
+  },
+  {
+   "source": "2: Name Orbital (4.0 pts)",
+   "target": "17.1: Resonance and Formal Charges (6.0 pts)",
+   "value": 0.458
+  },
+  {
+   "source": "3: Electron Configuration (4.0 pts)",
+   "target": "11: LeChateliers (4.0 pts)",
+   "value": 0.225
+  },
+  {
+   "source": "4: Rydberg (4.0 pts)",
+   "target": "13: PV=nRT (4.0 pts)",
+   "value": 0.778
+  },
+  {
+   "source": "4: Rydberg (4.0 pts)",
+   "target": "20.3: Pressure at point A (4.0 pts)",
+   "value": 0.605
+  },
+  {
+   "source": "5: Lewis Structure (4.0 pts)",
+   "target": "20.3: Pressure at point A (4.0 pts)",
+   "value": 0.213
+  },
+  {
+   "source": "6: Weak Acid H3O+ (4.0 pts)",
+   "target": "19.3: pH at half Equivalence (1.0 pts)",
+   "value": 0.702
+  },
+  {
+   "source": "6: Weak Acid H3O+ (4.0 pts)",
+   "target": "20.3: Pressure at point A (4.0 pts)",
+   "value": 0.586
+  },
+  {
+   "source": "7: Gibbs Free Energy and K (4.0 pts)",
+   "target": "8: Ksp (4.0 pts)",
+   "value": 0.918
+  },
+  {
+   "source": "7: Gibbs Free Energy and K (4.0 pts)",
+   "target": "10: Heating Curve (4.0 pts)",
+   "value": 0.557
+  },
+  {
+   "source": "7: Gibbs Free Energy and K (4.0 pts)",
+   "target": "11: LeChateliers (4.0 pts)",
+   "value": 0.666
+  },
+  {
+   "source": "7: Gibbs Free Energy and K (4.0 pts)",
+   "target": "12: Thermo Signs (4.0 pts)",
+   "value": 0.888
+  },
+  {
+   "source": "7: Gibbs Free Energy and K (4.0 pts)",
+   "target": "19.2: pH at Equivalence (3.0 pts)",
+   "value": 0.66
+  },
+  {
+   "source": "7: Gibbs Free Energy and K (4.0 pts)",
+   "target": "19.3: pH at half Equivalence (1.0 pts)",
+   "value": 0.729
+  },
+  {
+   "source": "7: Gibbs Free Energy and K (4.0 pts)",
+   "target": "20.3: Pressure at point A (4.0 pts)",
+   "value": 1.289
+  },
+  {
+   "source": "8: Ksp (4.0 pts)",
+   "target": "11: LeChateliers (4.0 pts)",
+   "value": 0.615
+  },
+  {
+   "source": "8: Ksp (4.0 pts)",
+   "target": "13: PV=nRT (4.0 pts)",
+   "value": 0.538
+  },
+  {
+   "source": "8: Ksp (4.0 pts)",
+   "target": "15: Hybridization (4.0 pts)",
+   "value": 0.66
+  },
+  {
+   "source": "8: Ksp (4.0 pts)",
+   "target": "18.1: Diagram Labeling (5.0 pts)",
+   "value": 0.718
+  },
+  {
+   "source": "8: Ksp (4.0 pts)",
+   "target": "19.2: pH at Equivalence (3.0 pts)",
+   "value": 0.676
+  },
+  {
+   "source": "8: Ksp (4.0 pts)",
+   "target": "19.3: pH at half Equivalence (1.0 pts)",
+   "value": 0.767
+  },
+  {
+   "source": "8: Ksp (4.0 pts)",
+   "target": "19.4: pH of buffer (3.0 pts)",
+   "value": 0.566
+  },
+  {
+   "source": "8: Ksp (4.0 pts)",
+   "target": "20.3: Pressure at point A (4.0 pts)",
+   "value": 0.724
+  },
+  {
+   "source": "9: Vapor Pressure (4.0 pts)",
+   "target": "20.3: Pressure at point A (4.0 pts)",
+   "value": 0.66
+  },
+  {
+   "source": "10: Heating Curve (4.0 pts)",
+   "target": "20.3: Pressure at point A (4.0 pts)",
+   "value": 0.65
+  },
+  {
+   "source": "11: LeChateliers (4.0 pts)",
+   "target": "19.3: pH at half Equivalence (1.0 pts)",
+   "value": 0.576
+  },
+  {
+   "source": "12: Thermo Signs (4.0 pts)",
+   "target": "19.3: pH at half Equivalence (1.0 pts)",
+   "value": 0.576
+  },
+  {
+   "source": "13: PV=nRT (4.0 pts)",
+   "target": "20.3: Pressure at point A (4.0 pts)",
+   "value": 0.853
+  },
+  {
+   "source": "14: Identify Titration (4.0 pts)",
+   "target": "17.3: C-S Bond Order (1.0 pts)",
+   "value": 0.384
+  },
+  {
+   "source": "15: Hybridization (4.0 pts)",
+   "target": "18.3: Identify Orbital Name (2.0 pts)",
+   "value": 0.357
+  },
+  {
+   "source": "16: Hydrogen Bonding (4.0 pts)",
+   "target": "19.3: pH at half Equivalence (1.0 pts)",
+   "value": 0.48
+  },
+  {
+   "source": "17.1: Resonance and Formal Charges (6.0 pts)",
+   "target": "17.2: C-N Bond Order (1.0 pts)",
+   "value": 0.635
+  },
+  {
+   "source": "17.1: Resonance and Formal Charges (6.0 pts)",
+   "target": "17.3: C-S Bond Order (1.0 pts)",
+   "value": 0.936
+  },
+  {
+   "source": "17.2: C-N Bond Order (1.0 pts)",
+   "target": "17.3: C-S Bond Order (1.0 pts)",
+   "value": 6.178
+  },
+  {
+   "source": "17.3: C-S Bond Order (1.0 pts)",
+   "target": "20.3: Pressure at point A (4.0 pts)",
+   "value": 0.286
+  },
+  {
+   "source": "18.1: Diagram Labeling (5.0 pts)",
+   "target": "20.3: Pressure at point A (4.0 pts)",
+   "value": 0.66
+  },
+  {
+   "source": "18.2: Ionization Energy (1.0 pts)",
+   "target": "20.1: Point A equilibrium (1.0 pts)",
+   "value": 0.006
+  },
+  {
+   "source": "18.3: Identify Orbital Name (2.0 pts)",
+   "target": "19.2: pH at Equivalence (3.0 pts)",
+   "value": 0.433
+  },
+  {
+   "source": "18.4: Bond Length (1.0 pts)",
+   "target": "18.5: BDE (1.0 pts)",
+   "value": 3.505
+  },
+  {
+   "source": "18.5: BDE (1.0 pts)",
+   "target": "19.3: pH at half Equivalence (1.0 pts)",
+   "value": 0.475
+  },
+  {
+   "source": "19.1: Volume to Equivalence (1.0 pts)",
+   "target": "19.2: pH at Equivalence (3.0 pts)",
+   "value": 0.586
+  },
+  {
+   "source": "19.1: Volume to Equivalence (1.0 pts)",
+   "target": "19.3: pH at half Equivalence (1.0 pts)",
+   "value": 0.681
+  },
+  {
+   "source": "19.1: Volume to Equivalence (1.0 pts)",
+   "target": "19.4: pH of buffer (3.0 pts)",
+   "value": 0.566
+  },
+  {
+   "source": "19.2: pH at Equivalence (3.0 pts)",
+   "target": "19.3: pH at half Equivalence (1.0 pts)",
+   "value": 0.778
+  },
+  {
+   "source": "19.2: pH at Equivalence (3.0 pts)",
+   "target": "19.4: pH of buffer (3.0 pts)",
+   "value": 1.884
+  },
+  {
+   "source": "19.2: pH at Equivalence (3.0 pts)",
+   "target": "20.3: Pressure at point A (4.0 pts)",
+   "value": 0.645
+  },
+  {
+   "source": "19.3: pH at half Equivalence (1.0 pts)",
+   "target": "19.4: pH of buffer (3.0 pts)",
+   "value": 0.681
+  },
+  {
+   "source": "19.3: pH at half Equivalence (1.0 pts)",
+   "target": "20.3: Pressure at point A (4.0 pts)",
+   "value": 1.122
+  },
+  {
+   "source": "19.4: pH of buffer (3.0 pts)",
+   "target": "20.3: Pressure at point A (4.0 pts)",
+   "value": 0.595
+  },
+  {
+   "source": "20.1: Point A equilibrium (1.0 pts)",
+   "target": "20.2: Point A reaction (2.0 pts)",
+   "value": 0.376
+  },
+  {
+   "source": "20.2: Point A reaction (2.0 pts)",
+   "target": "20.3: Pressure at point A (4.0 pts)",
+   "value": 0.807
+  },
+  {
+   "source": "20.3: Pressure at point A (4.0 pts)",
+   "target": "20.4: Entropy of reaction (3.0 pts)",
+   "value": 0.467
+  }
+ ]
+}

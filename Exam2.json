@@ -1,0 +1,204 @@
+{
+ "nodes": [
+  {
+   "id": "1: Bond Order O2^- (5.0 pts)",
+   "difficulty": 2,
+   "chapter": 2,
+   "dindex": 0.946
+  },
+  {
+   "id": "2: Bond Length N2 (5.0 pts)",
+   "difficulty": 3,
+   "chapter": 2,
+   "dindex": 0.748
+  },
+  {
+   "id": "3: PCl3 (5.0 pts)",
+   "difficulty": 2,
+   "chapter": 2,
+   "dindex": 0.907
+  },
+  {
+   "id": "4: NO2^- (5.0 pts)",
+   "difficulty": 3,
+   "chapter": 2,
+   "dindex": 0.806
+  },
+  {
+   "id": "5: Balance Reaction (5.0 pts)",
+   "difficulty": 1,
+   "chapter": 3,
+   "dindex": 0.993
+  },
+  {
+   "id": "6: Spatial Arrangement (5.0 pts)",
+   "difficulty": 1,
+   "chapter": 2,
+   "dindex": 0.978
+  },
+  {
+   "id": "7: Limiting Reactant (5.0 pts)",
+   "difficulty": 2,
+   "chapter": 3,
+   "dindex": 0.872
+  },
+  {
+   "id": "8: Equilibrium (5.0 pts)",
+   "difficulty": 3,
+   "chapter": 4,
+   "dindex": 0.842
+  },
+  {
+   "id": "9: Equilibrium Partial Pressure (5.0 pts)",
+   "difficulty": 1,
+   "chapter": 4,
+   "dindex": 0.967
+  },
+  {
+   "id": "10: Q vs K (5.0 pts)",
+   "difficulty": 2,
+   "chapter": 4,
+   "dindex": 0.924
+  },
+  {
+   "id": "11: Ksp (5.0 pts)",
+   "difficulty": 3,
+   "chapter": 4,
+   "dindex": 0.664
+  },
+  {
+   "id": "12: Common Ion (5.0 pts)",
+   "difficulty": 3,
+   "chapter": 2,
+   "dindex": 0.825
+  },
+  {
+   "id": "13.1: Lewis and Resonance (5.0 pts)",
+   "difficulty": 1,
+   "chapter": 2,
+   "dindex": 0.952
+  },
+  {
+   "id": "13.2: Hybridization (10.0 pts)",
+   "difficulty": 1,
+   "chapter": 2,
+   "dindex": 0.965
+  },
+  {
+   "id": "13.3: O-C-O (5.0 pts)",
+   "difficulty": 3,
+   "chapter": 2,
+   "dindex": 0.851
+  },
+  {
+   "id": "14.1: K Expression (4.0 pts)",
+   "difficulty": 1,
+   "chapter": 4,
+   "dindex": 0.978
+  },
+  {
+   "id": "14.2: Equilibrium Pressure (8.0 pts)",
+   "difficulty": 2,
+   "chapter": 4,
+   "dindex": 0.876
+  },
+  {
+   "id": "14.3: Q vs K (8.0 pts)",
+   "difficulty": 2,
+   "chapter": 4,
+   "dindex": 0.907
+  }
+ ],
+ "links": [
+  {
+   "source": "1: Bond Order O2^- (5.0 pts)",
+   "target": "13.1: Lewis and Resonance (5.0 pts)",
+   "value": 0.055
+  },
+  {
+   "source": "2: Bond Length N2 (5.0 pts)",
+   "target": "14.3: Q vs K (8.0 pts)",
+   "value": 0.276
+  },
+  {
+   "source": "3: PCl3 (5.0 pts)",
+   "target": "13.3: O-C-O (5.0 pts)",
+   "value": 0.424
+  },
+  {
+   "source": "4: NO2^- (5.0 pts)",
+   "target": "11: Ksp (5.0 pts)",
+   "value": 0.328
+  },
+  {
+   "source": "5: Balance Reaction (5.0 pts)",
+   "target": "13.1: Lewis and Resonance (5.0 pts)",
+   "value": 0.154
+  },
+  {
+   "source": "6: Spatial Arrangement (5.0 pts)",
+   "target": "13.2: Hybridization (10.0 pts)",
+   "value": 0.538
+  },
+  {
+   "source": "7: Limiting Reactant (5.0 pts)",
+   "target": "14.3: Q vs K (8.0 pts)",
+   "value": 0.279
+  },
+  {
+   "source": "8: Equilibrium (5.0 pts)",
+   "target": "11: Ksp (5.0 pts)",
+   "value": 0.303
+  },
+  {
+   "source": "9: Equilibrium Partial Pressure (5.0 pts)",
+   "target": "14.3: Q vs K (8.0 pts)",
+   "value": 0.269
+  },
+  {
+   "source": "10: Q vs K (5.0 pts)",
+   "target": "14.3: Q vs K (8.0 pts)",
+   "value": 0.912
+  },
+  {
+   "source": "11: Ksp (5.0 pts)",
+   "target": "12: Common Ion (5.0 pts)",
+   "value": 0.708
+  },
+  {
+   "source": "11: Ksp (5.0 pts)",
+   "target": "14.2: Equilibrium Pressure (8.0 pts)",
+   "value": 0.894
+  },
+  {
+   "source": "12: Common Ion (5.0 pts)",
+   "target": "14.2: Equilibrium Pressure (8.0 pts)",
+   "value": 0.571
+  },
+  {
+   "source": "13.1: Lewis and Resonance (5.0 pts)",
+   "target": "13.2: Hybridization (10.0 pts)",
+   "value": 0.502
+  },
+  {
+   "source": "13.2: Hybridization (10.0 pts)",
+   "target": "13.3: O-C-O (5.0 pts)",
+   "value": 0.666
+  },
+  {
+   "source": "13.3: O-C-O (5.0 pts)",
+   "target": "14.2: Equilibrium Pressure (8.0 pts)",
+   "value": 0.462
+  },
+  {
+   "source": "14.1: K Expression (4.0 pts)",
+   "target": "14.2: Equilibrium Pressure (8.0 pts)",
+   "value": 0.299
+  },
+  {
+   "source": "14.2: Equilibrium Pressure (8.0 pts)",
+   "target": "14.3: Q vs K (8.0 pts)",
+   "value": 0.955
+  }
+ ]
+}

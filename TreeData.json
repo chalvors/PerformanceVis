@@ -1,0 +1,1871 @@
+var final_tree =
+{
+    "name": "FINAL","difficulty": 0,"chapter": 0,
+    "children": [
+        {
+            "name": "Final-1","chapter": 1,"correlation": 1,"difficulty": 1,"dindex": 0.954,"children": [
+                {"name": "Ex1-5","chapter": 1,"difficulty": 3,"dindex": 0.818,"correlation": 0.167,"children": [
+                    {"name": "HW1-8","chapter": 1,"difficulty": 3,"dindex": 0.912,"correlation": 0.120,"itemID": 114299},
+                    {"name": "HW2-2","chapter": 1,"difficulty": 3,"dindex": 0.944,"correlation": 0.123,"itemID": 114392},
+                    {"name": "HW2-7","chapter": 2,"difficulty": 2,"dindex": 0.958,"correlation": 0.118,"itemID": 4123}
+                ]},
+                {"name": "Ex1-13.4","chapter": 1,"difficulty": 3,"dindex": 0.746,"correlation": 0.153,"children": [
+                    {"name": "HW1-9","chapter": 1,"difficulty": 3,"dindex": 0.939,"correlation": 0.141,"itemID": 118053},
+                    {"name": "HW2-2","chapter": 1,"difficulty": 3,"dindex": 0.944,"correlation": 0.146,"itemID": 114392},
+                    {"name": "HW2-8","chapter": 2,"difficulty": 3,"dindex": 0.922,"correlation": 0.157,"itemID": 114978}
+                ]},
+                {"name": "Ex2-13.3","chapter": 2,"difficulty": 3,"dindex": 0.851,"correlation": 0.120,"children": [
+                    {"name": "HW4-1","chapter": 2,"difficulty": 2,"dindex": 0.976,"correlation": 0.125,"itemID": 3764},
+                    {"name": "HW4-5","chapter": 2,"difficulty": 2,"dindex": 0.981,"correlation": 0.159,"itemID": 1268}
+                ]},
+                {"name": "Ex3-2","chapter": 6,"difficulty": 2,"dindex": 0.834,"correlation": 0.122,"children": [
+                    {"name": "HW10-6*","chapter": 6,"difficulty": 3,"dindex": 0.957,"correlation": 0.146,"itemID": 112275}
+                ]},
+                {"name": "HW11-6","chapter": 7,"difficulty": 3,"dindex": 0.928,"correlation": 0.129,"itemID": 1861}
+            ]
+        },
+        {
+            "name": "Final-2","chapter": 1,"correlation": 1,"difficulty": 2,"dindex": 0.769,"children": [
+                {"name": "Ex1-15.1","chapter": 2,"difficulty": 1,"dindex": 0.987,"correlation": 0.139,"children": [
+                    {"name": "HW2-5*","chapter": 2,"difficulty": 2,"dindex": 0.962,"correlation": 0.230,"itemID": 6856},
+                    {"name": "HW2-8","chapter": 2,"difficulty": 3,"dindex": 0.922,"correlation": 0.176,"itemID": 114978},
+                    {"name": "HW2-9","chapter": 2,"difficulty": 3,"dindex": 0.951,"correlation": 0.166,"itemID": 141658}
+                ]},
+                {"name": "Ex2-11","chapter": 4,"difficulty": 3,"dindex": 0.664,"correlation": 0.147,"children": [
+                    {"name": "HW4-5","chapter": 2,"difficulty": 2,"dindex": 0.981,"correlation": 0.123,"itemID": 1268},
+                    {"name": "HW6-6","chapter": 4,"difficulty": 3,"dindex": 0.937,"correlation": 0.204,"itemID": 116798},
+                    {"name": "HW6-9","chapter": 4,"difficulty": 3,"dindex": 0.931,"correlation": 0.182,"itemID": 6078}
+                ]},
+                {"name": "Ex3-3","chapter": 6,"difficulty": 2,"dindex": 0.793,"correlation": 0.134,"children": [
+                    {"name": "HW8-6*","chapter": 5,"difficulty": 3,"dindex": 0.938,"correlation": 0.172,"itemID": 14418},
+                    {"name": "HW9-6*","chapter": 6,"difficulty": 1,"dindex": 0.979,"correlation": 0.153,"itemID": 6550}
+                ]}
+            ]
+        },
+        {
+            "name": "Final-3","chapter": 1,"correlation": 1,"difficulty": 1,"dindex": 0.966,"children": [
+                {"name": "Ex1-14.3","chapter": 2,"difficulty": 2,"dindex": 0.933,"correlation": 0.141,"children": [
+                    {"name": "HW1-3","chapter": 1,"difficulty": 2,"dindex": 0.956,"correlation": 0.121,"itemID": 73735},
+                    {"name": "HW2-2","chapter": 1,"difficulty": 3,"dindex": 0.944,"correlation": 0.117,"itemID": 114392},
+                    {"name": "HW2-8","chapter": 2,"difficulty": 3,"dindex": 0.922,"correlation": 0.145,"itemID": 114978}
+                ]},
+                {"name": "Ex3-3","chapter": 6,"difficulty": 2,"dindex": 0.793,"correlation": 0.121,"children": [
+                    {"name": "HW8-6*","chapter": 5,"difficulty": 3,"dindex": 0.938,"correlation": 0.172,"itemID": 14418},
+                    {"name": "HW9-6*","chapter": 6,"difficulty": 1,"dindex": 0.979,"correlation": 0.153,"itemID": 6550}
+                ]}
+            ]
+        },
+        {
+            "name": "Final-4","chapter": 1,"correlation": 1,"difficulty": 1,"dindex": 0.898,"children": [
+                {"name": "Ex1-2","chapter": 1,"difficulty": 1,"dindex": 0.975,"correlation": 0.191,"children": [
+                    {"name": "HW2-1","chapter": 1,"difficulty": 1,"dindex": 0.980,"correlation": 0.174,"itemID": 20668},
+                    {"name": "HW2-8","chapter": 2,"difficulty": 3,"dindex": 0.922,"correlation": 0.195,"itemID": 114978},
+                    {"name": "HW2-9","chapter": 2,"difficulty": 3,"dindex": 0.951,"correlation": 0.186,"itemID": 141658}
+                ]},
+                {"name": "Ex1-4","chapter": 1,"difficulty": 3,"dindex": 0.874,"correlation": 0.173,"children": [
+                    {"name": "HW1-1","chapter": 1,"difficulty": 1,"dindex": 0.967,"correlation": 0.162,"itemID": 123669},
+                    {"name": "HW1-9","chapter": 1,"difficulty": 3,"dindex": 0.939,"correlation": 0.166,"itemID": 118053},
+                    {"name": "HW2-5*","chapter": 2,"difficulty": 2,"dindex": 0.956,"correlation": 0.173,"itemID": 6854}
+                ]},
+                {"name": "Ex1-8","chapter": 1,"difficulty": 3,"dindex": 0.783,"correlation": 0.150,"children": [
+                    {"name": "HW2-8","chapter": 2,"difficulty": 3,"dindex": 0.922,"correlation": 0.121,"itemID": 114978},
+                    {"name": "HW2-9","chapter": 2,"difficulty": 3,"dindex": 0.951,"correlation": 0.153,"itemID": 141658}
+                ]},
+                {"name": "Ex1-11","chapter": 2,"difficulty": 2,"dindex": 0.943,"correlation": 0.167,"children": [
+                    {"name": "HW2-3","chapter": 1,"difficulty": 1,"dindex": 0.969,"correlation": 0.113,"itemID": 25560},
+                    {"name": "HW2-4","chapter": 1,"difficulty": 1,"dindex": 0.972,"correlation": 0.127,"itemID": 2990},
+                    {"name": "HW2-5*","chapter": 2,"difficulty": 2,"dindex": 0.962,"correlation": 0.172,"itemID": 6856}
+                ]},
+                {"name": "Ex1-13.3","chapter": 1,"difficulty": 1,"dindex": 0.973,"correlation": 0.157,"children": [
+                    {"name": "HW1-8","chapter": 1,"difficulty": 3,"dindex": 0.912,"correlation": 0.175,"itemID": 114299},
+                    {"name": "HW2-8","chapter": 2,"difficulty": 3,"dindex": 0.922,"correlation": 0.152,"itemID": 114978},
+                    {"name": "HW2-9","chapter": 2,"difficulty": 3,"dindex": 0.951,"correlation": 0.159,"itemID": 141658}
+                ]},
+                {"name": "Ex1-13.4","chapter": 1,"difficulty": 3,"dindex": 0.746,"correlation": 0.197,"children": [
+                    {"name": "HW1-9","chapter": 1,"difficulty": 3,"dindex": 0.939,"correlation": 0.141,"itemID": 118053},
+                    {"name": "HW2-2","chapter": 1,"difficulty": 3,"dindex": 0.944,"correlation": 0.146,"itemID": 114392},
+                    {"name": "HW2-8","chapter": 2,"difficulty": 3,"dindex": 0.922,"correlation": 0.157,"itemID": 114978}
+                ]},
+                {"name": "Ex1-14.3","chapter": 2,"difficulty": 2,"dindex": 0.933,"correlation": 0.185,"children": [
+                    {"name": "HW1-3","chapter": 1,"difficulty": 2,"dindex": 0.956,"correlation": 0.121,"itemID": 73735},
+                    {"name": "HW2-2","chapter": 1,"difficulty": 3,"dindex": 0.944,"correlation": 0.117,"itemID": 114392},
+                    {"name": "HW2-8","chapter": 2,"difficulty": 3,"dindex": 0.922,"correlation": 0.145,"itemID": 114978}
+                ]},
+                {"name": "Ex2-14.2","chapter": 4,"difficulty": 2,"dindex": 0.876,"correlation": 0.272,"children": [
+                    {"name": "HW5-6","chapter": 3,"difficulty": 3,"dindex": 0.972,"correlation": 0.128,"itemID": 18744},
+                    {"name": "HW6-6","chapter": 4,"difficulty": 3,"dindex": 0.937,"correlation": 0.200,"itemID": 116798},
+                    {"name": "HW6-9","chapter": 4,"difficulty": 3,"dindex": 0.931,"correlation": 0.236,"itemID": 6078}
+                ]},
+                {"name": "Ex2-14.3","chapter": 4,"difficulty": 2,"dindex": 0.907,"correlation": 0.170,"children": [
+                    {"name": "HW6-6","chapter": 4,"difficulty": 3,"dindex": 0.937,"correlation": 0.120,"itemID": 116798},
+                    {"name": "HW6-9","chapter": 4,"difficulty": 3,"dindex": 0.931,"correlation": 0.127,"itemID": 6078}
+                ]},
+                {"name": "Ex3-12","chapter": 6,"difficulty": 1,"dindex": 0.941,"correlation": 0.158,"children": [
+                    {"name": "HW8-6*","chapter": 5,"difficulty": 3,"dindex": 0.966,"correlation": 0.186,"itemID": 14426},
+                    {"name": "HW9-5*","chapter": 6,"difficulty": 3,"dindex": 0.956,"correlation": 0.156,"itemID": 25768},
+                    {"name": "HW9-6*","chapter": 6,"difficulty": 1,"dindex": 0.979,"correlation": 0.260,"itemID": 6550}
+                ]},
+                {"name": "Ex3-14","chapter": 5,"difficulty": 2,"dindex": 0.744,"correlation": 0.181,"children": [
+                    {"name": "HW9-1","chapter": 6,"difficulty": 1,"dindex": 0.978,"correlation": 0.130,"itemID": 65286},
+                    {"name": "HW9-6*","chapter": 6,"difficulty": 2,"dindex": 0.972,"correlation": 0.136,"itemID": 2167}
+                ]}
+            ]
+        },
+        {
+            "name": "Final-5","chapter": 2,"correlation": 1,"difficulty": 1,"dindex": 0.904,"children": [
+                {"name": "Ex1-12","chapter": 2,"difficulty": 1,"dindex": 0.974,"correlation": 0.146,"children": [
+                    {"name": "HW2-7","chapter": 2,"difficulty": 2,"dindex": 0.958,"correlation": 0.155,"itemID": 4123},
+                    {"name": "HW2-8","chapter": 2,"difficulty": 3,"dindex": 0.922,"correlation": 0.233,"itemID": 114978},
+                    {"name": "HW2-9","chapter": 2,"difficulty": 3,"dindex": 0.951,"correlation": 0.180,"itemID": 141658}
+                ]},
+                {"name": "Ex2-14.2","chapter": 4,"difficulty": 2,"dindex": 0.876,"correlation": 0.141,"children": [
+                    {"name": "HW5-6","chapter": 3,"difficulty": 3,"dindex": 0.972,"correlation": 0.128,"itemID": 18744},
+                    {"name": "HW6-6","chapter": 4,"difficulty": 3,"dindex": 0.937,"correlation": 0.200,"itemID": 116798},
+                    {"name": "HW6-9","chapter": 4,"difficulty": 3,"dindex": 0.931,"correlation": 0.236,"itemID": 6078}
+                ]},
+                {"name": "Ex3-17","chapter": 6,"difficulty": 2,"dindex": 0.751,"correlation": 0.144,"children": [
+                    {"name": "HW8-6*","chapter": 5,"difficulty": 3,"dindex": 0.938,"correlation": 0.186,"itemID": 14418},
+                    {"name": "HW8-9","chapter": 5,"difficulty": 3,"dindex": 0.919,"correlation": 0.184,"itemID": 2099},
+                    {"name": "HW9-4","chapter": 6,"difficulty": 3,"dindex": 0.903,"correlation": 0.147,"itemID": 15866}
+                ]}
+            ]
+        },
+        {
+            "name": "Final-6","chapter": 5,"correlation": 1,"difficulty": 1,"dindex": 0.908,"children": [
+                {"name": "Ex1-8","chapter": 1,"difficulty": 3,"dindex": 0.783,"correlation": 0.155,"children": [
+                    {"name": "HW2-8","chapter": 2,"difficulty": 3,"dindex": 0.922,"correlation": 0.121,"itemID": 114978},
+                    {"name": "HW2-9","chapter": 2,"difficulty": 3,"dindex": 0.951,"correlation": 0.153,"itemID": 141658}
+                ]},
+                {"name": "Ex1-11","chapter": 2,"difficulty": 2,"dindex": 0.943,"correlation": 0.195,"children": [
+                    {"name": "HW2-3","chapter": 1,"difficulty": 1,"dindex": 0.969,"correlation": 0.113,"itemID": 25560},
+                    {"name": "HW2-4","chapter": 1,"difficulty": 1,"dindex": 0.972,"correlation": 0.127,"itemID": 2990},
+                    {"name": "HW2-5*","chapter": 2,"difficulty": 2,"dindex": 0.962,"correlation": 0.172,"itemID": 6856}
+                ]},
+                {"name": "Ex1-13.4","chapter": 1,"difficulty": 3,"dindex": 0.746,"correlation": 0.158,"children": [
+                    {"name": "HW1-9","chapter": 1,"difficulty": 3,"dindex": 0.939,"correlation": 0.141,"itemID": 118053},
+                    {"name": "HW2-2","chapter": 1,"difficulty": 3,"dindex": 0.944,"correlation": 0.146,"itemID": 114392},
+                    {"name": "HW2-8","chapter": 2,"difficulty": 3,"dindex": 0.922,"correlation": 0.157,"itemID": 114978}
+                ]},
+                {"name": "Ex2-11","chapter": 4,"difficulty": 3,"dindex": 0.664,"correlation": 0.193,"children": [
+                    {"name": "HW4-5","chapter": 2,"difficulty": 2,"dindex": 0.981,"correlation": 0.123,"itemID": 1268},
+                    {"name": "HW6-6","chapter": 4,"difficulty": 3,"dindex": 0.937,"correlation": 0.204,"itemID": 116798},
+                    {"name": "HW6-9","chapter": 4,"difficulty": 3,"dindex": 0.931,"correlation": 0.182,"itemID": 6078}
+                ]},
+                {"name": "Ex2-12","chapter": 4,"difficulty": 3,"dindex": 0.825,"correlation": 0.154,"children": [
+                    {"name": "HW3-2","chapter": 2,"difficulty": 2,"dindex": 0.977,"correlation": 0.133,"itemID": 1504},
+                    {"name": "HW6-6","chapter": 4,"difficulty": 3,"dindex": 0.937,"correlation": 0.149,"itemID": 116798},
+                    {"name": "HW6-9","chapter": 4,"difficulty": 3,"dindex": 0.931,"correlation": 0.134,"itemID": 6078}
+                ]},
+                {"name": "Ex2-13.1","chapter": 2,"difficulty": 1,"dindex": 0.952,"correlation": 0.161,"children": [
+                    {"name": "HW6-6","chapter": 4,"difficulty": 3,"dindex": 0.937,"correlation": 0.163,"itemID": 116798}
+                ]},
+                {"name": "Ex2-13.2","chapter": 2,"chapter": 2,"difficulty": 1,"dindex": 0.965,"correlation": 0.225,"children": [
+                    {"name": "HW5-6","chapter": 3,"difficulty": 3,"dindex": 0.972,"correlation": 0.131,"itemID": 18744},
+                    {"name": "HW6-6","chapter": 4,"difficulty": 3,"dindex": 0.937,"correlation": 0.210,"itemID": 116798},
+                    {"name": "HW6-9","chapter": 4,"difficulty": 3,"dindex": 0.931,"correlation": 0.195,"itemID": 6078}
+                ]},
+                {"name": "Ex2-14.2","chapter": 4,"difficulty": 2,"dindex": 0.876,"correlation": 0.256,"children": [
+                    {"name": "HW5-6","chapter": 3,"difficulty": 3,"dindex": 0.972,"correlation": 0.128,"itemID": 18744},
+                    {"name": "HW6-6","chapter": 4,"difficulty": 3,"dindex": 0.937,"correlation": 0.200,"itemID": 116798},
+                    {"name": "HW6-9","chapter": 4,"difficulty": 3,"dindex": 0.931,"correlation": 0.236,"itemID": 6078}
+                ]},
+                {"name": "Ex2-14.3","chapter": 4,"difficulty": 2,"dindex": 0.907,"correlation": 0.205,"children": [
+                    {"name": "HW6-6","chapter": 4,"difficulty": 3,"dindex": 0.937,"correlation": 0.120,"itemID": 116798},
+                    {"name": "HW6-9","chapter": 4,"difficulty": 3,"dindex": 0.931,"correlation": 0.127,"itemID": 6078}
+                ]},
+                {"name": "Ex3-1","chapter": 5,"difficulty": 1,"dindex": 0.948,"correlation": 0.204,"children": [
+                    {"name": "HW8-6*","chapter": 5,"difficulty": 3,"dindex": 0.938,"correlation": 0.317,"itemID": 14418},
+                    {"name": "HW9-2","chapter": 6,"difficulty": 2,"dindex": 0.973,"correlation": 0.202,"itemID": 1851},
+                    {"name": "HW9-6*","chapter": 6,"difficulty": 1,"dindex": 0.979,"correlation": 0.346,"itemID": 6550}
+                ]},
+                {"name": "Ex3-2","chapter": 6,"difficulty": 2,"dindex": 0.834,"correlation": 0.179,"children": [
+                    {"name": "HW10-6*","chapter": 6,"difficulty": 3,"dindex": 0.957,"correlation": 0.146,"itemID": 112275}
+                ]},
+                {"name": "Ex3-3","chapter": 6,"difficulty": 2,"dindex": 0.793,"correlation": 0.214,"children": [
+                    {"name": "HW8-6*","chapter": 5,"difficulty": 3,"dindex": 0.938,"correlation": 0.172,"itemID": 14418},
+                    {"name": "HW9-6*","chapter": 6,"difficulty": 1,"dindex": 0.979,"correlation": 0.153,"itemID": 6550}
+                ]},
+                {"name": "Ex3-4","chapter": 5,"difficulty": 3,"dindex": 0.632,"correlation": 0.164,"children": [
+                    {"name": "HW8-6*","chapter": 5,"difficulty": 3,"dindex": 0.938,"correlation": 0.134,"itemID": 14418}
+                ]},
+                {"name": "Ex3-10","chapter": 5,"difficulty": 1,"dindex": 0.976,"correlation": 0.187,"children": [
+                    {"name": "HW8-4","chapter": 5,"difficulty": 2,"dindex": 0.977,"correlation": 0.153,"itemID": 6091},
+                    {"name": "HW9-2","chapter": 6,"difficulty": 2,"dindex": 0.973,"correlation": 0.122,"itemID": 1851},
+                    {"name": "HW9-5*","chapter": 6,"difficulty": 3,"dindex": 0.956,"correlation": 0.223,"itemID": 25768}
+                ]},
+                {"name": "Ex3-12","chapter": 6,"difficulty": 1,"dindex": 0.941,"correlation": 0.213,"children": [
+                    {"name": "HW8-6*","chapter": 5,"difficulty": 3,"dindex": 0.966,"correlation": 0.186,"itemID": 14426},
+                    {"name": "HW9-5*","chapter": 6,"difficulty": 3,"dindex": 0.956,"correlation": 0.156,"itemID": 25768},
+                    {"name": "HW9-6*","chapter": 6,"difficulty": 1,"dindex": 0.979,"correlation": 0.260,"itemID": 6550}
+                ]},
+                {"name": "Ex3-13","chapter": 5,"difficulty": 3,"dindex": 0.691,"correlation": 0.164,"children": [
+                    {"name": "HW8-6*","chapter": 5,"difficulty": 3,"dindex": 0.938,"correlation": 0.139,"itemID": 14418},
+                    {"name": "HW9-4","chapter": 6,"difficulty": 3,"dindex": 0.903,"correlation": 0.128,"itemID": 15866},
+                    {"name": "HW10-2*","chapter": 6,"difficulty": 3,"dindex": 0.962,"correlation": 0.129,"itemID": 53014}
+                ]},
+                {"name": "Ex3-16","chapter": 6,"difficulty": 2,"dindex": 0.898,"correlation": 0.163,"children": [
+                    {"name": "HW9-4","chapter": 6,"difficulty": 3,"dindex": 0.903,"correlation": 0.125,"itemID": 15866},
+                    {"name": "HW9-5*","chapter": 6,"difficulty": 2,"dindex": 0.971,"correlation": 0.165,"itemID": 2166},
+                    {"name": "HW9-6*","chapter": 6,"difficulty": 1,"dindex": 0.979,"correlation": 0.173,"itemID": 6550}
+                ]},
+                {"name": "Ex3-17","chapter": 6,"difficulty": 2,"dindex": 0.751,"correlation": 0.230,"children": [
+                    {"name": "HW8-6*","chapter": 5,"difficulty": 3,"dindex": 0.938,"correlation": 0.186,"itemID": 14418},
+                    {"name": "HW8-9","chapter": 5,"difficulty": 3,"dindex": 0.919,"correlation": 0.184,"itemID": 2099},
+                    {"name": "HW9-4","chapter": 6,"difficulty": 3,"dindex": 0.903,"correlation": 0.147,"itemID": 15866}
+                ]},
+                {"name": "Ex3-18","chapter": 6,"difficulty": 3,"dindex": 0.693,"correlation": 0.163,"children": [
+                    {"name": "HW8-6*","chapter": 5,"difficulty": 3,"dindex": 0.938,"correlation": 0.272,"itemID": 14418},
+                    {"name": "HW9-1","chapter": 6,"difficulty": 1,"dindex": 0.978,"correlation": 0.138,"itemID": 65286},
+                    {"name": "HW9-6*","chapter": 6,"difficulty": 1,"dindex": 0.979,"correlation": 0.156,"itemID": 6550}
+                ]},
+                 {"name": "HW11-5","chapter": 7,"difficulty": 1,"dindex": 0.983,"correlation": 0.139,"itemID": 3448},
+                {"name": "HW11-2","chapter": 7,"difficulty": 1,"dindex": 0.983,"correlation": 0.139,"itemID": 3710},
+                {"name": "HW11-4","chapter": 7,"difficulty": 1,"dindex": 0.983,"correlation": 0.139,"itemID": 16544}
+            ]
+        },
+        {
+            "name": "Final-7","chapter": 4,"correlation": 1,"difficulty": 2,"dindex": 0.815,"children": [
+                {"name": "Ex1-2","chapter": 1,"difficulty": 1,"dindex": 0.975,"correlation": 0.174,"children": [
+                    {"name": "HW2-1","chapter": 1,"difficulty": 1,"dindex": 0.980,"correlation": 0.174,"itemID": 20668},
+                    {"name": "HW2-8","chapter": 2,"difficulty": 3,"dindex": 0.922,"correlation": 0.195,"itemID": 114978},
+                    {"name": "HW2-9","chapter": 2,"difficulty": 3,"dindex": 0.951,"correlation": 0.186,"itemID": 141658}
+                ]},
+                {"name": "Ex1-5","chapter": 1,"difficulty": 3,"dindex": 0.818,"correlation": 0.154,"children": [
+                    {"name": "HW1-8","chapter": 1,"difficulty": 3,"dindex": 0.912,"correlation": 0.120,"itemID": 114299},
+                    {"name": "HW2-2","chapter": 1,"difficulty": 3,"dindex": 0.944,"correlation": 0.123,"itemID": 114392},
+                    {"name": "HW2-7","chapter": 2,"difficulty": 2,"dindex": 0.958,"correlation": 0.118,"itemID": 4123}
+                ]},
+                {"name": "Ex1-8","chapter": 1,"difficulty": 3,"dindex": 0.783,"correlation": 0.213,"children": [
+                    {"name": "HW2-8","chapter": 2,"difficulty": 3,"dindex": 0.922,"correlation": 0.121,"itemID": 114978},
+                    {"name": "HW2-9","chapter": 2,"difficulty": 3,"dindex": 0.951,"correlation": 0.153,"itemID": 141658}
+                ]},
+                {"name": "Ex1-13.3","chapter": 1,"difficulty": 1,"dindex": 0.973,"correlation": 0.178,"children": [
+                    {"name": "HW1-8","chapter": 1,"difficulty": 3,"dindex": 0.912,"correlation": 0.175,"itemID": 114299},
+                    {"name": "HW2-8","chapter": 2,"difficulty": 3,"dindex": 0.922,"correlation": 0.152,"itemID": 114978},
+                    {"name": "HW2-9","chapter": 2,"difficulty": 3,"dindex": 0.951,"correlation": 0.159,"itemID": 141658}
+                ]},
+                {"name": "Ex1-13.4","chapter": 1,"difficulty": 3,"dindex": 0.746,"correlation": 0.204,"children": [
+                    {"name": "HW1-9","chapter": 1,"difficulty": 3,"dindex": 0.939,"correlation": 0.141,"itemID": 118053},
+                    {"name": "HW2-2","chapter": 1,"difficulty": 3,"dindex": 0.944,"correlation": 0.146,"itemID": 114392},
+                    {"name": "HW2-8","chapter": 2,"difficulty": 3,"dindex": 0.922,"correlation": 0.157,"itemID": 114978}
+                ]},
+                {"name": "Ex1-15.1","chapter": 2,"difficulty": 1,"dindex": 0.987,"correlation": 0.177,"children": [
+                    {"name": "HW2-5*","chapter": 2,"difficulty": 2,"dindex": 0.962,"correlation": 0.230,"itemID": 6856},
+                    {"name": "HW2-8","chapter": 2,"difficulty": 3,"dindex": 0.922,"correlation": 0.176,"itemID": 114978},
+                    {"name": "HW2-9","chapter": 2,"difficulty": 3,"dindex": 0.951,"correlation": 0.166,"itemID": 141658}
+                ]},
+                {"name": "Ex2-9","chapter": 4,"difficulty": 1,"dindex": 0.967,"correlation": 0.180,"children": [
+                    {"name": "HW5-4","chapter": 3,"difficulty": 2,"dindex": 0.982,"correlation": 0.133,"itemID": 1606},
+                    {"name": "HW5-5","chapter": 3,"difficulty": 1,"dindex": 0.985,"correlation": 0.148,"itemID": 14889},
+                    {"name": "HW5-8","chapter": 4,"difficulty": 2,"dindex": 0.977,"correlation": 0.145,"itemID": 76380}
+                ]},
+                {"name": "Ex2-10","chapter": 4,"difficulty": 2,"dindex": 0.924,"correlation": 0.172,"children": [
+                    {"name": "HW4-5","chapter": 2,"difficulty": 2,"dindex": 0.981,"correlation": 0.174,"itemID": 1268},
+                    {"name": "HW4-6","chapter": 2,"difficulty": 1,"dindex": 0.985,"correlation": 0.157,"itemID": 23146},
+                    {"name": "HW4-7","chapter": 2,"difficulty": 2,"dindex": 0.981,"correlation": 0.180,"itemID": 114801}
+                ]},
+                {"name": "Ex2-11","chapter": 4,"difficulty": 3,"dindex": 0.664,"correlation": 0.238,"children": [
+                    {"name": "HW4-5","chapter": 2,"difficulty": 2,"dindex": 0.981,"correlation": 0.123,"itemID": 1268},
+                    {"name": "HW6-6","chapter": 4,"difficulty": 3,"dindex": 0.937,"correlation": 0.204,"itemID": 116798},
+                    {"name": "HW6-9","chapter": 4,"difficulty": 3,"dindex": 0.931,"correlation": 0.182,"itemID": 6078}
+                ]},
+                {"name": "Ex2-12","chapter": 4,"difficulty": 3,"dindex": 0.825,"correlation": 0.195,"children": [
+                    {"name": "HW3-2","chapter": 2,"difficulty": 2,"dindex": 0.977,"correlation": 0.133,"itemID": 1504},
+                    {"name": "HW6-6","chapter": 4,"difficulty": 3,"dindex": 0.937,"correlation": 0.149,"itemID": 116798},
+                    {"name": "HW6-9","chapter": 4,"difficulty": 3,"dindex": 0.931,"correlation": 0.134,"itemID": 6078}
+                ]},
+                {"name": "Ex2-13.3","chapter": 2,"difficulty": 3,"dindex": 0.851,"correlation": 0.185,"children": [
+                    {"name": "HW4-1","chapter": 2,"difficulty": 2,"dindex": 0.976,"correlation": 0.125,"itemID": 3764},
+                    {"name": "HW4-5","chapter": 2,"difficulty": 2,"dindex": 0.981,"correlation": 0.159,"itemID": 1268}
+                ]},
+                {"name": "Ex2-14.2","chapter": 4,"difficulty": 2,"dindex": 0.876,"correlation": 0.212,"children": [
+                    {"name": "HW5-6","chapter": 3,"difficulty": 3,"dindex": 0.972,"correlation": 0.128,"itemID": 18744},
+                    {"name": "HW6-6","chapter": 4,"difficulty": 3,"dindex": 0.937,"correlation": 0.200,"itemID": 116798},
+                    {"name": "HW6-9","chapter": 4,"difficulty": 3,"dindex": 0.931,"correlation": 0.236,"itemID": 6078}
+                ]},
+                {"name": "Ex2-14.3","chapter": 4,"difficulty": 2,"dindex": 0.907,"correlation": 0.210,"children": [
+                    {"name": "HW6-6","chapter": 4,"difficulty": 3,"dindex": 0.937,"correlation": 0.120,"itemID": 116798},
+                    {"name": "HW6-9","chapter": 4,"difficulty": 3,"dindex": 0.931,"correlation": 0.127,"itemID": 6078}
+                ]},
+                {"name": "Ex3-3","chapter": 6,"difficulty": 2,"dindex": 0.793,"correlation": 0.200,"children": [
+                    {"name": "HW8-6*","chapter": 5,"difficulty": 3,"dindex": 0.938,"correlation": 0.172,"itemID": 14418},
+                    {"name": "HW9-6*","chapter": 6,"difficulty": 1,"dindex": 0.979,"correlation": 0.153,"itemID": 6550}
+                ]},
+                {"name": "Ex3-4","chapter": 5,"difficulty": 3,"dindex": 0.632,"correlation": 0.174,"children": [
+                    {"name": "HW8-6*","chapter": 5,"difficulty": 3,"dindex": 0.938,"correlation": 0.134,"itemID": 14418}
+                ]},
+                {"name": "Ex3-5","chapter": 5,"difficulty": 2,"dindex": 0.707,"correlation": 0.180,"children": [
+                    {"name": "HW9-2","chapter": 6,"difficulty": 2,"dindex": 0.973,"correlation": 0.130,"itemID": 1851},
+                    {"name": "HW9-4","chapter": 6,"difficulty": 3,"dindex": 0.903,"correlation": 0.130,"itemID": 15866},
+                    {"name": "HW9-6*","chapter": 6,"difficulty": 1,"dindex": 0.979,"correlation": 0.159,"itemID": 6550}
+                ]},
+                {"name": "Ex3-17","chapter": 6,"difficulty": 2,"dindex": 0.751,"correlation": 0.159,"children": [
+                    {"name": "HW8-6*","chapter": 5,"difficulty": 3,"dindex": 0.938,"correlation": 0.186,"itemID": 14418},
+                    {"name": "HW8-9","chapter": 5,"difficulty": 3,"dindex": 0.919,"correlation": 0.184,"itemID": 2099},
+                    {"name": "HW9-4","chapter": 6,"difficulty": 3,"dindex": 0.903,"correlation": 0.147,"itemID": 15866}
+                ]},
+                {"name": "Ex3-18","chapter": 6,"difficulty": 3,"dindex": 0.693,"correlation": 0.181,"children": [
+                    {"name": "HW8-6*","chapter": 5,"difficulty": 3,"dindex": 0.938,"correlation": 0.272,"itemID": 14418},
+                    {"name": "HW9-1","chapter": 6,"difficulty": 1,"dindex": 0.978,"correlation": 0.138,"itemID": 65286},
+                    {"name": "HW9-6*","chapter": 6,"difficulty": 1,"dindex": 0.979,"correlation": 0.156,"itemID": 6550}
+                ]},
+                {"name": "HW11-6","chapter": 7,"difficulty": 3,"dindex": 0.928,"correlation": 0.143,"itemID": 1861},
+                {"name": "HW11-9","chapter": 4,"difficulty": 2,"dindex": 0.976,"correlation": 0.117,"itemID": 7896}
+            ]
+        },
+        {
+            "name": "Final-8","chapter": 5,"correlation": 1,"difficulty": 2,"dindex": 0.785,"children": [
+                {"name": "Ex1-8","chapter": 1,"difficulty": 3,"dindex": 0.783,"correlation": 0.180,"children": [
+                    {"name": "HW2-8","chapter": 2,"difficulty": 3,"dindex": 0.922,"correlation": 0.121,"itemID": 114978},
+                    {"name": "HW2-9","chapter": 2,"difficulty": 3,"dindex": 0.951,"correlation": 0.153,"itemID": 141658}
+                ]},
+                {"name": "Ex1-13.3","chapter": 1,"difficulty": 1,"dindex": 0.973,"correlation": 0.169,"children": [
+                    {"name": "HW1-8","chapter": 1,"difficulty": 3,"dindex": 0.912,"correlation": 0.175,"itemID": 114299},
+                    {"name": "HW2-8","chapter": 2,"difficulty": 3,"dindex": 0.922,"correlation": 0.152,"itemID": 114978},
+                    {"name": "HW2-9","chapter": 2,"difficulty": 3,"dindex": 0.951,"correlation": 0.159,"itemID": 141658}
+                ]},
+                {"name": "Ex1-13.4","chapter": 1,"difficulty": 3,"dindex": 0.746,"correlation": 0.215,"children": [
+                    {"name": "HW1-9","chapter": 1,"difficulty": 3,"dindex": 0.939,"correlation": 0.141,"itemID": 118053},
+                    {"name": "HW2-2","chapter": 1,"difficulty": 3,"dindex": 0.944,"correlation": 0.146,"itemID": 114392},
+                    {"name": "HW2-8","chapter": 2,"difficulty": 3,"dindex": 0.922,"correlation": 0.157,"itemID": 114978}
+                ]},
+                {"name": "Ex2-11","chapter": 4,"difficulty": 3,"dindex": 0.664,"correlation": 0.335,"children": [
+                    {"name": "HW4-5","chapter": 2,"difficulty": 2,"dindex": 0.981,"correlation": 0.123,"itemID": 1268},
+                    {"name": "HW6-6","chapter": 4,"difficulty": 3,"dindex": 0.937,"correlation": 0.204,"itemID": 116798},
+                    {"name": "HW6-9","chapter": 4,"difficulty": 3,"dindex": 0.931,"correlation": 0.182,"itemID": 6078}
+                ]},
+                {"name": "Ex2-12","chapter": 4,"difficulty": 3,"dindex": 0.825,"correlation": 0.157,"children": [
+                    {"name": "HW3-2","chapter": 2,"difficulty": 2,"dindex": 0.977,"correlation": 0.133,"itemID": 1504},
+                    {"name": "HW6-6","chapter": 4,"difficulty": 3,"dindex": 0.937,"correlation": 0.149,"itemID": 116798},
+                    {"name": "HW6-9","chapter": 4,"difficulty": 3,"dindex": 0.931,"correlation": 0.134,"itemID": 6078}
+                ]},
+                {"name": "Ex2-13.2","chapter": 2,"chapter": 2,"difficulty": 1,"dindex": 0.965,"correlation": 0.240,"children": [
+                    {"name": "HW5-6","chapter": 3,"difficulty": 3,"dindex": 0.972,"correlation": 0.131,"itemID": 18744},
+                    {"name": "HW6-6","chapter": 4,"difficulty": 3,"dindex": 0.937,"correlation": 0.210,"itemID": 116798},
+                    {"name": "HW6-9","chapter": 4,"difficulty": 3,"dindex": 0.931,"correlation": 0.195,"itemID": 6078}
+                ]},
+                {"name": "Ex2-13.3","chapter": 2,"difficulty": 3,"dindex": 0.851,"correlation": 0.174,"children": [
+                    {"name": "HW4-1","chapter": 2,"difficulty": 2,"dindex": 0.976,"correlation": 0.125,"itemID": 3764},
+                    {"name": "HW4-5","chapter": 2,"difficulty": 2,"dindex": 0.981,"correlation": 0.159,"itemID": 1268}
+                ]},
+                {"name": "Ex2-14.2","chapter": 4,"difficulty": 2,"dindex": 0.876,"correlation": 0.191,"children": [
+                    {"name": "HW5-6","chapter": 3,"difficulty": 3,"dindex": 0.972,"correlation": 0.128,"itemID": 18744},
+                    {"name": "HW6-6","chapter": 4,"difficulty": 3,"dindex": 0.937,"correlation": 0.200,"itemID": 116798},
+                    {"name": "HW6-9","chapter": 4,"difficulty": 3,"dindex": 0.931,"correlation": 0.236,"itemID": 6078}
+                ]},
+                {"name": "Ex2-14.3","chapter": 4,"difficulty": 2,"dindex": 0.907,"correlation": 0.162,"children": [
+                    {"name": "HW6-6","chapter": 4,"difficulty": 3,"dindex": 0.937,"correlation": 0.120,"itemID": 116798},
+                    {"name": "HW6-9","chapter": 4,"difficulty": 3,"dindex": 0.931,"correlation": 0.127,"itemID": 6078}
+                ]},
+                {"name": "Ex3-5","chapter": 5,"difficulty": 2,"dindex": 0.707,"correlation": 0.191,"children": [
+                    {"name": "HW9-2","chapter": 6,"difficulty": 2,"dindex": 0.973,"correlation": 0.130,"itemID": 1851},
+                    {"name": "HW9-4","chapter": 6,"difficulty": 3,"dindex": 0.903,"correlation": 0.130,"itemID": 15866},
+                    {"name": "HW9-6*","chapter": 6,"difficulty": 1,"dindex": 0.979,"correlation": 0.159,"itemID": 6550}
+                ]},
+                {"name": "Ex3-12","chapter": 6,"difficulty": 1,"dindex": 0.941,"correlation": 0.159,"children": [
+                    {"name": "HW8-6*","chapter": 5,"difficulty": 3,"dindex": 0.966,"correlation": 0.186,"itemID": 14426},
+                    {"name": "HW9-5*","chapter": 6,"difficulty": 3,"dindex": 0.956,"correlation": 0.156,"itemID": 25768},
+                    {"name": "HW9-6*","chapter": 6,"difficulty": 1,"dindex": 0.979,"correlation": 0.260,"itemID": 6550}
+                ]},
+                {"name": "Ex3-14","chapter": 5,"difficulty": 2,"dindex": 0.744,"correlation": 0.179,"children": [
+                    {"name": "HW9-1","chapter": 6,"difficulty": 1,"dindex": 0.978,"correlation": 0.130,"itemID": 65286},
+                    {"name": "HW9-6*","chapter": 6,"difficulty": 2,"dindex": 0.972,"correlation": 0.136,"itemID": 2167}
+                ]},
+                {"name": "Ex3-18","chapter": 6,"difficulty": 3,"dindex": 0.693,"correlation": 0.163,"children": [
+                    {"name": "HW8-6*","chapter": 5,"difficulty": 3,"dindex": 0.938,"correlation": 0.272,"itemID": 14418},
+                    {"name": "HW9-1","chapter": 6,"difficulty": 1,"dindex": 0.978,"correlation": 0.138,"itemID": 65286},
+                    {"name": "HW9-6*","chapter": 6,"difficulty": 1,"dindex": 0.979,"correlation": 0.156,"itemID": 6550}
+                ]}
+            ]
+        },
+        {
+            "name": "Final-9","chapter": 4,"correlation": 1,"difficulty": 2,"dindex": 0.866,"children": [
+                {"name": "Ex1-12","chapter": 2,"difficulty": 1,"dindex": 0.974,"correlation": 0.151,"children": [
+                    {"name": "HW2-7","chapter": 2,"difficulty": 2,"dindex": 0.958,"correlation": 0.155,"itemID": 4123},
+                    {"name": "HW2-8","chapter": 2,"difficulty": 3,"dindex": 0.922,"correlation": 0.233,"itemID": 114978},
+                    {"name": "HW2-9","chapter": 2,"difficulty": 3,"dindex": 0.951,"correlation": 0.180,"itemID": 141658}
+                ]},
+                {"name": "Ex2-12","chapter": 4,"difficulty": 3,"dindex": 0.825,"correlation": 0.187,"children": [
+                    {"name": "HW3-2","chapter": 2,"difficulty": 2,"dindex": 0.977,"correlation": 0.133,"itemID": 1504},
+                    {"name": "HW6-6","chapter": 4,"difficulty": 3,"dindex": 0.937,"correlation": 0.149,"itemID": 116798},
+                    {"name": "HW6-9","chapter": 4,"difficulty": 3,"dindex": 0.931,"correlation": 0.134,"itemID": 6078}
+                ]},
+                {"name": "Ex3-1","chapter": 5,"difficulty": 1,"dindex": 0.948,"correlation": 0.151,"children": [
+                    {"name": "HW8-6*","chapter": 5,"difficulty": 3,"dindex": 0.938,"correlation": 0.317,"itemID": 14418},
+                    {"name": "HW9-2","chapter": 6,"difficulty": 2,"dindex": 0.973,"correlation": 0.202,"itemID": 1851},
+                    {"name": "HW9-6*","chapter": 6,"difficulty": 1,"dindex": 0.979,"correlation": 0.346,"itemID": 6550}
+                ]},
+                {"name": "Ex3-3","chapter": 6,"difficulty": 2,"dindex": 0.793,"correlation": 0.177,"children": [
+                    {"name": "HW8-6*","chapter": 5,"difficulty": 3,"dindex": 0.938,"correlation": 0.172,"itemID": 14418},
+                    {"name": "HW9-6*","chapter": 6,"difficulty": 1,"dindex": 0.979,"correlation": 0.153,"itemID": 6550}
+                ]},
+                {"name": "Ex3-12","chapter": 6,"difficulty": 1,"dindex": 0.941,"correlation": 0.169,"children": [
+                    {"name": "HW8-6*","chapter": 5,"difficulty": 3,"dindex": 0.966,"correlation": 0.186,"itemID": 14426},
+                    {"name": "HW9-5*","chapter": 6,"difficulty": 3,"dindex": 0.956,"correlation": 0.156,"itemID": 25768},
+                    {"name": "HW9-6*","chapter": 6,"difficulty": 1,"dindex": 0.979,"correlation": 0.260,"itemID": 6550}
+                ]},
+                {"name": "Ex3-18","chapter": 6,"difficulty": 3,"dindex": 0.693,"correlation": 0.160,"children": [
+                    {"name": "HW8-6*","chapter": 5,"difficulty": 3,"dindex": 0.938,"correlation": 0.272,"itemID": 14418},
+                    {"name": "HW9-1","chapter": 6,"difficulty": 1,"dindex": 0.978,"correlation": 0.138,"itemID": 65286},
+                    {"name": "HW9-6*","chapter": 6,"difficulty": 1,"dindex": 0.979,"correlation": 0.156,"itemID": 6550}
+                ]},
+                {"name": "HW11-7","chapter": 4,"difficulty": 2,"dindex": 0.981,"correlation": 0.115,"itemID": 3376}
+            ]
+        },
+        {
+            "name": "Final-10","chapter": 6,"correlation": 1,"difficulty": 2,"dindex": 0.806,"children": [
+                {"name": "Ex1-4","chapter": 1,"difficulty": 3,"dindex": 0.874,"correlation": 0.183,"children": [
+                    {"name": "HW1-1","chapter": 1,"difficulty": 1,"dindex": 0.967,"correlation": 0.162,"itemID": 123669},
+                    {"name": "HW1-9","chapter": 1,"difficulty": 3,"dindex": 0.939,"correlation": 0.166,"itemID": 118053},
+                    {"name": "HW2-5*","chapter": 2,"difficulty": 2,"dindex": 0.956,"correlation": 0.173,"itemID": 6854}
+                ]},
+                {"name": "Ex1-8","chapter": 1,"difficulty": 3,"dindex": 0.783,"correlation": 0.300,"children": [
+                    {"name": "HW2-8","chapter": 2,"difficulty": 3,"dindex": 0.922,"correlation": 0.121,"itemID": 114978},
+                    {"name": "HW2-9","chapter": 2,"difficulty": 3,"dindex": 0.951,"correlation": 0.153,"itemID": 141658}
+                ]},
+                {"name": "Ex1-13.4","chapter": 1,"difficulty": 3,"dindex": 0.746,"correlation": 0.249,"children": [
+                    {"name": "HW1-9","chapter": 1,"difficulty": 3,"dindex": 0.939,"correlation": 0.141,"itemID": 118053},
+                    {"name": "HW2-2","chapter": 1,"difficulty": 3,"dindex": 0.944,"correlation": 0.146,"itemID": 114392},
+                    {"name": "HW2-8","chapter": 2,"difficulty": 3,"dindex": 0.922,"correlation": 0.157,"itemID": 114978}
+                ]},
+                {"name": "Ex1-14.2","chapter": 1,"difficulty": 3,"dindex": 0.906,"correlation": 0.156,"children": [
+                    {"name": "HW1-8","chapter": 1,"difficulty": 3,"dindex": 0.912,"correlation": 0.111,"itemID": 114299},
+                    {"name": "HW2-2","chapter": 1,"difficulty": 3,"dindex": 0.944,"correlation": 0.114,"itemID": 114392},
+                    {"name": "HW2-8","chapter": 2,"difficulty": 3,"dindex": 0.922,"correlation": 0.159,"itemID": 114978}
+                ]},
+                {"name": "Ex1-15.1","chapter": 2,"difficulty": 1,"dindex": 0.987,"correlation": 0.154,"children": [
+                    {"name": "HW2-5*","chapter": 2,"difficulty": 2,"dindex": 0.962,"correlation": 0.230,"itemID": 6856},
+                    {"name": "HW2-8","chapter": 2,"difficulty": 3,"dindex": 0.922,"correlation": 0.176,"itemID": 114978},
+                    {"name": "HW2-9","chapter": 2,"difficulty": 3,"dindex": 0.951,"correlation": 0.166,"itemID": 141658}
+                ]},
+                {"name": "Ex2-10","chapter": 4,"difficulty": 2,"dindex": 0.924,"correlation": 0.158,"children": [
+                    {"name": "HW4-5","chapter": 2,"difficulty": 2,"dindex": 0.981,"correlation": 0.174,"itemID": 1268},
+                    {"name": "HW4-6","chapter": 2,"difficulty": 1,"dindex": 0.985,"correlation": 0.157,"itemID": 23146},
+                    {"name": "HW4-7","chapter": 2,"difficulty": 2,"dindex": 0.981,"correlation": 0.180,"itemID": 114801}
+                ]},
+                {"name": "Ex2-11","chapter": 4,"difficulty": 3,"dindex": 0.664,"correlation": 0.174,"children": [
+                    {"name": "HW4-5","chapter": 2,"difficulty": 2,"dindex": 0.981,"correlation": 0.123,"itemID": 1268},
+                    {"name": "HW6-6","chapter": 4,"difficulty": 3,"dindex": 0.937,"correlation": 0.204,"itemID": 116798},
+                    {"name": "HW6-9","chapter": 4,"difficulty": 3,"dindex": 0.931,"correlation": 0.182,"itemID": 6078}
+                ]},
+                {"name": "Ex2-13.2","chapter": 2,"chapter": 2,"difficulty": 1,"dindex": 0.965,"correlation": 0.198,"children": [
+                    {"name": "HW5-6","chapter": 3,"difficulty": 3,"dindex": 0.972,"correlation": 0.131,"itemID": 18744},
+                    {"name": "HW6-6","chapter": 4,"difficulty": 3,"dindex": 0.937,"correlation": 0.210,"itemID": 116798},
+                    {"name": "HW6-9","chapter": 4,"difficulty": 3,"dindex": 0.931,"correlation": 0.195,"itemID": 6078}
+                ]},
+                {"name": "Ex2-14.2","chapter": 4,"difficulty": 2,"dindex": 0.876,"correlation": 0.232,"children": [
+                    {"name": "HW5-6","chapter": 3,"difficulty": 3,"dindex": 0.972,"correlation": 0.128,"itemID": 18744},
+                    {"name": "HW6-6","chapter": 4,"difficulty": 3,"dindex": 0.937,"correlation": 0.200,"itemID": 116798},
+                    {"name": "HW6-9","chapter": 4,"difficulty": 3,"dindex": 0.931,"correlation": 0.236,"itemID": 6078}
+                ]},
+                {"name": "Ex2-14.3","chapter": 4,"difficulty": 2,"dindex": 0.907,"correlation": 0.212,"children": [
+                    {"name": "HW6-6","chapter": 4,"difficulty": 3,"dindex": 0.937,"correlation": 0.120,"itemID": 116798},
+                    {"name": "HW6-9","chapter": 4,"difficulty": 3,"dindex": 0.931,"correlation": 0.127,"itemID": 6078}
+                ]},
+                {"name": "Ex3-2","chapter": 6,"difficulty": 2,"dindex": 0.834,"correlation": 0.150,"children": [
+                    {"name": "HW10-6*","chapter": 6,"difficulty": 3,"dindex": 0.957,"correlation": 0.146,"itemID": 112275}
+                ]},
+                {"name": "Ex3-3","chapter": 6,"difficulty": 2,"dindex": 0.793,"correlation": 0.247,"children": [
+                    {"name": "HW8-6*","chapter": 5,"difficulty": 3,"dindex": 0.938,"correlation": 0.172,"itemID": 14418},
+                    {"name": "HW9-6*","chapter": 6,"difficulty": 1,"dindex": 0.979,"correlation": 0.153,"itemID": 6550}
+                ]},
+                {"name": "Ex3-12","chapter": 6,"difficulty": 1,"dindex": 0.941,"correlation": 0.154,"children": [
+                    {"name": "HW8-6*","chapter": 5,"difficulty": 3,"dindex": 0.966,"correlation": 0.186,"itemID": 14426},
+                    {"name": "HW9-5*","chapter": 6,"difficulty": 3,"dindex": 0.956,"correlation": 0.156,"itemID": 25768},
+                    {"name": "HW9-6*","chapter": 6,"difficulty": 1,"dindex": 0.979,"correlation": 0.260,"itemID": 6550}
+                ]},
+                {"name": "Ex3-14","chapter": 5,"difficulty": 2,"dindex": 0.744,"correlation": 0.174,"children": [
+                    {"name": "HW9-1","chapter": 6,"difficulty": 1,"dindex": 0.978,"correlation": 0.130,"itemID": 65286},
+                    {"name": "HW9-6*","chapter": 6,"difficulty": 2,"dindex": 0.972,"correlation": 0.136,"itemID": 2167}
+                ]},
+                {"name": "Ex3-17","chapter": 6,"difficulty": 2,"dindex": 0.751,"correlation": 0.180,"children": [
+                    {"name": "HW8-6*","chapter": 5,"difficulty": 3,"dindex": 0.938,"correlation": 0.186,"itemID": 14418},
+                    {"name": "HW8-9","chapter": 5,"difficulty": 3,"dindex": 0.919,"correlation": 0.184,"itemID": 2099},
+                    {"name": "HW9-4","chapter": 6,"difficulty": 3,"dindex": 0.903,"correlation": 0.147,"itemID": 15866}
+                ]},
+                {"name": "Ex3-18","chapter": 6,"difficulty": 3,"dindex": 0.693,"correlation": 0.192,"children": [
+                    {"name": "HW8-6*","chapter": 5,"difficulty": 3,"dindex": 0.938,"correlation": 0.272,"itemID": 14418},
+                    {"name": "HW9-1","chapter": 6,"difficulty": 1,"dindex": 0.978,"correlation": 0.138,"itemID": 65286},
+                    {"name": "HW9-6*","chapter": 6,"difficulty": 1,"dindex": 0.979,"correlation": 0.156,"itemID": 6550}
+                ]},
+                {"name": "HW11-5","chapter": 7,"difficulty": 1,"dindex": 0.983,"correlation": 0.148,"itemID": 3448},
+                {"name": "HW11-2","chapter": 7,"difficulty": 1,"dindex": 0.983,"correlation": 0.148,"itemID": 3710},
+                {"name": "HW11-4","chapter": 7,"difficulty": 1,"dindex": 0.983,"correlation": 0.138,"itemID": 16544}
+            ]
+        },
+        {
+            "name": "Final-11","chapter": 4,"correlation": 1,"difficulty": 2,"dindex": 0.849,"children": [
+                {"name": "Ex1-13.4","chapter": 1,"difficulty": 3,"dindex": 0.746,"correlation": 0.170,"children": [
+                    {"name": "HW1-9","chapter": 1,"difficulty": 3,"dindex": 0.939,"correlation": 0.141,"itemID": 118053},
+                    {"name": "HW2-2","chapter": 1,"difficulty": 3,"dindex": 0.944,"correlation": 0.146,"itemID": 114392},
+                    {"name": "HW2-8","chapter": 2,"difficulty": 3,"dindex": 0.922,"correlation": 0.157,"itemID": 114978}
+                ]},
+                {"name": "Ex1-14.2","chapter": 1,"difficulty": 3,"dindex": 0.906,"correlation": 0.179,"children": [
+                    {"name": "HW1-8","chapter": 1,"difficulty": 3,"dindex": 0.912,"correlation": 0.111,"itemID": 114299},
+                    {"name": "HW2-2","chapter": 1,"difficulty": 3,"dindex": 0.944,"correlation": 0.114,"itemID": 114392},
+                    {"name": "HW2-8","chapter": 2,"difficulty": 3,"dindex": 0.922,"correlation": 0.159,"itemID": 114978}
+                ]},
+                {"name": "Ex1-15.1","chapter": 2,"difficulty": 1,"dindex": 0.987,"correlation": 0.167,"children": [
+                    {"name": "HW2-5*","chapter": 2,"difficulty": 2,"dindex": 0.962,"correlation": 0.230,"itemID": 6856},
+                    {"name": "HW2-8","chapter": 2,"difficulty": 3,"dindex": 0.922,"correlation": 0.176,"itemID": 114978},
+                    {"name": "HW2-9","chapter": 2,"difficulty": 3,"dindex": 0.951,"correlation": 0.166,"itemID": 141658}
+                ]},
+                {"name": "Ex2-10","chapter": 4,"difficulty": 2,"dindex": 0.924,"correlation": 0.166,"children": [
+                    {"name": "HW4-5","chapter": 2,"difficulty": 2,"dindex": 0.981,"correlation": 0.174,"itemID": 1268},
+                    {"name": "HW4-6","chapter": 2,"difficulty": 1,"dindex": 0.985,"correlation": 0.157,"itemID": 23146},
+                    {"name": "HW4-7","chapter": 2,"difficulty": 2,"dindex": 0.981,"correlation": 0.180,"itemID": 114801}
+                ]},
+                {"name": "Ex2-11","chapter": 4,"difficulty": 3,"dindex": 0.664,"correlation": 0.198,"children": [
+                    {"name": "HW4-5","chapter": 2,"difficulty": 2,"dindex": 0.981,"correlation": 0.123,"itemID": 1268},
+                    {"name": "HW6-6","chapter": 4,"difficulty": 3,"dindex": 0.937,"correlation": 0.204,"itemID": 116798},
+                    {"name": "HW6-9","chapter": 4,"difficulty": 3,"dindex": 0.931,"correlation": 0.182,"itemID": 6078}
+                ]},
+                {"name": "Ex2-13.2","chapter": 2,"chapter": 2,"difficulty": 1,"dindex": 0.965,"correlation": 0.169,"children": [
+                    {"name": "HW5-6","chapter": 3,"difficulty": 3,"dindex": 0.972,"correlation": 0.131,"itemID": 18744},
+                    {"name": "HW6-6","chapter": 4,"difficulty": 3,"dindex": 0.937,"correlation": 0.210,"itemID": 116798},
+                    {"name": "HW6-9","chapter": 4,"difficulty": 3,"dindex": 0.931,"correlation": 0.195,"itemID": 6078}
+                ]},
+                {"name": "Ex2-14.2","chapter": 4,"difficulty": 2,"dindex": 0.876,"correlation": 0.209,"children": [
+                    {"name": "HW5-6","chapter": 3,"difficulty": 3,"dindex": 0.972,"correlation": 0.128,"itemID": 18744},
+                    {"name": "HW6-6","chapter": 4,"difficulty": 3,"dindex": 0.937,"correlation": 0.200,"itemID": 116798},
+                    {"name": "HW6-9","chapter": 4,"difficulty": 3,"dindex": 0.931,"correlation": 0.236,"itemID": 6078}
+                ]},
+                {"name": "Ex2-14.3","chapter": 4,"difficulty": 2,"dindex": 0.907,"correlation": 0.189,"children": [
+                    {"name": "HW6-6","chapter": 4,"difficulty": 3,"dindex": 0.937,"correlation": 0.120,"itemID": 116798},
+                    {"name": "HW6-9","chapter": 4,"difficulty": 3,"dindex": 0.931,"correlation": 0.127,"itemID": 6078}
+                ]},
+                {"name": "Ex3-3","chapter": 6,"difficulty": 2,"dindex": 0.793,"correlation": 0.176,"children": [
+                    {"name": "HW8-6*","chapter": 5,"difficulty": 3,"dindex": 0.938,"correlation": 0.172,"itemID": 14418},
+                    {"name": "HW9-6*","chapter": 6,"difficulty": 1,"dindex": 0.979,"correlation": 0.153,"itemID": 6550}
+                ]},
+                {"name": "Ex3-5","chapter": 5,"difficulty": 2,"dindex": 0.707,"correlation": 0.174,"children": [
+                    {"name": "HW9-2","chapter": 6,"difficulty": 2,"dindex": 0.973,"correlation": 0.130,"itemID": 1851},
+                    {"name": "HW9-4","chapter": 6,"difficulty": 3,"dindex": 0.903,"correlation": 0.130,"itemID": 15866},
+                    {"name": "HW9-6*","chapter": 6,"difficulty": 1,"dindex": 0.979,"correlation": 0.159,"itemID": 6550}
+                ]},
+                {"name": "Ex3-14","chapter": 5,"difficulty": 2,"dindex": 0.744,"correlation": 0.184,"children": [
+                    {"name": "HW9-1","chapter": 6,"difficulty": 1,"dindex": 0.978,"correlation": 0.130,"itemID": 65286},
+                    {"name": "HW9-6*","chapter": 6,"difficulty": 2,"dindex": 0.972,"correlation": 0.136,"itemID": 2167}
+                ]},
+                {"name": "Ex3-17","chapter": 6,"difficulty": 2,"dindex": 0.751,"correlation": 0.211,"children": [
+                    {"name": "HW8-6*","chapter": 5,"difficulty": 3,"dindex": 0.938,"correlation": 0.186,"itemID": 14418},
+                    {"name": "HW8-9","chapter": 5,"difficulty": 3,"dindex": 0.919,"correlation": 0.184,"itemID": 2099},
+                    {"name": "HW9-4","chapter": 6,"difficulty": 3,"dindex": 0.903,"correlation": 0.147,"itemID": 15866}
+                ]},
+                {"name": "Ex3-19","chapter": 6,"difficulty": 3,"dindex": 0.680,"correlation": 0.189,"children": [
+                    {"name": "HW9-6*","chapter": 6,"difficulty": 1,"dindex": 0.979,"correlation": 0.124,"itemID": 6550}
+                ]}
+            ]
+        },
+        {
+            "name": "Final-12","chapter": 7,"correlation": 1,"difficulty": 2,"dindex": 0.790,"children": [
+                {"name": "Ex1-13.4","chapter": 1,"difficulty": 3,"dindex": 0.746,"correlation": 0.128,"children": [
+                    {"name": "HW1-9","chapter": 1,"difficulty": 3,"dindex": 0.939,"correlation": 0.141,"itemID": 118053},
+                    {"name": "HW2-2","chapter": 1,"difficulty": 3,"dindex": 0.944,"correlation": 0.146,"itemID": 114392},
+                    {"name": "HW2-8","chapter": 2,"difficulty": 3,"dindex": 0.922,"correlation": 0.157,"itemID": 114978}
+                ]},
+                {"name": "Ex2-11","chapter": 4,"difficulty": 3,"dindex": 0.664,"correlation": 0.155,"children": [
+                    {"name": "HW4-5","chapter": 2,"difficulty": 2,"dindex": 0.981,"correlation": 0.123,"itemID": 1268},
+                    {"name": "HW6-6","chapter": 4,"difficulty": 3,"dindex": 0.937,"correlation": 0.204,"itemID": 116798},
+                    {"name": "HW6-9","chapter": 4,"difficulty": 3,"dindex": 0.931,"correlation": 0.182,"itemID": 6078}
+                ]},
+                {"name": "Ex2-13.2","chapter": 2,"chapter": 2,"difficulty": 1,"dindex": 0.965,"correlation": 0.160,"children": [
+                    {"name": "HW5-6","chapter": 3,"difficulty": 3,"dindex": 0.972,"correlation": 0.131,"itemID": 18744},
+                    {"name": "HW6-6","chapter": 4,"difficulty": 3,"dindex": 0.937,"correlation": 0.210,"itemID": 116798},
+                    {"name": "HW6-9","chapter": 4,"difficulty": 3,"dindex": 0.931,"correlation": 0.195,"itemID": 6078}
+                ]},
+                {"name": "Ex3-4","chapter": 5,"difficulty": 3,"dindex": 0.632,"correlation": 0.178,"children": [
+                    {"name": "HW8-6*","chapter": 5,"difficulty": 3,"dindex": 0.938,"correlation": 0.134,"itemID": 14418}
+                ]},
+                {"name": "Ex3-13","chapter": 5,"difficulty": 3,"dindex": 0.691,"correlation": 0.166,"children": [
+                    {"name": "HW8-6*","chapter": 5,"difficulty": 3,"dindex": 0.938,"correlation": 0.139,"itemID": 14418},
+                    {"name": "HW9-4","chapter": 6,"difficulty": 3,"dindex": 0.903,"correlation": 0.128,"itemID": 15866},
+                    {"name": "HW10-2*","chapter": 6,"difficulty": 3,"dindex": 0.962,"correlation": 0.129,"itemID": 53014}
+                ]},
+                {"name": "Ex3-14","chapter": 5,"difficulty": 2,"dindex": 0.744,"correlation": 0.161,"children": [
+                    {"name": "HW9-1","chapter": 6,"difficulty": 1,"dindex": 0.978,"correlation": 0.130,"itemID": 65286},
+                    {"name": "HW9-6*","chapter": 6,"difficulty": 2,"dindex": 0.972,"correlation": 0.136,"itemID": 2167}
+                ]},
+                {"name": "Ex3-17","chapter": 6,"difficulty": 2,"dindex": 0.751,"correlation": 0.156,"children": [
+                    {"name": "HW8-6*","chapter": 5,"difficulty": 3,"dindex": 0.938,"correlation": 0.186,"itemID": 14418},
+                    {"name": "HW8-9","chapter": 5,"difficulty": 3,"dindex": 0.919,"correlation": 0.184,"itemID": 2099},
+                    {"name": "HW9-4","chapter": 6,"difficulty": 3,"dindex": 0.903,"correlation": 0.147,"itemID": 15866}
+                ]}
+            ]
+        },
+        {
+            "name": "Final-13","chapter": 7,"correlation": 1,"difficulty": 1,"dindex": 0.954,"children": [
+                {"name": "Ex1-12","chapter": 2,"difficulty": 1,"dindex": 0.974,"correlation": 0.143,"children": [
+                    {"name": "HW2-7","chapter": 2,"difficulty": 2,"dindex": 0.958,"correlation": 0.155,"itemID": 4123},
+                    {"name": "HW2-8","chapter": 2,"difficulty": 3,"dindex": 0.922,"correlation": 0.233,"itemID": 114978},
+                    {"name": "HW2-9","chapter": 2,"difficulty": 3,"dindex": 0.951,"correlation": 0.180,"itemID": 141658}
+                ]},
+                {"name": "Ex2-6","chapter": 2,"difficulty": 1,"dindex": 0.978,"correlation": 0.158,"children": [
+                    {"name": "HW5-1","chapter": 2,"difficulty": 1,"dindex": 0.990,"correlation": 0.162,"itemID": 40168},
+                    {"name": "HW5-3","chapter": 2,"difficulty": 1,"dindex": 0.988,"correlation": 0.131,"itemID": 39677},
+                    {"name": "HW5-5","chapter": 3,"difficulty": 1,"dindex": 0.985,"correlation": 0.123,"itemID": 14889}
+                ]},
+                {"name": "Ex2-10","chapter": 4,"difficulty": 2,"dindex": 0.924,"correlation": 0.217,"children": [
+                    {"name": "HW4-5","chapter": 2,"difficulty": 2,"dindex": 0.981,"correlation": 0.174,"itemID": 1268},
+                    {"name": "HW4-6","chapter": 2,"difficulty": 1,"dindex": 0.985,"correlation": 0.157,"itemID": 23146},
+                    {"name": "HW4-7","chapter": 2,"difficulty": 2,"dindex": 0.981,"correlation": 0.180,"itemID": 114801}
+                ]},
+                {"name": "Ex2-11","chapter": 4,"difficulty": 3,"dindex": 0.664,"correlation": 0.160,"children": [
+                    {"name": "HW4-5","chapter": 2,"difficulty": 2,"dindex": 0.981,"correlation": 0.123,"itemID": 1268},
+                    {"name": "HW6-6","chapter": 4,"difficulty": 3,"dindex": 0.937,"correlation": 0.204,"itemID": 116798},
+                    {"name": "HW6-9","chapter": 4,"difficulty": 3,"dindex": 0.931,"correlation": 0.182,"itemID": 6078}
+                ]},
+                {"name": "Ex2-14.2","chapter": 4,"difficulty": 2,"dindex": 0.876,"correlation": 0.184,"children": [
+                    {"name": "HW5-6","chapter": 3,"difficulty": 3,"dindex": 0.972,"correlation": 0.128,"itemID": 18744},
+                    {"name": "HW6-6","chapter": 4,"difficulty": 3,"dindex": 0.937,"correlation": 0.200,"itemID": 116798},
+                    {"name": "HW6-9","chapter": 4,"difficulty": 3,"dindex": 0.931,"correlation": 0.236,"itemID": 6078}
+                ]},
+                {"name": "Ex2-14.3","chapter": 4,"difficulty": 2,"dindex": 0.907,"correlation": 0.152,"children": [
+                    {"name": "HW6-6","chapter": 4,"difficulty": 3,"dindex": 0.937,"correlation": 0.120,"itemID": 116798},
+                    {"name": "HW6-9","chapter": 4,"difficulty": 3,"dindex": 0.931,"correlation": 0.127,"itemID": 6078}
+                ]},
+                {"name": "Ex3-12","chapter": 6,"difficulty": 1,"dindex": 0.941,"correlation": 0.158,"children": [
+                    {"name": "HW8-6*","chapter": 5,"difficulty": 3,"dindex": 0.966,"correlation": 0.186,"itemID": 14426},
+                    {"name": "HW9-5*","chapter": 6,"difficulty": 3,"dindex": 0.956,"correlation": 0.156,"itemID": 25768},
+                    {"name": "HW9-6*","chapter": 6,"difficulty": 1,"dindex": 0.979,"correlation": 0.260,"itemID": 6550}
+                ]},
+                {"name": "Ex3-14","chapter": 5,"difficulty": 2,"dindex": 0.744,"correlation": 0.195,"children": [
+                    {"name": "HW9-1","chapter": 6,"difficulty": 1,"dindex": 0.978,"correlation": 0.130,"itemID": 65286},
+                    {"name": "HW9-6*","chapter": 6,"difficulty": 2,"dindex": 0.972,"correlation": 0.136,"itemID": 2167}
+                ]},
+                {"name": "HW11-5","chapter": 7,"difficulty": 1,"dindex": 0.983,"correlation": 0.122,"itemID": 3448},
+                {"name": "HW11-2","chapter": 7,"difficulty": 1,"dindex": 0.983,"correlation": 0.122,"itemID": 3710},
+                {"name": "HW11-4","chapter": 7,"difficulty": 1,"dindex": 0.983,"correlation": 0.122,"itemID": 16544}
+            ]
+        },
+        {
+            "name": "Final-14","chapter": 5,"correlation": 1,"difficulty": 3,"dindex": 0.767,"children": [
+                {"name": "Ex1-14.2","chapter": 1,"difficulty": 3,"dindex": 0.906,"correlation": 0.133,"children": [
+                    {"name": "HW1-8","chapter": 1,"difficulty": 3,"dindex": 0.912,"correlation": 0.111,"itemID": 114299},
+                    {"name": "HW2-2","chapter": 1,"difficulty": 3,"dindex": 0.944,"correlation": 0.114,"itemID": 114392},
+                    {"name": "HW2-8","chapter": 2,"difficulty": 3,"dindex": 0.922,"correlation": 0.159,"itemID": 114978}
+                ]},
+                {"name": "Ex2-13.2","chapter": 2,"chapter": 2,"difficulty": 1,"dindex": 0.965,"correlation": 0.157,"children": [
+                    {"name": "HW5-6","chapter": 3,"difficulty": 3,"dindex": 0.972,"correlation": 0.131,"itemID": 18744},
+                    {"name": "HW6-6","chapter": 4,"difficulty": 3,"dindex": 0.937,"correlation": 0.210,"itemID": 116798},
+                    {"name": "HW6-9","chapter": 4,"difficulty": 3,"dindex": 0.931,"correlation": 0.195,"itemID": 6078}
+                ]},
+                {"name": "Ex3-14","chapter": 5,"difficulty": 2,"dindex": 0.744,"correlation": 0.138,"children": [
+                    {"name": "HW9-1","chapter": 6,"difficulty": 1,"dindex": 0.978,"correlation": 0.130,"itemID": 65286},
+                    {"name": "HW9-6*","chapter": 6,"difficulty": 2,"dindex": 0.972,"correlation": 0.136,"itemID": 2167}
+                ]}
+            ]
+        },
+        {
+            "name": "Final-15","chapter": 2,"correlation": 1,"difficulty": 1,"dindex": 0.889,"children": [
+                {"name": "Ex1-15.1","chapter": 2,"difficulty": 1,"dindex": 0.987,"correlation": 0.157,"children": [
+                    {"name": "HW2-5*","chapter": 2,"difficulty": 2,"dindex": 0.962,"correlation": 0.230,"itemID": 6856},
+                    {"name": "HW2-8","chapter": 2,"difficulty": 3,"dindex": 0.922,"correlation": 0.176,"itemID": 114978},
+                    {"name": "HW2-9","chapter": 2,"difficulty": 3,"dindex": 0.951,"correlation": 0.166,"itemID": 141658}
+                ]},
+                {"name": "Ex2-13.2","chapter": 2,"chapter": 2,"difficulty": 1,"dindex": 0.965,"correlation": 0.150,"children": [
+                    {"name": "HW5-6","chapter": 3,"difficulty": 3,"dindex": 0.972,"correlation": 0.131,"itemID": 18744},
+                    {"name": "HW6-6","chapter": 4,"difficulty": 3,"dindex": 0.937,"correlation": 0.210,"itemID": 116798},
+                    {"name": "HW6-9","chapter": 4,"difficulty": 3,"dindex": 0.931,"correlation": 0.195,"itemID": 6078}
+                ]},
+                {"name": "Ex3-3","chapter": 6,"difficulty": 2,"dindex": 0.793,"correlation": 0.129,"children": [
+                    {"name": "HW8-6*","chapter": 5,"difficulty": 3,"dindex": 0.938,"correlation": 0.172,"itemID": 14418},
+                    {"name": "HW9-6*","chapter": 6,"difficulty": 1,"dindex": 0.979,"correlation": 0.153,"itemID": 6550}
+                ]}
+            ]
+        },
+        {
+            "name": "Final-16","chapter": 7,"correlation": 1,"difficulty": 2,"dindex": 0.806,"children": [
+                {"name": "Ex1-4","chapter": 1,"difficulty": 3,"dindex": 0.874,"correlation": 0.164,"children": [
+                    {"name": "HW1-1","chapter": 1,"difficulty": 1,"dindex": 0.967,"correlation": 0.162,"itemID": 123669},
+                    {"name": "HW1-9","chapter": 1,"difficulty": 3,"dindex": 0.939,"correlation": 0.166,"itemID": 118053},
+                    {"name": "HW2-5*","chapter": 2,"difficulty": 2,"dindex": 0.962,"correlation": 0.173,"itemID": 6856}
+                ]},
+                {"name": "Ex1-8","chapter": 1,"difficulty": 3,"dindex": 0.783,"correlation": 0.155,"children": [
+                    {"name": "HW2-8","chapter": 2,"difficulty": 3,"dindex": 0.922,"correlation": 0.121,"itemID": 114978},
+                    {"name": "HW2-9","chapter": 2,"difficulty": 3,"dindex": 0.951,"correlation": 0.153,"itemID": 141658}
+                ]},
+                {"name": "Ex2-12","chapter": 4,"difficulty": 3,"dindex": 0.825,"correlation": 0.255,"children": [
+                    {"name": "HW3-2","chapter": 2,"difficulty": 2,"dindex": 0.977,"correlation": 0.133,"itemID": 1504},
+                    {"name": "HW6-6","chapter": 4,"difficulty": 3,"dindex": 0.937,"correlation": 0.149,"itemID": 116798},
+                    {"name": "HW6-9","chapter": 4,"difficulty": 3,"dindex": 0.931,"correlation": 0.134,"itemID": 6078}
+                ]},
+                {"name": "Ex2-13.2","chapter": 2,"chapter": 2,"difficulty": 1,"dindex": 0.965,"correlation": 0.209,"children": [
+                    {"name": "HW5-6","chapter": 3,"difficulty": 3,"dindex": 0.972,"correlation": 0.131,"itemID": 18744},
+                    {"name": "HW6-6","chapter": 4,"difficulty": 3,"dindex": 0.937,"correlation": 0.210,"itemID": 116798},
+                    {"name": "HW6-9","chapter": 4,"difficulty": 3,"dindex": 0.931,"correlation": 0.195,"itemID": 6078}
+                ]},
+                {"name": "Ex3-10","chapter": 5,"difficulty": 1,"dindex": 0.976,"correlation": 0.151,"children": [
+                    {"name": "HW8-4","chapter": 5,"difficulty": 2,"dindex": 0.977,"correlation": 0.153,"itemID": 6091},
+                    {"name": "HW9-2","chapter": 6,"difficulty": 2,"dindex": 0.973,"correlation": 0.122,"itemID": 1851},
+                    {"name": "HW9-5*","chapter": 6,"difficulty": 3,"dindex": 0.956,"correlation": 0.223,"itemID": 25768}
+                ]},
+                {"name": "Ex2-12","chapter": 4,"difficulty": 3,"dindex": 0.825,"correlation": 0.160,"children": [
+                    {"name": "HW3-2","chapter": 2,"difficulty": 2,"dindex": 0.977,"correlation": 0.133,"itemID": 1504},
+                    {"name": "HW6-6","chapter": 4,"difficulty": 3,"dindex": 0.937,"correlation": 0.149,"itemID": 116798},
+                    {"name": "HW6-9","chapter": 4,"difficulty": 3,"dindex": 0.931,"correlation": 0.134,"itemID": 6078}
+                ]},
+                {"name": "Ex3-17","chapter": 6,"difficulty": 2,"dindex": 0.751,"correlation": 0.188,"children": [
+                    {"name": "HW8-6*","chapter": 5,"difficulty": 3,"dindex": 0.938,"correlation": 0.186,"itemID": 14418},
+                    {"name": "HW8-9","chapter": 5,"difficulty": 3,"dindex": 0.919,"correlation": 0.184,"itemID": 2099},
+                    {"name": "HW9-4","chapter": 6,"difficulty": 3,"dindex": 0.903,"correlation": 0.147,"itemID": 15866}
+                ]},
+                {"name": "Ex3-18","chapter": 6,"difficulty": 3,"dindex": 0.693,"correlation": 0.161,"children": [
+                    {"name": "HW8-6*","chapter": 5,"difficulty": 3,"dindex": 0.938,"correlation": 0.272,"itemID": 14418},
+                    {"name": "HW9-1","chapter": 6,"difficulty": 1,"dindex": 0.978,"correlation": 0.138,"itemID": 65286},
+                    {"name": "HW9-6*","chapter": 6,"difficulty": 1,"dindex": 0.979,"correlation": 0.156,"itemID": 6550}
+                ]}
+            ]
+        },
+        {
+            "name": "Final-17","chapter": 2,"correlation": 1,"difficulty": 2,"dindex": 0.819,"children": [
+                {"name": "Final-17.1","chapter": 2,"correlation": 1,"difficulty": 2,"dindex": 0.828,"children":[
+                    {"name": "Ex1-11","chapter": 2,"difficulty": 2,"dindex": 0.943,"correlation": 0.170,"children":[
+                      {"name": "HW2-3","chapter": 1,"difficulty": 1,"dindex": 0.969,"correlation": 0.113,"itemID": 25560},
+                      {"name": "HW2-4","chapter": 1,"difficulty": 1,"dindex": 0.972,"correlation": 0.127,"itemID": 2990},
+                      {"name": "HW2-5*","chapter": 2,"difficulty": 2,"dindex": 0.962,"correlation": 0.172,"itemID": 6856}
+                    ]},
+                    {"name": "Ex1-13.4","chapter": 1,"difficulty": 3,"dindex": 0.746,"correlation": 0.224,"children":[
+                      {"name": "HW1-9","chapter": 1,"difficulty": 3,"dindex": 0.939,"correlation": 0.141,"itemID": 118053},
+                      {"name": "HW2-2","chapter": 1,"difficulty": 3,"dindex": 0.944,"correlation": 0.146,"itemID": 114392},
+                      {"name": "HW2-8","chapter": 2,"difficulty": 3,"dindex": 0.922,"correlation": 0.157,"itemID": 114978}
+                    ]},
+                    {"name": "Ex1-15.1","chapter": 2,"difficulty": 1,"dindex": 0.987,"correlation": 0.188,"children":[
+                      {"name": "HW2-5*","chapter": 2,"difficulty": 2,"dindex": 0.962,"correlation": 0.230,"itemID": 6856},
+                      {"name": "HW2-8","chapter": 2,"difficulty": 3,"dindex": 0.922,"correlation": 0.176,"itemID": 114978},
+                      {"name": "HW2-9","chapter": 2,"difficulty": 3,"dindex": 0.951,"correlation": 0.166,"itemID": 141658}
+                    ]},
+                    {"name": "Ex2-9","chapter": 4,"difficulty": 1,"dindex": 0.967,"correlation": 0.167,"children":[
+                      {"name": "HW5-4","chapter": 3,"difficulty": 2,"dindex": 0.982,"correlation": 0.133,"itemID": 1606},
+                      {"name": "HW5-5","chapter": 3,"difficulty": 1,"dindex": 0.985,"correlation": 0.148,"itemID": 14889},
+                      {"name": "HW5-8","chapter": 4,"difficulty": 2,"dindex": 0.977,"correlation": 0.145,"itemID": 76380}
+                    ]},
+                    {"name": "Ex2-11","chapter": 4,"difficulty": 3,"dindex": 0.664,"correlation": 0.205,"children":[
+                      {"name": "HW4-5","chapter": 2,"difficulty": 2,"dindex": 0.981,"correlation": 0.123,"itemID": 1268},
+                      {"name": "HW6-6","chapter": 4,"difficulty": 3,"dindex": 0.937,"correlation": 0.204,"itemID": 116798},
+                      {"name": "HW6-9","chapter": 4,"difficulty": 3,"dindex": 0.931,"correlation": 0.182,"itemID": 6078}
+                    ]},
+                    {"name": "Ex2-12","chapter": 4,"difficulty": 3,"dindex": 0.825,"correlation": 0.168,"children":[
+                      {"name": "HW3-2","chapter": 2,"difficulty": 2,"dindex": 0.977,"correlation": 0.133,"itemID": 1504},
+                      {"name": "HW6-6","chapter": 4,"difficulty": 3,"dindex": 0.937,"correlation": 0.149,"itemID": 116798},
+                      {"name": "HW6-9","chapter": 4,"difficulty": 3,"dindex": 0.931,"correlation": 0.134,"itemID": 6078}
+                    ]},
+                    {"name": "Ex2-13.2","chapter": 2,"chapter": 2,"difficulty": 1,"dindex": 0.965,"correlation": 0.194,"children":[
+                      {"name": "HW5-6","chapter": 3,"difficulty": 3,"dindex": 0.972,"correlation": 0.131,"itemID": 18744},
+                      {"name": "HW6-6","chapter": 4,"difficulty": 3,"dindex": 0.937,"correlation": 0.210,"itemID": 116798},
+                      {"name": "HW6-9","chapter": 4,"difficulty": 3,"dindex": 0.931,"correlation": 0.195,"itemID": 6078}
+                    ]},
+                    {"name": "Ex2-14.2","chapter": 4,"difficulty": 2,"dindex": 0.876,"correlation": 0.205,"children":[
+                      {"name": "HW5-6","chapter": 3,"difficulty": 3,"dindex": 0.972,"correlation": 0.128,"itemID": 18744},
+                      {"name": "HW6-6","chapter": 4,"difficulty": 3,"dindex": 0.937,"correlation": 0.200,"itemID": 116798},
+                      {"name": "HW6-9","chapter": 4,"difficulty": 3,"dindex": 0.931,"correlation": 0.236,"itemID": 6078}
+                    ]},
+                    {"name": "Ex3-3","chapter": 6,"difficulty": 2,"dindex": 0.793,"correlation": 0.156,"children":[
+                      {"name": "HW8-6*","chapter": 5,"difficulty": 3,"dindex": 0.938,"correlation": 0.172,"itemID": 14418},
+                      {"name": "HW9-6*","chapter": 6,"difficulty": 1,"dindex": 0.979,"correlation": 0.153,"itemID": 6550}
+                    ]},
+                    {"name": "Ex3-5","chapter": 5,"difficulty": 2,"dindex": 0.707,"correlation": 0.156,"children":[
+                      {"name": "HW9-2","chapter": 6,"difficulty": 2,"dindex": 0.973,"correlation": 0.130,"itemID": 1851},
+                      {"name": "HW9-4","chapter": 6,"difficulty": 3,"dindex": 0.903,"correlation": 0.130,"itemID": 15866},
+                      {"name": "HW9-6*","chapter": 6,"difficulty": 1,"dindex": 0.979,"correlation": 0.159,"itemID": 6550}
+                    ]},
+                    {"name": "Ex3-14","chapter": 5,"difficulty": 2,"dindex": 0.744,"correlation": 0.206,"children":[
+                      {"name": "HW9-1","chapter": 6,"difficulty": 1,"dindex": 0.978,"correlation": 0.130,"itemID": 65286},
+                      {"name": "HW9-6*","chapter": 6,"difficulty": 2,"dindex": 0.972,"correlation": 0.136,"itemID": 2167}
+                    ]},
+                    {"name": "Ex3-16","chapter": 6,"difficulty": 2,"dindex": 0.898,"correlation": 0.158,"children":[
+                      {"name": "HW9-4","chapter": 6,"difficulty": 3,"dindex": 0.903,"correlation": 0.125,"itemID": 15866},
+                      {"name": "HW9-5*","chapter": 6,"difficulty": 2,"dindex": 0.971,"correlation": 0.165,"itemID": 2166},
+                      {"name": "HW9-6*","chapter": 6,"difficulty": 1,"dindex": 0.979,"correlation": 0.173,"itemID": 6550}
+                    ]},
+                    {"name": "Ex3-17","chapter": 6,"difficulty": 2,"dindex": 0.751,"correlation": 0.203,"children":[
+                      {"name": "HW8-6*","chapter": 5,"difficulty": 3,"dindex": 0.938,"correlation": 0.186,"itemID": 14418},
+                      {"name": "HW8-9","chapter": 5,"difficulty": 3,"dindex": 0.919,"correlation": 0.184,"itemID": 2099},
+                      {"name": "HW9-4","chapter": 6,"difficulty": 3,"dindex": 0.903,"correlation": 0.147,"itemID": 15866}
+                    ]},
+                    {"name": "Ex3-18","chapter": 6,"difficulty": 3,"dindex": 0.693,"correlation": 0.216,"children":[
+                      {"name": "HW8-6*","chapter": 5,"difficulty": 3,"dindex": 0.938,"correlation": 0.272,"itemID": 14418},
+                      {"name": "HW9-1","chapter": 6,"difficulty": 1,"dindex": 0.978,"correlation": 0.138,"itemID": 65286},
+                      {"name": "HW9-6*","chapter": 6,"difficulty": 1,"dindex": 0.979,"correlation": 0.156,"itemID": 6550}
+                    ]},
+                    {"name": "HW11-1","chapter": 4,"difficulty": 3,"dindex": 0.933,"correlation": 0.158,"itemID": 1300}
+                ]},
+                {"name": "Final-17.2","chapter": 2,"correlation": 1,"difficulty": 2,"dindex": 0.826,"children":[
+                    {"name": "Ex1-8","chapter": 1,"difficulty": 3,"dindex": 0.783,"correlation": 0.157,"children":[
+                      {"name": "HW2-8","chapter": 2,"difficulty": 3,"dindex": 0.922,"correlation": 0.121,"itemID": 114978},
+                      {"name": "HW2-9","chapter": 2,"difficulty": 3,"dindex": 0.951,"correlation": 0.153,"itemID": 141658}
+                    ]},
+                    {"name": "Ex2-14.2","chapter": 4,"difficulty": 2,"dindex": 0.876,"correlation": 0.187,"children":[
+                      {"name": "HW5-6","chapter": 3,"difficulty": 3,"dindex": 0.972,"correlation": 0.128,"itemID": 18744},
+                      {"name": "HW6-6","chapter": 4,"difficulty": 3,"dindex": 0.937,"correlation": 0.200,"itemID": 116798},
+                      {"name": "HW6-9","chapter": 4,"difficulty": 3,"dindex": 0.931,"correlation": 0.236,"itemID": 6078}
+                    ]},
+                    {"name": "Ex3-17","chapter": 6,"difficulty": 2,"dindex": 0.751,"correlation": 0.204,"children":[
+                      {"name": "HW8-6*","chapter": 5,"difficulty": 3,"dindex": 0.938,"correlation": 0.186,"itemID": 14418},
+                      {"name": "HW8-9","chapter": 5,"difficulty": 3,"dindex": 0.919,"correlation": 0.184,"itemID": 2099},
+                      {"name": "HW9-4","chapter": 6,"difficulty": 3,"dindex": 0.903,"correlation": 0.147,"itemID": 15866}
+                    ]},
+                    {"name": "Ex3-18","chapter": 6,"difficulty": 3,"dindex": 0.693,"correlation": 0.150,"children":[
+                      {"name": "HW8-6*","chapter": 5,"difficulty": 3,"dindex": 0.938,"correlation": 0.272,"itemID": 14418},
+                      {"name": "HW9-1","chapter": 6,"difficulty": 1,"dindex": 0.978,"correlation": 0.138,"itemID": 65286},
+                      {"name": "HW9-6*","chapter": 6,"difficulty": 1,"dindex": 0.979,"correlation": 0.156,"itemID": 6550}
+                    ]}
+                ]},
+                {"name": "Final-17.3","chapter": 2,"correlation": 1,"difficulty": 2,"dindex": 0.803,"children":[
+                    {"name": "Ex1-8","chapter": 1,"difficulty": 3,"dindex": 0.783,"correlation": 0.169,"children":[
+                      {"name": "HW2-8","chapter": 2,"difficulty": 3,"dindex": 0.922,"correlation": 0.121,"itemID": 114978},
+                      {"name": "HW2-9","chapter": 2,"difficulty": 3,"dindex": 0.951,"correlation": 0.153,"itemID": 141658}
+                    ]},
+                    {"name": "Ex1-13.4","chapter": 1,"difficulty": 3,"dindex": 0.746,"correlation": 0.205,"children":[
+                      {"name": "HW1-9","chapter": 1,"difficulty": 3,"dindex": 0.939,"correlation": 0.141,"itemID": 118053},
+                      {"name": "HW2-2","chapter": 1,"difficulty": 3,"dindex": 0.944,"correlation": 0.146,"itemID": 114392},
+                      {"name": "HW2-8","chapter": 2,"difficulty": 3,"dindex": 0.922,"correlation": 0.157,"itemID": 114978}
+                    ]},
+                    {"name": "Ex2-4","chapter": 2,"difficulty": 3,"dindex": 0.806,"correlation": 0.154,"children":[
+                      {"name": "HW6-9","chapter": 4,"difficulty": 3,"dindex": 0.931,"correlation": 0.114,"itemID": 6078}
+                    ]},
+                    {"name": "Ex2-13.1","chapter": 2,"difficulty": 1,"dindex": 0.952,"correlation": 0.163,"children":[
+                      {"name": "HW6-6","chapter": 4,"difficulty": 3,"dindex": 0.937,"correlation": 0.163,"itemID": 116798}
+                    ]},
+                    {"name": "Ex2-14.2","chapter": 4,"difficulty": 2,"dindex": 0.876,"correlation": 0.217,"children":[
+                      {"name": "HW5-6","chapter": 3,"difficulty": 3,"dindex": 0.972,"correlation": 0.128,"itemID": 18744},
+                      {"name": "HW6-6","chapter": 4,"difficulty": 3,"dindex": 0.937,"correlation": 0.200,"itemID": 116798},
+                      {"name": "HW6-9","chapter": 4,"difficulty": 3,"dindex": 0.931,"correlation": 0.236,"itemID": 6078}
+                    ]},
+                    {"name": "Ex3-17","chapter": 6,"difficulty": 2,"dindex": 0.751,"correlation": 0.188,"children":[
+                      {"name": "HW8-6*","chapter": 5,"difficulty": 3,"dindex": 0.938,"correlation": 0.186,"itemID": 14418},
+                      {"name": "HW8-9","chapter": 5,"difficulty": 3,"dindex": 0.919,"correlation": 0.184,"itemID": 2099},
+                      {"name": "HW9-4","chapter": 6,"difficulty": 3,"dindex": 0.903,"correlation": 0.147,"itemID": 15866}
+                    ]},
+                    {"name": "Ex3-18","chapter": 6,"difficulty": 3,"dindex": 0.693,"correlation": 0.171,"children":[
+                      {"name": "HW8-6*","chapter": 5,"difficulty": 3,"dindex": 0.938,"correlation": 0.272,"itemID": 14418},
+                      {"name": "HW9-1","chapter": 6,"difficulty": 1,"dindex": 0.978,"correlation": 0.138,"itemID": 65286},
+                      {"name": "HW9-6*","chapter": 6,"difficulty": 1,"dindex": 0.979,"correlation": 0.156,"itemID": 6550}
+                    ]},
+                    {"name": "HW11-1","chapter": 4,"difficulty": 3,"dindex": 0.933,"correlation": 0.132,"itemID": 1300}
+                ]}
+            ]
+        },
+        {
+            "name": "Final-18","chapter": 2,"correlation": 1,"difficulty": 2,"dindex": 0.836,"children": [
+                {"name": "Final-18.1","chapter": 2,"correlation": 1,"difficulty": 1,"dindex": 0.889,"children":[
+                    {"name": "Ex1-13.3","chapter": 1,"difficulty": 1,"dindex": 0.973,"correlation": 0.193,"children":[
+                      {"name": "HW1-8","chapter": 1,"difficulty": 3,"dindex": 0.912,"correlation": 0.175,"itemID": 114299},
+                      {"name": "HW2-8","chapter": 2,"difficulty": 3,"dindex": 0.922,"correlation": 0.152,"itemID": 114978},
+                      {"name": "HW2-9","chapter": 2,"difficulty": 3,"dindex": 0.951,"correlation": 0.159,"itemID": 141658}
+                    ]},
+                    {"name": "Ex1-13.4","chapter": 1,"difficulty": 3,"dindex": 0.746,"correlation": 0.215,"children":[
+                      {"name": "HW1-9","chapter": 1,"difficulty": 3,"dindex": 0.939,"correlation": 0.141,"itemID": 118053},
+                      {"name": "HW2-2","chapter": 1,"difficulty": 3,"dindex": 0.944,"correlation": 0.146,"itemID": 114392},
+                      {"name": "HW2-8","chapter": 2,"difficulty": 3,"dindex": 0.922,"correlation": 0.157,"itemID": 114978}
+                    ]},
+                    {"name": "Ex2-11","chapter": 4,"difficulty": 3,"dindex": 0.664,"correlation": 0.248,"children":[
+                      {"name": "HW4-5","chapter": 2,"difficulty": 2,"dindex": 0.981,"correlation": 0.123,"itemID": 1268},
+                      {"name": "HW6-6","chapter": 4,"difficulty": 3,"dindex": 0.937,"correlation": 0.204,"itemID": 116798},
+                      {"name": "HW6-9","chapter": 4,"difficulty": 3,"dindex": 0.931,"correlation": 0.182,"itemID": 6078}
+                    ]},
+                    {"name": "Ex2-13.2","chapter": 2,"chapter": 2,"difficulty": 1,"dindex": 0.965,"correlation": 0.179,"children":[
+                      {"name": "HW5-6","chapter": 3,"difficulty": 3,"dindex": 0.972,"correlation": 0.131,"itemID": 18744},
+                      {"name": "HW6-6","chapter": 4,"difficulty": 3,"dindex": 0.937,"correlation": 0.210,"itemID": 116798},
+                      {"name": "HW6-9","chapter": 4,"difficulty": 3,"dindex": 0.931,"correlation": 0.195,"itemID": 6078}
+                    ]},
+                    {"name": "Ex2-13.3","chapter": 2,"difficulty": 3,"dindex": 0.851,"correlation": 0.162,"children":[
+                      {"name": "HW4-1","chapter": 2,"difficulty": 2,"dindex": 0.976,"correlation": 0.125,"itemID": 3764},
+                      {"name": "HW4-5","chapter": 2,"difficulty": 2,"dindex": 0.981,"correlation": 0.159,"itemID": 1268}
+                    ]},
+                    {"name": "Ex2-14.2","chapter": 4,"difficulty": 2,"dindex": 0.876,"correlation": 0.201,"children":[
+                      {"name": "HW5-6","chapter": 3,"difficulty": 3,"dindex": 0.972,"correlation": 0.128,"itemID": 18744},
+                      {"name": "HW6-6","chapter": 4,"difficulty": 3,"dindex": 0.937,"correlation": 0.200,"itemID": 116798},
+                      {"name": "HW6-9","chapter": 4,"difficulty": 3,"dindex": 0.931,"correlation": 0.236,"itemID": 6078}
+                    ]},
+                    {"name": "Ex3-1","chapter": 5,"difficulty": 1,"dindex": 0.948,"correlation": 0.159,"children":[
+                      {"name": "HW8-6*","chapter": 5,"difficulty": 3,"dindex": 0.938,"correlation": 0.317,"itemID": 14418},
+                      {"name": "HW9-2","chapter": 6,"difficulty": 2,"dindex": 0.973,"correlation": 0.202,"itemID": 1851},
+                      {"name": "HW9-6*","chapter": 6,"difficulty": 1,"dindex": 0.979,"correlation": 0.346,"itemID": 6550}
+                    ]},
+                    {"name": "Ex3-12","chapter": 6,"difficulty": 1,"dindex": 0.941,"correlation": 0.165,"children":[
+                      {"name": "HW8-6*","chapter": 5,"difficulty": 3,"dindex": 0.966,"correlation": 0.186,"itemID": 14426},
+                      {"name": "HW9-5*","chapter": 6,"difficulty": 3,"dindex": 0.956,"correlation": 0.156,"itemID": 25768},
+                      {"name": "HW9-6*","chapter": 6,"difficulty": 1,"dindex": 0.979,"correlation": 0.260,"itemID": 6550}
+                    ]},
+                    {"name": "Ex3-13","chapter": 5,"difficulty": 3,"dindex": 0.691,"correlation": 0.166,"children":[
+                      {"name": "HW8-6*","chapter": 5,"difficulty": 3,"dindex": 0.938,"correlation": 0.139,"itemID": 14418},
+                      {"name": "HW9-4","chapter": 6,"difficulty": 3,"dindex": 0.903,"correlation": 0.128,"itemID": 15866},
+                      {"name": "HW10-2*","chapter": 6,"difficulty": 3,"dindex": 0.962,"correlation": 0.129,"itemID": 53014}
+                    ]},
+                    {"name": "Ex3-14","chapter": 5,"difficulty": 2,"dindex": 0.744,"correlation": 0.158,"children":[
+                      {"name": "HW9-1","chapter": 6,"difficulty": 1,"dindex": 0.978,"correlation": 0.130,"itemID": 65286},
+                      {"name": "HW9-6*","chapter": 6,"difficulty": 2,"dindex": 0.972,"correlation": 0.136,"itemID": 2167}
+                    ]},
+                    {"name": "Ex3-16","chapter": 6,"difficulty": 2,"dindex": 0.898,"correlation": 0.156,"children":[
+                      {"name": "HW9-4","chapter": 6,"difficulty": 3,"dindex": 0.903,"correlation": 0.125,"itemID": 15866},
+                      {"name": "HW9-5*","chapter": 6,"difficulty": 2,"dindex": 0.971,"correlation": 0.165,"itemID": 2166},
+                      {"name": "HW9-6*","chapter": 6,"difficulty": 1,"dindex": 0.979,"correlation": 0.173,"itemID": 6550}
+                    ]},
+                    {"name": "Ex3-17","chapter": 6,"difficulty": 2,"dindex": 0.751,"correlation": 0.153,"children":[
+                      {"name": "HW8-6*","chapter": 5,"difficulty": 3,"dindex": 0.938,"correlation": 0.186,"itemID": 14418},
+                      {"name": "HW8-9","chapter": 5,"difficulty": 3,"dindex": 0.919,"correlation": 0.184,"itemID": 2099},
+                      {"name": "HW9-4","chapter": 6,"difficulty": 3,"dindex": 0.903,"correlation": 0.147,"itemID": 15866}
+                    ]},
+                    {"name": "Ex3-18","chapter": 6,"difficulty": 3,"dindex": 0.693,"correlation": 0.175,"children":[
+                      {"name": "HW8-6*","chapter": 5,"difficulty": 3,"dindex": 0.938,"correlation": 0.272,"itemID": 14418},
+                      {"name": "HW9-1","chapter": 6,"difficulty": 1,"dindex": 0.978,"correlation": 0.138,"itemID": 65286},
+                      {"name": "HW9-6*","chapter": 6,"difficulty": 1,"dindex": 0.979,"correlation": 0.156,"itemID": 6550}
+                    ]},
+                    {"name": "HW11-1","chapter": 4,"difficulty": 3,"dindex": 0.933,"correlation": 0.122,"itemID": 1300},
+                    {"name": "HW11-6","chapter": 7,"difficulty": 3,"dindex": 0.928,"correlation": 0.179,"itemID": 1861}
+                ]},
+                {"name": "Final-18.2","chapter": 1,"correlation": 1,"difficulty": 1,"dindex": 1.000,"children":[
+                    {"name": "Ex3-15","chapter": 5,"difficulty": 1,"dindex": 0.904,"children":[
+                   ]}
+                ]},
+                {"name": "Final-18.3","chapter": 2,"correlation": 1,"difficulty": 3,"dindex": 0.676,"children":[
+                    {"name": "Ex1-6","chapter": 1,"difficulty": 2,"dindex": 0.970,"correlation": 0.154,"children":[
+                      {"name": "HW1-3","chapter": 1,"difficulty": 2,"dindex": 0.956,"correlation": 0.138,"itemID": 73735}
+                    ]},
+                    {"name": "Ex2-12","chapter": 4,"difficulty": 3,"dindex": 0.825,"correlation": 0.151,"children":[
+                      {"name": "HW3-2","chapter": 2,"difficulty": 2,"dindex": 0.977,"correlation": 0.133,"itemID": 1504},
+                      {"name": "HW6-6","chapter": 4,"difficulty": 3,"dindex": 0.937,"correlation": 0.149,"itemID": 116798},
+                      {"name": "HW6-9","chapter": 4,"difficulty": 3,"dindex": 0.931,"correlation": 0.134,"itemID": 6078}
+                    ]},
+                    {"name": "Ex3-17","chapter": 6,"difficulty": 2,"dindex": 0.751,"correlation": 0.142,"children":[
+                      {"name": "HW8-6*","chapter": 5,"difficulty": 3,"dindex": 0.938,"correlation": 0.186,"itemID": 14418},
+                      {"name": "HW8-9","chapter": 5,"difficulty": 3,"dindex": 0.919,"correlation": 0.184,"itemID": 2099},
+                      {"name": "HW9-4","chapter": 6,"difficulty": 3,"dindex": 0.903,"correlation": 0.147,"itemID": 15866}
+                    ]}
+                ]},
+                {"name": "Final-18.4","chapter": 2,"correlation": 1,"difficulty": 2,"dindex": 0.838,"children":[
+                    {"name": "Ex1-13.3","chapter": 1,"difficulty": 1,"dindex": 0.973,"correlation": 0.153,"children":[
+                      {"name": "HW1-8","chapter": 1,"difficulty": 3,"dindex": 0.912,"correlation": 0.175,"itemID": 114299},
+                      {"name": "HW2-8","chapter": 2,"difficulty": 3,"dindex": 0.922,"correlation": 0.152,"itemID": 114978},
+                      {"name": "HW2-9","chapter": 2,"difficulty": 3,"dindex": 0.951,"correlation": 0.159,"itemID": 141658}
+                    ]},
+                    {"name": "Ex1-13.4","chapter": 1,"difficulty": 3,"dindex": 0.746,"correlation": 0.202,"children":[
+                      {"name": "HW1-9","chapter": 1,"difficulty": 3,"dindex": 0.939,"correlation": 0.141,"itemID": 118053},
+                      {"name": "HW2-2","chapter": 1,"difficulty": 3,"dindex": 0.944,"correlation": 0.146,"itemID": 114392},
+                      {"name": "HW2-8","chapter": 2,"difficulty": 3,"dindex": 0.922,"correlation": 0.157,"itemID": 114978}
+                    ]},
+                    {"name": "Ex2-13.2","chapter": 2,"chapter": 2,"difficulty": 1,"dindex": 0.965,"correlation": 0.161,"children":[
+                      {"name": "HW5-6","chapter": 3,"difficulty": 3,"dindex": 0.972,"correlation": 0.131,"itemID": 18744},
+                      {"name": "HW6-6","chapter": 4,"difficulty": 3,"dindex": 0.937,"correlation": 0.210,"itemID": 116798},
+                      {"name": "HW6-9","chapter": 4,"difficulty": 3,"dindex": 0.931,"correlation": 0.195,"itemID": 6078}
+                    ]},
+                    {"name": "Ex3-16","chapter": 6,"difficulty": 2,"dindex": 0.898,"correlation": 0.126,"children":[
+                      {"name": "HW9-4","chapter": 6,"difficulty": 3,"dindex": 0.903,"correlation": 0.125,"itemID": 15866},
+                      {"name": "HW9-5*","chapter": 6,"difficulty": 2,"dindex": 0.971,"correlation": 0.165,"itemID": 2166},
+                      {"name": "HW9-6*","chapter": 6,"difficulty": 1,"dindex": 0.979,"correlation": 0.173,"itemID": 6550}
+                    ]}
+                ]},
+                {"name": "Final-18.5","chapter": 6,"correlation": 1,"difficulty": 2,"dindex": 0.776,"children":[
+                    {"name": "Ex1-13.4","chapter": 1,"difficulty": 3,"dindex": 0.746,"correlation": 0.217,"children":[
+                      {"name": "HW1-9","chapter": 1,"difficulty": 3,"dindex": 0.939,"correlation": 0.141,"itemID": 118053},
+                      {"name": "HW2-2","chapter": 1,"difficulty": 3,"dindex": 0.944,"correlation": 0.146,"itemID": 114392},
+                      {"name": "HW2-8","chapter": 2,"difficulty": 3,"dindex": 0.922,"correlation": 0.157,"itemID": 114978}
+                    ]},
+                    {"name": "Ex2-11","chapter": 4,"difficulty": 3,"dindex": 0.664,"correlation": 0.160,"children":[
+                      {"name": "HW4-5","chapter": 2,"difficulty": 2,"dindex": 0.981,"correlation": 0.123,"itemID": 1268},
+                      {"name": "HW6-6","chapter": 4,"difficulty": 3,"dindex": 0.937,"correlation": 0.204,"itemID": 116798},
+                      {"name": "HW6-9","chapter": 4,"difficulty": 3,"dindex": 0.931,"correlation": 0.182,"itemID": 6078}
+                    ]},
+                    {"name": "Ex2-12","chapter": 4,"difficulty": 3,"dindex": 0.825,"correlation": 0.152,"children":[
+                      {"name": "HW3-2","chapter": 2,"difficulty": 2,"dindex": 0.977,"correlation": 0.133,"itemID": 1504},
+                      {"name": "HW6-6","chapter": 4,"difficulty": 3,"dindex": 0.937,"correlation": 0.149,"itemID": 116798},
+                      {"name": "HW6-9","chapter": 4,"difficulty": 3,"dindex": 0.931,"correlation": 0.134,"itemID": 6078}
+                    ]},
+                    {"name": "Ex2-14.2","chapter": 4,"difficulty": 2,"dindex": 0.876,"correlation": 0.151,"children":[
+                      {"name": "HW5-6","chapter": 3,"difficulty": 3,"dindex": 0.972,"correlation": 0.128,"itemID": 18744},
+                      {"name": "HW6-6","chapter": 4,"difficulty": 3,"dindex": 0.937,"correlation": 0.200,"itemID": 116798},
+                      {"name": "HW6-9","chapter": 4,"difficulty": 3,"dindex": 0.931,"correlation": 0.236,"itemID": 6078}
+                    ]},
+                    {"name": "Ex3-18","chapter": 6,"difficulty": 3,"dindex": 0.693,"correlation": 0.140,"children":[
+                      {"name": "HW8-6*","chapter": 5,"difficulty": 3,"dindex": 0.938,"correlation": 0.272,"itemID": 14418},
+                      {"name": "HW9-1","chapter": 6,"difficulty": 1,"dindex": 0.978,"correlation": 0.138,"itemID": 65286},
+                      {"name": "HW9-6*","chapter": 6,"difficulty": 1,"dindex": 0.979,"correlation": 0.156,"itemID": 6550}
+                    ]}
+                ]}
+            ]
+        },
+        {
+            "name": "Final-19","chapter": 5,"correlation": 1,"difficulty": 3,"dindex": 0.592,"children": [
+                {"name": "Final-19.1","chapter": 5,"correlation": 1,"difficulty": 2,"dindex": 0.866,"children":[
+                    {"name": "Ex1-4","chapter": 1,"difficulty": 3,"dindex": 0.874,"correlation": 0.156,"children":[
+                      {"name": "HW1-1","chapter": 1,"difficulty": 1,"dindex": 0.967,"correlation": 0.162,"itemID": 123669},
+                      {"name": "HW1-9","chapter": 1,"difficulty": 3,"dindex": 0.939,"correlation": 0.166,"itemID": 118053},
+                      {"name": "HW2-5*","chapter": 2,"difficulty": 2,"dindex": 0.956,"correlation": 0.173,"itemID": 6854}
+                    ]},
+                    {"name": "Ex1-13.3","chapter": 1,"difficulty": 1,"dindex": 0.973,"correlation": 0.184,"children":[
+                      {"name": "HW1-8","chapter": 1,"difficulty": 3,"dindex": 0.912,"correlation": 0.175,"itemID": 114299},
+                      {"name": "HW2-8","chapter": 2,"difficulty": 3,"dindex": 0.922,"correlation": 0.152,"itemID": 114978},
+                      {"name": "HW2-9","chapter": 2,"difficulty": 3,"dindex": 0.951,"correlation": 0.159,"itemID": 141658}
+                    ]},
+                    {"name": "Ex2-11","chapter": 4,"difficulty": 3,"dindex": 0.664,"correlation": 0.186,"children":[
+                      {"name": "HW4-5","chapter": 2,"difficulty": 2,"dindex": 0.981,"correlation": 0.123,"itemID": 1268},
+                      {"name": "HW6-6","chapter": 4,"difficulty": 3,"dindex": 0.937,"correlation": 0.204,"itemID": 116798},
+                      {"name": "HW6-9","chapter": 4,"difficulty": 3,"dindex": 0.931,"correlation": 0.182,"itemID": 6078}
+                    ]},
+                    {"name": "Ex2-14.2","chapter": 4,"difficulty": 2,"dindex": 0.876,"correlation": 0.164,"children":[
+                      {"name": "HW5-6","chapter": 3,"difficulty": 3,"dindex": 0.972,"correlation": 0.128,"itemID": 18744},
+                      {"name": "HW6-6","chapter": 4,"difficulty": 3,"dindex": 0.937,"correlation": 0.200,"itemID": 116798},
+                      {"name": "HW6-9","chapter": 4,"difficulty": 3,"dindex": 0.931,"correlation": 0.236,"itemID": 6078}
+                    ]},
+                    {"name": "Ex3-2","chapter": 6,"difficulty": 2,"dindex": 0.834,"correlation": 0.174,"children":[
+                      {"name": "HW10-6*","chapter": 6,"difficulty": 3,"dindex": 0.957,"correlation": 0.146,"itemID": 112275}
+                    ]},
+                    {"name": "Ex3-17","chapter": 6,"difficulty": 2,"dindex": 0.751,"correlation": 0.165,"children":[
+                      {"name": "HW8-6*","chapter": 5,"difficulty": 3,"dindex": 0.938,"correlation": 0.186,"itemID": 14418},
+                      {"name": "HW8-9","chapter": 5,"difficulty": 3,"dindex": 0.919,"correlation": 0.184,"itemID": 2099},
+                      {"name": "HW9-4","chapter": 6,"difficulty": 3,"dindex": 0.903,"correlation": 0.147,"itemID": 15866}
+                    ]},
+                    {"name": "Ex3-18","chapter": 6,"difficulty": 3,"dindex": 0.693,"correlation": 0.155,"children":[
+                      {"name": "HW8-6*","chapter": 5,"difficulty": 3,"dindex": 0.938,"correlation": 0.272,"itemID": 14418},
+                      {"name": "HW9-1","chapter": 6,"difficulty": 1,"dindex": 0.978,"correlation": 0.138,"itemID": 65286},
+                      {"name": "HW9-6*","chapter": 6,"difficulty": 1,"dindex": 0.979,"correlation": 0.156,"itemID": 6550}
+                    ]},
+                    {"name": "HW11-6","chapter": 7,"difficulty": 3,"dindex": 0.928,"correlation": 0.114,"itemID": 1861}
+                ]},
+                {"name": "Final-19.2","chapter": 5,"correlation": 1,"difficulty": 3,"dindex": 0.388,"children":[
+                    {"name": "Ex1-8","chapter": 1,"difficulty": 3,"dindex": 0.783,"correlation": 0.159,"children":[
+                      {"name": "HW2-8","chapter": 2,"difficulty": 3,"dindex": 0.922,"correlation": 0.121,"itemID": 114978},
+                      {"name": "HW2-9","chapter": 2,"difficulty": 3,"dindex": 0.951,"correlation": 0.153,"itemID": 141658}
+                    ]},
+                    {"name": "Ex1-13.4","chapter": 1,"difficulty": 3,"dindex": 0.746,"correlation": 0.219,"children":[
+                      {"name": "HW1-9","chapter": 1,"difficulty": 3,"dindex": 0.939,"correlation": 0.141,"itemID": 118053},
+                      {"name": "HW2-2","chapter": 1,"difficulty": 3,"dindex": 0.944,"correlation": 0.146,"itemID": 114392},
+                      {"name": "HW2-8","chapter": 2,"difficulty": 3,"dindex": 0.922,"correlation": 0.157,"itemID": 114978}
+                    ]},
+                    {"name": "Ex2-11","chapter": 4,"difficulty": 3,"dindex": 0.664,"correlation": 0.238,"children":[
+                      {"name": "HW4-5","chapter": 2,"difficulty": 2,"dindex": 0.981,"correlation": 0.123,"itemID": 1268},
+                      {"name": "HW6-6","chapter": 4,"difficulty": 3,"dindex": 0.937,"correlation": 0.204,"itemID": 116798},
+                      {"name": "HW6-9","chapter": 4,"difficulty": 3,"dindex": 0.931,"correlation": 0.182,"itemID": 6078}
+                    ]},
+                    {"name": "Ex2-13.2","chapter": 2,"chapter": 2,"difficulty": 1,"dindex": 0.965,"correlation": 0.213,"children":[
+                      {"name": "HW5-6","chapter": 3,"difficulty": 3,"dindex": 0.972,"correlation": 0.131,"itemID": 18744},
+                      {"name": "HW6-6","chapter": 4,"difficulty": 3,"dindex": 0.937,"correlation": 0.210,"itemID": 116798},
+                      {"name": "HW6-9","chapter": 4,"difficulty": 3,"dindex": 0.931,"correlation": 0.195,"itemID": 6078}
+                    ]},
+                    {"name": "Ex2-14.2","chapter": 4,"difficulty": 2,"dindex": 0.876,"correlation": 0.185,"children":[
+                      {"name": "HW5-6","chapter": 3,"difficulty": 3,"dindex": 0.972,"correlation": 0.128,"itemID": 18744},
+                      {"name": "HW6-6","chapter": 4,"difficulty": 3,"dindex": 0.937,"correlation": 0.200,"itemID": 116798},
+                      {"name": "HW6-9","chapter": 4,"difficulty": 3,"dindex": 0.931,"correlation": 0.236,"itemID": 6078}
+                    ]},
+                    {"name": "Ex2-14.3","chapter": 4,"difficulty": 2,"dindex": 0.907,"correlation": 0.194,"children":[
+                      {"name": "HW6-6","chapter": 4,"difficulty": 3,"dindex": 0.937,"correlation": 0.120,"itemID": 116798},
+                      {"name": "HW6-9","chapter": 4,"difficulty": 3,"dindex": 0.931,"correlation": 0.127,"itemID": 6078}
+                    ]},
+                    {"name": "Ex3-2","chapter": 6,"difficulty": 2,"dindex": 0.834,"correlation": 0.160,"children":[
+                      {"name": "HW10-6*","chapter": 6,"difficulty": 3,"dindex": 0.957,"correlation": 0.146,"itemID": 112275}
+                    ]},
+                    {"name": "Ex3-4","chapter": 5,"difficulty": 3,"dindex": 0.632,"correlation": 0.220,"children":[
+                      {"name": "HW8-6*","chapter": 5,"difficulty": 3,"dindex": 0.938,"correlation": 0.134,"itemID": 14418}
+                    ]},
+                    {"name": "Ex3-5","chapter": 5,"difficulty": 2,"dindex": 0.707,"correlation": 0.204,"children":[
+                      {"name": "HW9-2","chapter": 6,"difficulty": 2,"dindex": 0.973,"correlation": 0.130,"itemID": 1851},
+                      {"name": "HW9-4","chapter": 6,"difficulty": 3,"dindex": 0.903,"correlation": 0.130,"itemID": 15866},
+                      {"name": "HW9-6*","chapter": 6,"difficulty": 1,"dindex": 0.979,"correlation": 0.159,"itemID": 6550}
+                    ]},
+                    {"name": "Ex3-13","chapter": 5,"difficulty": 3,"dindex": 0.691,"correlation": 0.212,"children":[
+                      {"name": "HW8-6*","chapter": 5,"difficulty": 3,"dindex": 0.938,"correlation": 0.139,"itemID": 14418},
+                      {"name": "HW9-4","chapter": 6,"difficulty": 3,"dindex": 0.903,"correlation": 0.128,"itemID": 15866},
+                      {"name": "HW10-2*","chapter": 6,"difficulty": 3,"dindex": 0.962,"correlation": 0.129,"itemID": 53014}
+                    ]},
+                    {"name": "Ex3-14","chapter": 5,"difficulty": 2,"dindex": 0.744,"correlation": 0.213,"children":[
+                      {"name": "HW9-1","chapter": 6,"difficulty": 1,"dindex": 0.978,"correlation": 0.130,"itemID": 65286},
+                      {"name": "HW9-6*","chapter": 6,"difficulty": 2,"dindex": 0.972,"correlation": 0.136,"itemID": 2167}
+                    ]},
+                    {"name": "Ex3-18","chapter": 6,"difficulty": 3,"dindex": 0.693,"correlation": 0.196,"children":[
+                      {"name": "HW8-6*","chapter": 5,"difficulty": 3,"dindex": 0.938,"correlation": 0.272,"itemID": 14418},
+                      {"name": "HW9-1","chapter": 6,"difficulty": 1,"dindex": 0.978,"correlation": 0.138,"itemID": 65286},
+                      {"name": "HW9-6*","chapter": 6,"difficulty": 1,"dindex": 0.979,"correlation": 0.156,"itemID": 6550}
+                    ]}
+                ]},
+                {"name": "Final-19.3","chapter": 5,"correlation": 1,"difficulty": 2,"dindex": 0.809,"children":[
+                    {"name": "Ex1-8","chapter": 1,"difficulty": 3,"dindex": 0.783,"correlation": 0.155,"children":[
+                      {"name": "HW2-8","chapter": 2,"difficulty": 3,"dindex": 0.922,"correlation": 0.121,"itemID": 114978},
+                      {"name": "HW2-9","chapter": 2,"difficulty": 3,"dindex": 0.951,"correlation": 0.153,"itemID": 141658}
+                    ]},
+                    {"name": "Ex1-11","chapter": 2,"difficulty": 2,"dindex": 0.943,"correlation": 0.227,"children":[
+                      {"name": "HW2-3","chapter": 1,"difficulty": 1,"dindex": 0.969,"correlation": 0.113,"itemID": 25560},
+                      {"name": "HW2-4","chapter": 1,"difficulty": 1,"dindex": 0.972,"correlation": 0.127,"itemID": 2990},
+                      {"name": "HW2-5*","chapter": 2,"difficulty": 2,"dindex": 0.962,"correlation": 0.172,"itemID": 6856}
+                    ]},
+                    {"name": "Ex1-13.3","chapter": 1,"difficulty": 1,"dindex": 0.973,"correlation": 0.226,"children":[
+                      {"name": "HW1-8","chapter": 1,"difficulty": 3,"dindex": 0.912,"correlation": 0.175,"itemID": 114299},
+                      {"name": "HW2-8","chapter": 2,"difficulty": 3,"dindex": 0.922,"correlation": 0.152,"itemID": 114978},
+                      {"name": "HW2-9","chapter": 2,"difficulty": 3,"dindex": 0.951,"correlation": 0.159,"itemID": 141658}
+                    ]},
+                    {"name": "Ex1-13.4","chapter": 1,"difficulty": 3,"dindex": 0.746,"correlation": 0.206,"children":[
+                      {"name": "HW1-9","chapter": 1,"difficulty": 3,"dindex": 0.939,"correlation": 0.141,"itemID": 118053},
+                      {"name": "HW2-2","chapter": 1,"difficulty": 3,"dindex": 0.944,"correlation": 0.146,"itemID": 114392},
+                      {"name": "HW2-8","chapter": 2,"difficulty": 3,"dindex": 0.922,"correlation": 0.157,"itemID": 114978}
+                    ]},
+                    {"name": "Ex1-14.2","chapter": 1,"difficulty": 3,"dindex": 0.906,"correlation": 0.151,"children":[
+                      {"name": "HW1-8","chapter": 1,"difficulty": 3,"dindex": 0.912,"correlation": 0.111,"itemID": 114299},
+                      {"name": "HW2-2","chapter": 1,"difficulty": 3,"dindex": 0.944,"correlation": 0.114,"itemID": 114392},
+                      {"name": "HW2-8","chapter": 2,"difficulty": 3,"dindex": 0.922,"correlation": 0.159,"itemID": 114978}
+                    ]},
+                    {"name": "Ex1-14.3","chapter": 2,"difficulty": 2,"dindex": 0.933,"correlation": 0.181,"children":[
+                      {"name": "HW1-3","chapter": 1,"difficulty": 2,"dindex": 0.956,"correlation": 0.121,"itemID": 73735},
+                      {"name": "HW2-2","chapter": 1,"difficulty": 3,"dindex": 0.944,"correlation": 0.117,"itemID": 114392},
+                      {"name": "HW2-8","chapter": 2,"difficulty": 3,"dindex": 0.922,"correlation": 0.145,"itemID": 114978}
+                    ]},
+                    {"name": "Ex1-15.1","chapter": 2,"difficulty": 1,"dindex": 0.987,"correlation": 0.191,"children":[
+                      {"name": "HW2-5*","chapter": 2,"difficulty": 2,"dindex": 0.962,"correlation": 0.230,"itemID": 6856},
+                      {"name": "HW2-8","chapter": 2,"difficulty": 3,"dindex": 0.922,"correlation": 0.176,"itemID": 114978},
+                      {"name": "HW2-9","chapter": 2,"difficulty": 3,"dindex": 0.951,"correlation": 0.166,"itemID": 141658}
+                    ]},
+                    {"name": "Ex2-7","chapter": 3,"difficulty": 2,"dindex": 0.872,"correlation": 0.150},
+                    {"name": "Ex2-10","chapter": 4,"difficulty": 2,"dindex": 0.924,"correlation": 0.199,"children":[
+                      {"name": "HW4-5","chapter": 2,"difficulty": 2,"dindex": 0.981,"correlation": 0.174,"itemID": 1268},
+                      {"name": "HW4-6","chapter": 2,"difficulty": 1,"dindex": 0.985,"correlation": 0.157,"itemID": 23146},
+                      {"name": "HW4-7","chapter": 2,"difficulty": 2,"dindex": 0.981,"correlation": 0.180,"itemID": 114801}
+                    ]},
+                    {"name": "Ex2-11","chapter": 4,"difficulty": 3,"dindex": 0.664,"correlation": 0.219,"children":[
+                      {"name": "HW4-5","chapter": 2,"difficulty": 2,"dindex": 0.981,"correlation": 0.123,"itemID": 1268},
+                      {"name": "HW6-6","chapter": 4,"difficulty": 3,"dindex": 0.937,"correlation": 0.204,"itemID": 116798},
+                      {"name": "HW6-9","chapter": 4,"difficulty": 3,"dindex": 0.931,"correlation": 0.182,"itemID": 6078}
+                    ]},
+                    {"name": "Ex2-12","chapter": 4,"difficulty": 3,"dindex": 0.825,"correlation": 0.209,"children":[
+                      {"name": "HW3-2","chapter": 2,"difficulty": 2,"dindex": 0.977,"correlation": 0.133,"itemID": 1504},
+                      {"name": "HW6-6","chapter": 4,"difficulty": 3,"dindex": 0.937,"correlation": 0.149,"itemID": 116798},
+                      {"name": "HW6-9","chapter": 4,"difficulty": 3,"dindex": 0.931,"correlation": 0.134,"itemID": 6078}
+                    ]},
+                    {"name": "Ex2-13.1","chapter": 2,"difficulty": 1,"dindex": 0.952,"correlation": 0.153,"children":[
+                      {"name": "HW6-6","chapter": 4,"difficulty": 3,"dindex": 0.937,"correlation": 0.163,"itemID": 116798}
+                    ]},
+                    {"name": "Ex2-13.2","chapter": 2,"chapter": 2,"difficulty": 1,"dindex": 0.965,"correlation": 0.241,"children":[
+                      {"name": "HW5-6","chapter": 3,"difficulty": 3,"dindex": 0.972,"correlation": 0.131,"itemID": 18744},
+                      {"name": "HW6-6","chapter": 4,"difficulty": 3,"dindex": 0.937,"correlation": 0.210,"itemID": 116798},
+                      {"name": "HW6-9","chapter": 4,"difficulty": 3,"dindex": 0.931,"correlation": 0.195,"itemID": 6078}
+                    ]},
+                    {"name": "Ex2-13.3","chapter": 2,"difficulty": 3,"dindex": 0.851,"correlation": 0.180,"children":[
+                      {"name": "HW4-1","chapter": 2,"difficulty": 2,"dindex": 0.976,"correlation": 0.125,"itemID": 3764},
+                      {"name": "HW4-5","chapter": 2,"difficulty": 2,"dindex": 0.981,"correlation": 0.159,"itemID": 1268}
+                    ]},
+                    {"name": "Ex2-14.2","chapter": 4,"difficulty": 2,"dindex": 0.876,"correlation": 0.249,"children":[
+                      {"name": "HW5-6","chapter": 3,"difficulty": 3,"dindex": 0.972,"correlation": 0.128,"itemID": 18744},
+                      {"name": "HW6-6","chapter": 4,"difficulty": 3,"dindex": 0.937,"correlation": 0.200,"itemID": 116798},
+                      {"name": "HW6-9","chapter": 4,"difficulty": 3,"dindex": 0.931,"correlation": 0.236,"itemID": 6078}
+                    ]},
+                    {"name": "Ex2-14.3","chapter": 4,"difficulty": 2,"dindex": 0.907,"correlation": 0.202,"children":[
+                      {"name": "HW6-6","chapter": 4,"difficulty": 3,"dindex": 0.937,"correlation": 0.120,"itemID": 116798},
+                      {"name": "HW6-9","chapter": 4,"difficulty": 3,"dindex": 0.931,"correlation": 0.127,"itemID": 6078}
+                    ]},
+                    {"name": "Ex3-1","chapter": 5,"difficulty": 1,"dindex": 0.948,"correlation": 0.187,"children":[
+                      {"name": "HW8-6*","chapter": 5,"difficulty": 3,"dindex": 0.938,"correlation": 0.317,"itemID": 14418},
+                      {"name": "HW9-2","chapter": 6,"difficulty": 2,"dindex": 0.973,"correlation": 0.202,"itemID": 1851},
+                      {"name": "HW9-6*","chapter": 6,"difficulty": 1,"dindex": 0.979,"correlation": 0.346,"itemID": 6550}
+                    ]},
+                    {"name": "Ex3-2","chapter": 6,"difficulty": 2,"dindex": 0.834,"correlation": 0.236,"children":[
+                      {"name": "HW10-6*","chapter": 6,"difficulty": 3,"dindex": 0.957,"correlation": 0.146,"itemID": 112275}
+                    ]},
+                    {"name": "Ex3-3","chapter": 6,"difficulty": 2,"dindex": 0.793,"correlation": 0.247,"children":[
+                      {"name": "HW8-6*","chapter": 5,"difficulty": 3,"dindex": 0.938,"correlation": 0.172,"itemID": 14418},
+                      {"name": "HW9-6*","chapter": 6,"difficulty": 1,"dindex": 0.979,"correlation": 0.153,"itemID": 6550}
+                    ]},
+                    {"name": "Ex3-4","chapter": 5,"difficulty": 3,"dindex": 0.632,"correlation": 0.186,"children":[
+                      {"name": "HW8-6*","chapter": 5,"difficulty": 3,"dindex": 0.938,"correlation": 0.134,"itemID": 14418}
+                    ]},
+                    {"name": "Ex3-5","chapter": 5,"difficulty": 2,"dindex": 0.707,"correlation": 0.192,"children":[
+                      {"name": "HW9-2","chapter": 6,"difficulty": 2,"dindex": 0.973,"correlation": 0.130,"itemID": 1851},
+                      {"name": "HW9-4","chapter": 6,"difficulty": 3,"dindex": 0.903,"correlation": 0.130,"itemID": 15866},
+                      {"name": "HW9-6*","chapter": 6,"difficulty": 1,"dindex": 0.979,"correlation": 0.159,"itemID": 6550}
+                    ]},
+                    {"name": "Ex3-12","chapter": 6,"difficulty": 1,"dindex": 0.941,"correlation": 0.183,"children":[
+                      {"name": "HW8-6*","chapter": 5,"difficulty": 3,"dindex": 0.966,"correlation": 0.186,"itemID": 14426},
+                      {"name": "HW9-5*","chapter": 6,"difficulty": 3,"dindex": 0.956,"correlation": 0.156,"itemID": 25768},
+                      {"name": "HW9-6*","chapter": 6,"difficulty": 1,"dindex": 0.979,"correlation": 0.260,"itemID": 6550}
+                    ]},
+                    {"name": "Ex3-13","chapter": 5,"difficulty": 3,"dindex": 0.691,"correlation": 0.1226,"children":[
+                      {"name": "HW8-6*","chapter": 5,"difficulty": 3,"dindex": 0.938,"correlation": 0.139,"itemID": 14418},
+                      {"name": "HW9-4","chapter": 6,"difficulty": 3,"dindex": 0.903,"correlation": 0.128,"itemID": 15866},
+                      {"name": "HW10-2*","chapter": 6,"difficulty": 3,"dindex": 0.962,"correlation": 0.129,"itemID": 53014}
+                    ]},
+                    {"name": "Ex3-14","chapter": 5,"difficulty": 2,"dindex": 0.744,"correlation": 0.218,"children":[
+                      {"name": "HW9-1","chapter": 6,"difficulty": 1,"dindex": 0.978,"correlation": 0.130,"itemID": 65286},
+                      {"name": "HW9-6*","chapter": 6,"difficulty": 2,"dindex": 0.972,"correlation": 0.136,"itemID": 2167}
+                    ]},
+                    {"name": "Ex3-16","chapter": 6,"difficulty": 2,"dindex": 0.898,"correlation": 0.206,"children":[
+                      {"name": "HW9-4","chapter": 6,"difficulty": 3,"dindex": 0.903,"correlation": 0.125,"itemID": 15866},
+                      {"name": "HW9-5*","chapter": 6,"difficulty": 2,"dindex": 0.971,"correlation": 0.165,"itemID": 2166},
+                      {"name": "HW9-6*","chapter": 6,"difficulty": 1,"dindex": 0.979,"correlation": 0.173,"itemID": 6550}
+                    ]},
+                    {"name": "Ex3-17","chapter": 6,"difficulty": 2,"dindex": 0.751,"correlation": 0.300,"children":[
+                      {"name": "HW8-6*","chapter": 5,"difficulty": 3,"dindex": 0.938,"correlation": 0.186,"itemID": 14418},
+                      {"name": "HW8-9","chapter": 5,"difficulty": 3,"dindex": 0.919,"correlation": 0.184,"itemID": 2099},
+                      {"name": "HW9-4","chapter": 6,"difficulty": 3,"dindex": 0.903,"correlation": 0.147,"itemID": 15866}
+                    ]},
+                    {"name": "Ex3-18","chapter": 6,"difficulty": 3,"dindex": 0.693,"correlation": 0.235,"children":[
+                      {"name": "HW8-6*","chapter": 5,"difficulty": 3,"dindex": 0.938,"correlation": 0.272,"itemID": 14418},
+                      {"name": "HW9-1","chapter": 6,"difficulty": 1,"dindex": 0.978,"correlation": 0.138,"itemID": 65286},
+                      {"name": "HW9-6*","chapter": 6,"difficulty": 1,"dindex": 0.979,"correlation": 0.156,"itemID": 6550}
+                    ]},
+                    {"name": "HW11-8","chapter": 4,"difficulty": 2,"dindex": 0.980,"correlation": 0.144,"itemID": 1866},
+                    {"name": "HW11-7","chapter": 4,"difficulty": 2,"dindex": 0.981,"correlation": 0.130,"itemID": 3376},
+                    {"name": "HW11-1","chapter": 4,"difficulty": 3,"dindex": 0.933,"correlation": 0.126,"itemID": 1300}
+                ]},
+                {"name": "Final-19.4","chapter": 5,"correlation": 1,"difficulty": 3,"dindex": 0.305,"children":[
+                    {"name": "Ex1-4","chapter": 1,"difficulty": 3,"dindex": 0.874,"correlation": 0.165,"children":[
+                      {"name": "HW1-1","chapter": 1,"difficulty": 1,"dindex": 0.967,"correlation": 0.162,"itemID": 123669},
+                      {"name": "HW1-9","chapter": 1,"difficulty": 3,"dindex": 0.939,"correlation": 0.166,"itemID": 118053},
+                      {"name": "HW2-5*","chapter": 2,"difficulty": 2,"dindex": 0.956,"correlation": 0.173,"itemID": 6854}
+                    ]},
+                    {"name": "Ex1-8","chapter": 1,"difficulty": 3,"dindex": 0.783,"correlation": 0.194,"children":[
+                      {"name": "HW2-8","chapter": 2,"difficulty": 3,"dindex": 0.922,"correlation": 0.121,"itemID": 114978},
+                      {"name": "HW2-9","chapter": 2,"difficulty": 3,"dindex": 0.951,"correlation": 0.153,"itemID": 141658}
+                    ]},
+                    {"name": "Ex1-13.4","chapter": 1,"difficulty": 3,"dindex": 0.746,"correlation": 0.241,"children":[
+                      {"name": "HW1-9","chapter": 1,"difficulty": 3,"dindex": 0.939,"correlation": 0.141,"itemID": 118053},
+                      {"name": "HW2-2","chapter": 1,"difficulty": 3,"dindex": 0.944,"correlation": 0.146,"itemID": 114392},
+                      {"name": "HW2-8","chapter": 2,"difficulty": 3,"dindex": 0.922,"correlation": 0.157,"itemID": 114978}
+                    ]},
+                    {"name": "Ex2-11","chapter": 4,"difficulty": 3,"dindex": 0.664,"correlation": 0.237,"children":[
+                      {"name": "HW4-5","chapter": 2,"difficulty": 2,"dindex": 0.981,"correlation": 0.123,"itemID": 1268},
+                      {"name": "HW6-6","chapter": 4,"difficulty": 3,"dindex": 0.937,"correlation": 0.204,"itemID": 116798},
+                      {"name": "HW6-9","chapter": 4,"difficulty": 3,"dindex": 0.931,"correlation": 0.182,"itemID": 6078}
+                    ]},
+                    {"name": "Ex2-12","chapter": 4,"difficulty": 3,"dindex": 0.825,"correlation": 0.173,"children":[
+                      {"name": "HW3-2","chapter": 2,"difficulty": 2,"dindex": 0.977,"correlation": 0.133,"itemID": 1504},
+                      {"name": "HW6-6","chapter": 4,"difficulty": 3,"dindex": 0.937,"correlation": 0.149,"itemID": 116798},
+                      {"name": "HW6-9","chapter": 4,"difficulty": 3,"dindex": 0.931,"correlation": 0.134,"itemID": 6078}
+                    ]},
+                    {"name": "Ex2-13.2","chapter": 2,"chapter": 2,"difficulty": 1,"dindex": 0.965,"correlation": 0.162,"children":[
+                      {"name": "HW5-6","chapter": 3,"difficulty": 3,"dindex": 0.972,"correlation": 0.131,"itemID": 18744},
+                      {"name": "HW6-6","chapter": 4,"difficulty": 3,"dindex": 0.937,"correlation": 0.210,"itemID": 116798},
+                      {"name": "HW6-9","chapter": 4,"difficulty": 3,"dindex": 0.931,"correlation": 0.195,"itemID": 6078}
+                    ]},
+                    {"name": "Ex2-14.2","chapter": 4,"difficulty": 2,"dindex": 0.876,"correlation": 0.197,"children":[
+                      {"name": "HW5-6","chapter": 3,"difficulty": 3,"dindex": 0.972,"correlation": 0.128,"itemID": 18744},
+                      {"name": "HW6-6","chapter": 4,"difficulty": 3,"dindex": 0.937,"correlation": 0.200,"itemID": 116798},
+                      {"name": "HW6-9","chapter": 4,"difficulty": 3,"dindex": 0.931,"correlation": 0.236,"itemID": 6078}
+                    ]},
+                    {"name": "Ex2-14.3","chapter": 4,"difficulty": 2,"dindex": 0.907,"correlation": 0.197,"children":[
+                      {"name": "HW6-6","chapter": 4,"difficulty": 3,"dindex": 0.937,"correlation": 0.120,"itemID": 116798},
+                      {"name": "HW6-9","chapter": 4,"difficulty": 3,"dindex": 0.931,"correlation": 0.127,"itemID": 6078}
+                    ]},
+                    {"name": "Ex3-2","chapter": 6,"difficulty": 2,"dindex": 0.834,"correlation": 0.153,"children":[
+                      {"name": "HW10-6*","chapter": 6,"difficulty": 3,"dindex": 0.957,"correlation": 0.146,"itemID": 112275}
+                    ]},
+                    {"name": "Ex3-3","chapter": 6,"difficulty": 2,"dindex": 0.793,"correlation": 0.192,"children":[
+                      {"name": "HW8-6*","chapter": 5,"difficulty": 3,"dindex": 0.938,"correlation": 0.172,"itemID": 14418},
+                      {"name": "HW9-6*","chapter": 6,"difficulty": 1,"dindex": 0.979,"correlation": 0.153,"itemID": 6550}
+                    ]},
+                    {"name": "Ex3-4","chapter": 5,"difficulty": 3,"dindex": 0.632,"correlation": 0.205,"children":[
+                      {"name": "HW8-6*","chapter": 5,"difficulty": 3,"dindex": 0.938,"correlation": 0.134,"itemID": 14418}
+                    ]},
+                    {"name": "Ex3-5","chapter": 5,"difficulty": 2,"dindex": 0.707,"correlation": 0.217,"children":[
+                      {"name": "HW9-2","chapter": 6,"difficulty": 2,"dindex": 0.973,"correlation": 0.130,"itemID": 1851},
+                      {"name": "HW9-4","chapter": 6,"difficulty": 3,"dindex": 0.903,"correlation": 0.130,"itemID": 15866},
+                      {"name": "HW9-6*","chapter": 6,"difficulty": 1,"dindex": 0.979,"correlation": 0.159,"itemID": 6550}
+                    ]},
+                    {"name": "Ex3-13","chapter": 5,"difficulty": 3,"dindex": 0.691,"correlation": 0.226,"children":[
+                      {"name": "HW8-6*","chapter": 5,"difficulty": 3,"dindex": 0.938,"correlation": 0.139,"itemID": 14418},
+                      {"name": "HW9-4","chapter": 6,"difficulty": 3,"dindex": 0.903,"correlation": 0.128,"itemID": 15866},
+                      {"name": "HW10-2*","chapter": 6,"difficulty": 3,"dindex": 0.962,"correlation": 0.129,"itemID": 53014}
+                    ]},
+                    {"name": "Ex3-14","chapter": 5,"difficulty": 2,"dindex": 0.744,"correlation": 0.231,"children":[
+                      {"name": "HW9-1","chapter": 6,"difficulty": 1,"dindex": 0.978,"correlation": 0.130,"itemID": 65286},
+                      {"name": "HW9-6*","chapter": 6,"difficulty": 2,"dindex": 0.972,"correlation": 0.136,"itemID": 2167}
+                    ]},
+                    {"name": "Ex3-17","chapter": 6,"difficulty": 2,"dindex": 0.751,"correlation": 0.178,"children":[
+                      {"name": "HW8-6*","chapter": 5,"difficulty": 3,"dindex": 0.938,"correlation": 0.186,"itemID": 14418},
+                      {"name": "HW8-9","chapter": 5,"difficulty": 3,"dindex": 0.919,"correlation": 0.184,"itemID": 2099},
+                      {"name": "HW9-4","chapter": 6,"difficulty": 3,"dindex": 0.903,"correlation": 0.147,"itemID": 15866}
+                    ]},
+                    {"name": "Ex3-18","chapter": 6,"difficulty": 3,"dindex": 0.693,"correlation": 0.206,"children":[
+                      {"name": "HW8-6*","chapter": 5,"difficulty": 3,"dindex": 0.938,"correlation": 0.272,"itemID": 14418},
+                      {"name": "HW9-1","chapter": 6,"difficulty": 1,"dindex": 0.978,"correlation": 0.138,"itemID": 65286},
+                      {"name": "HW9-6*","chapter": 6,"difficulty": 1,"dindex": 0.979,"correlation": 0.156,"itemID": 6550}
+                    ]}
+                ]},
+            ]
+        },
+        {
+            "name": "Final-20","chapter": 4,"correlation": 1,"difficulty": 2,"dindex": 0.860,"children": [
+                {"name": "Final-20.1","chapter": 4,"correlation": 1,"difficulty": 1,"dindex": 0.974,"children":[
+                    {"name": "Ex1-10","chapter": 2,"difficulty": 1,"dindex": 0.995,"correlation": 0.135,"children":[
+                      {"name": "HW2-1","chapter": 1,"difficulty": 1,"dindex": 0.980,"correlation": 0.143,"itemID": 20668},
+                      {"name": "HW2-5*","chapter": 2,"difficulty": 2,"dindex": 0.962,"correlation": 0.150,"itemID": 6856},
+                      {"name": "HW2-6","chapter": 2,"difficulty": 2,"dindex": 0.962,"correlation": 0.178,"itemID": 6335}
+                    ]},
+                    {"name": "Ex2-3","chapter": 2,"difficulty": 2,"dindex": 0.907,"correlation": 0.136,"children":[
+                      {"name": "HW4-5","chapter": 2,"difficulty": 2,"dindex": 0.981,"correlation": 0.124,"itemID": 1268},
+                      {"name": "HW6-6","chapter": 4,"difficulty": 3,"dindex": 0.937,"correlation": 0.133,"itemID": 116798}
+                    ]},
+                    {"name": "HW11-4","chapter": 7,"difficulty": 1,"dindex": 0.983,"correlation": 0.175,"itemID": 16544},
+                    {"name": "HW11-5","chapter": 7,"difficulty": 1,"dindex": 0.983,"correlation": 0.175,"itemID": 3448},
+                    {"name": "HW11-2","chapter": 7,"difficulty": 1,"dindex": 0.983,"correlation": 0.175,"itemID": 3710}        
+                ]},
+                {"name": "Final-20.2","chapter": 4,"correlation": 1,"difficulty": 1,"dindex": 0.939,"children":[
+                    {"name": "Ex1-1","chapter": 1,"difficulty": 1,"dindex": 0.980,"correlation": 0.153,"children":[
+                      {"name": "HW2-1","chapter": 1,"difficulty": 1,"dindex": 0.980,"correlation": 0.273,"itemID": 20668},
+                      {"name": "HW2-7","chapter": 2,"difficulty": 2,"dindex": 0.958,"correlation": 0.225,"itemID": 4123},
+                      {"name": "HW2-8","chapter": 2,"difficulty": 3,"dindex": 0.922,"correlation": 0.208,"itemID": 114978}
+                    ]},
+                    {"name": "Ex1-2","chapter": 1,"difficulty": 1,"dindex": 0.975,"correlation": 0.188,"children":[
+                      {"name": "HW2-1","chapter": 1,"difficulty": 1,"dindex": 0.980,"correlation": 0.174,"itemID": 20668},
+                      {"name": "HW2-8","chapter": 2,"difficulty": 3,"dindex": 0.922,"correlation": 0.195,"itemID": 114978},
+                      {"name": "HW2-9","chapter": 2,"difficulty": 3,"dindex": 0.951,"correlation": 0.186,"itemID": 141658}
+                    ]},
+                    {"name": "Ex1-4","chapter": 1,"difficulty": 3,"dindex": 0.874,"correlation": 0.187,"children":[
+                      {"name": "HW1-1","chapter": 1,"difficulty": 1,"dindex": 0.967,"correlation": 0.162,"itemID": 123669},
+                      {"name": "HW1-9","chapter": 1,"difficulty": 3,"dindex": 0.939,"correlation": 0.166,"itemID": 118053},
+                      {"name": "HW2-5*","chapter": 2,"difficulty": 2,"dindex": 0.956,"correlation": 0.173,"itemID": 6854}
+                    ]},
+                    {"name": "Ex1-13.4","chapter": 1,"difficulty": 3,"dindex": 0.746,"correlation": 0.181,"children":[
+                      {"name": "HW1-9","chapter": 1,"difficulty": 3,"dindex": 0.939,"correlation": 0.141,"itemID": 118053},
+                      {"name": "HW2-2","chapter": 1,"difficulty": 3,"dindex": 0.944,"correlation": 0.146,"itemID": 114392},
+                      {"name": "HW2-8","chapter": 2,"difficulty": 3,"dindex": 0.922,"correlation": 0.157,"itemID": 114978}
+                    ]},
+                    {"name": "Ex1-15.1","chapter": 2,"difficulty": 1,"dindex": 0.987,"correlation": 0.263,"children":[
+                      {"name": "HW2-5*","chapter": 2,"difficulty": 2,"dindex": 0.962,"correlation": 0.230,"itemID": 6856},
+                      {"name": "HW2-8","chapter": 2,"difficulty": 3,"dindex": 0.922,"correlation": 0.176,"itemID": 114978},
+                      {"name": "HW2-9","chapter": 2,"difficulty": 3,"dindex": 0.951,"correlation": 0.166,"itemID": 141658}
+                    ]},
+                    {"name": "Ex2-12","chapter": 4,"difficulty": 3,"dindex": 0.825,"correlation": 0.164,"children":[
+                      {"name": "HW3-2","chapter": 2,"difficulty": 2,"dindex": 0.977,"correlation": 0.133,"itemID": 1504},
+                      {"name": "HW6-6","chapter": 4,"difficulty": 3,"dindex": 0.937,"correlation": 0.149,"itemID": 116798},
+                      {"name": "HW6-9","chapter": 4,"difficulty": 3,"dindex": 0.931,"correlation": 0.134,"itemID": 6078}
+                    ]},
+                    {"name": "Ex2-14.2","chapter": 4,"difficulty": 2,"dindex": 0.876,"correlation": 0.165,"children":[
+                      {"name": "HW5-6","chapter": 3,"difficulty": 3,"dindex": 0.972,"correlation": 0.128,"itemID": 18744},
+                      {"name": "HW6-6","chapter": 4,"difficulty": 3,"dindex": 0.937,"correlation": 0.200,"itemID": 116798},
+                      {"name": "HW6-9","chapter": 4,"difficulty": 3,"dindex": 0.931,"correlation": 0.236,"itemID": 6078}
+                    ]},
+                    {"name": "Ex3-3","chapter": 6,"difficulty": 2,"dindex": 0.793,"correlation": 0.241,"children":[
+                      {"name": "HW8-6*","chapter": 5,"difficulty": 3,"dindex": 0.938,"correlation": 0.172,"itemID": 14418},
+                      {"name": "HW9-6*","chapter": 6,"difficulty": 1,"dindex": 0.979,"correlation": 0.153,"itemID": 6550}
+                    ]},
+                    {"name": "HW11-8","chapter": 4,"difficulty": 2,"dindex": 0.980,"correlation": 0.201,"itemID": 1866},
+                    {"name": "HW11-5","chapter": 7,"difficulty": 1,"dindex": 0.983,"correlation": 0.190,"itemID": 3448},
+                    {"name": "HW11-2","chapter": 7,"difficulty": 1,"dindex": 0.983,"correlation": 0.190,"itemID": 3710}   
+                ]},
+                {"name": "Final-20.3","chapter": 4,"correlation": 1,"difficulty": 2,"dindex": 0.882,"children":[
+                    {"name": "Ex1-1","chapter": 1,"difficulty": 1,"dindex": 0.980,"correlation": 0.166,"children":[
+                      {"name": "HW2-1","chapter": 1,"difficulty": 1,"dindex": 0.980,"correlation": 0.273,"itemID": 20668},
+                      {"name": "HW2-7","chapter": 2,"difficulty": 2,"dindex": 0.958,"correlation": 0.225,"itemID": 4123},
+                      {"name": "HW2-8","chapter": 2,"difficulty": 3,"dindex": 0.922,"correlation": 0.208,"itemID": 114978}
+                    ]},
+                    {"name": "Ex1-2","chapter": 1,"difficulty": 1,"dindex": 0.975,"correlation": 0.173,"children":[
+                       {"name": "HW2-1","chapter": 1,"difficulty": 1,"dindex": 0.980,"correlation": 0.174,"itemID": 20668},
+                       {"name": "HW2-8","chapter": 2,"difficulty": 3,"dindex": 0.922,"correlation": 0.195,"itemID": 114978},
+                       {"name": "HW2-9","chapter": 2,"difficulty": 3,"dindex": 0.951,"correlation": 0.186,"itemID": 141658}
+                    ]},
+                    {"name": "Ex1-4","chapter": 1,"difficulty": 3,"dindex": 0.874,"correlation": 0.195,"children":[
+                      {"name": "HW1-1","chapter": 1,"difficulty": 1,"dindex": 0.967,"correlation": 0.162,"itemID": 123669},
+                      {"name": "HW1-9","chapter": 1,"difficulty": 3,"dindex": 0.939,"correlation": 0.166,"itemID": 118053},
+                      {"name": "HW2-5*","chapter": 2,"difficulty": 2,"dindex": 0.956,"correlation": 0.173,"itemID": 6854}
+                    ]},
+                    {"name": "Ex1-8","chapter": 1,"difficulty": 3,"dindex": 0.783,"correlation": 0.243,"children":[
+                      {"name": "HW2-8","chapter": 2,"difficulty": 3,"dindex": 0.922,"correlation": 0.121,"itemID": 114978},
+                      {"name": "HW2-9","chapter": 2,"difficulty": 3,"dindex": 0.951,"correlation": 0.153,"itemID": 141658}
+                    ]},
+                    {"name": "Ex1-13.1","chapter": 1,"difficulty": 1,"dindex": 0.981,"correlation": 0.161,"children":[
+                      {"name": "HW2-1","chapter": 1,"difficulty": 1,"dindex": 0.980,"correlation": 0.295,"itemID": 20668},
+                      {"name": "HW2-5*","chapter": 2,"difficulty": 2,"dindex": 0.964,"correlation": 0.219,"itemID": 6858},
+                      {"name": "HW2-5*","chapter": 2,"difficulty": 2,"dindex": 0.956,"correlation": 0.220,"itemID": 6854}
+                    ]},
+                    {"name": "Ex1-13.2","chapter": 1,"difficulty": 2,"dindex": 0.966,"correlation": 0.167,"children":[
+                      {"name": "HW1-3","chapter": 1,"difficulty": 2,"dindex": 0.956,"correlation": 0.164,"itemID": 73735},
+                      {"name": "HW1-8","chapter": 1,"difficulty": 3,"dindex": 0.912,"correlation": 0.172,"itemID": 114299},
+                      {"name": "HW2-7","chapter": 2,"difficulty": 2,"dindex": 0.958,"correlation": 0.173,"itemID": 4123}
+                    ]},
+                    {"name": "Ex1-13.3","chapter": 1,"difficulty": 1,"dindex": 0.973,"correlation": 0.296,"children":[
+                      {"name": "HW1-8","chapter": 1,"difficulty": 3,"dindex": 0.912,"correlation": 0.175,"itemID": 114299},
+                      {"name": "HW2-8","chapter": 2,"difficulty": 3,"dindex": 0.922,"correlation": 0.152,"itemID": 114978},
+                      {"name": "HW2-9","chapter": 2,"difficulty": 3,"dindex": 0.951,"correlation": 0.159,"itemID": 141658}
+                    ]},
+                    {"name": "Ex1-13.4","chapter": 1,"difficulty": 3,"dindex": 0.746,"correlation": 0.294,"children":[
+                      {"name": "HW1-9","chapter": 1,"difficulty": 3,"dindex": 0.939,"correlation": 0.141,"itemID": 118053},
+                      {"name": "HW2-2","chapter": 1,"difficulty": 3,"dindex": 0.944,"correlation": 0.146,"itemID": 114392},
+                      {"name": "HW2-8","chapter": 2,"difficulty": 3,"dindex": 0.922,"correlation": 0.157,"itemID": 114978}
+                    ]},
+                    {"name": "Ex1-14.2","chapter": 1,"difficulty": 3,"dindex": 0.906,"correlation": 0.154,"children":[
+                      {"name": "HW1-8","chapter": 1,"difficulty": 3,"dindex": 0.912,"correlation": 0.111,"itemID": 114299},
+                      {"name": "HW2-2","chapter": 1,"difficulty": 3,"dindex": 0.944,"correlation": 0.114,"itemID": 114392},
+                      {"name": "HW2-8","chapter": 2,"difficulty": 3,"dindex": 0.922,"correlation": 0.159,"itemID": 114978}
+                    ]},
+                    {"name": "Ex1-15.1","chapter": 2,"difficulty": 1,"dindex": 0.987,"correlation": 0.212,"children":[
+                      {"name": "HW2-5*","chapter": 2,"difficulty": 2,"dindex": 0.962,"correlation": 0.230,"itemID": 6856},
+                      {"name": "HW2-8","chapter": 2,"difficulty": 3,"dindex": 0.922,"correlation": 0.176,"itemID": 114978},
+                      {"name": "HW2-9","chapter": 2,"difficulty": 3,"dindex": 0.951,"correlation": 0.166,"itemID": 141658}
+                    ]},
+                    {"name": "Ex2-4","chapter": 2,"difficulty": 3,"dindex": 0.806,"correlation": 0.182,"children":[
+                      {"name": "HW6-9","chapter": 4,"difficulty": 3,"dindex": 0.931,"correlation": 0.114,"itemID": 6078}
+                    ]},
+                    {"name": "Ex2-9","chapter": 4,"difficulty": 1,"dindex": 0.967,"correlation": 0.216,"children":[
+                      {"name": "HW5-4","chapter": 3,"difficulty": 2,"dindex": 0.982,"correlation": 0.133,"itemID": 1606},
+                      {"name": "HW5-5","chapter": 3,"difficulty": 1,"dindex": 0.985,"correlation": 0.148,"itemID": 14889},
+                      {"name": "HW5-8","chapter": 4,"difficulty": 2,"dindex": 0.977,"correlation": 0.145,"itemID": 76380}
+                    ]},
+                    {"name": "Ex2-10","chapter": 4,"difficulty": 2,"dindex": 0.924,"correlation": 0.161,"children":[
+                      {"name": "HW4-5","chapter": 2,"difficulty": 2,"dindex": 0.981,"correlation": 0.174,"itemID": 1268},
+                      {"name": "HW4-6","chapter": 2,"difficulty": 1,"dindex": 0.985,"correlation": 0.157,"itemID": 23146},
+                      {"name": "HW4-7","chapter": 2,"difficulty": 2,"dindex": 0.981,"correlation": 0.180,"itemID": 114801}
+                    ]},
+                    {"name": "Ex2-11","chapter": 4,"difficulty": 3,"dindex": 0.664,"correlation": 0.269,"children":[
+                      {"name": "HW4-5","chapter": 2,"difficulty": 2,"dindex": 0.981,"correlation": 0.123,"itemID": 1268},
+                      {"name": "HW6-6","chapter": 4,"difficulty": 3,"dindex": 0.937,"correlation": 0.204,"itemID": 116798},
+                      {"name": "HW6-9","chapter": 4,"difficulty": 3,"dindex": 0.931,"correlation": 0.182,"itemID": 6078}
+                    ]},
+                    {"name": "Ex2-12","chapter": 4,"difficulty": 3,"dindex": 0.825,"correlation": 0.275,"children":[
+                      {"name": "HW3-2","chapter": 2,"difficulty": 2,"dindex": 0.977,"correlation": 0.133,"itemID": 1504},
+                      {"name": "HW6-6","chapter": 4,"difficulty": 3,"dindex": 0.937,"correlation": 0.149,"itemID": 116798},
+                      {"name": "HW6-9","chapter": 4,"difficulty": 3,"dindex": 0.931,"correlation": 0.134,"itemID": 6078}
+                    ]},
+                    {"name": "Ex2-13.1","chapter": 2,"difficulty": 1,"dindex": 0.952,"correlation": 0.155,"children":[
+                      {"name": "HW6-6","chapter": 4,"difficulty": 3,"dindex": 0.937,"correlation": 0.163,"itemID": 116798}
+                    ]},
+                    {"name": "Ex2-13.2","chapter": 2,"chapter": 2,"difficulty": 1,"dindex": 0.965,"correlation": 0.263,"children":[
+                      {"name": "HW5-6","chapter": 3,"difficulty": 3,"dindex": 0.972,"correlation": 0.131,"itemID": 18744},
+                      {"name": "HW6-6","chapter": 4,"difficulty": 3,"dindex": 0.937,"correlation": 0.210,"itemID": 116798},
+                      {"name": "HW6-9","chapter": 4,"difficulty": 3,"dindex": 0.931,"correlation": 0.195,"itemID": 6078}
+                    ]},
+                    {"name": "Ex2-13.3","chapter": 2,"difficulty": 3,"dindex": 0.851,"correlation": 0.198,"children":[
+                      {"name": "HW4-1","chapter": 2,"difficulty": 2,"dindex": 0.976,"correlation": 0.125,"itemID": 3764},
+                      {"name": "HW4-5","chapter": 2,"difficulty": 2,"dindex": 0.981,"correlation": 0.159,"itemID": 1268}
+                    ]},
+                    {"name": "Ex2-14.2","chapter": 4,"difficulty": 2,"dindex": 0.876,"correlation": 0.316,"children":[
+                      {"name": "HW5-6","chapter": 3,"difficulty": 3,"dindex": 0.972,"correlation": 0.128,"itemID": 18744},
+                      {"name": "HW6-6","chapter": 4,"difficulty": 3,"dindex": 0.937,"correlation": 0.200,"itemID": 116798},
+                      {"name": "HW6-9","chapter": 4,"difficulty": 3,"dindex": 0.931,"correlation": 0.236,"itemID": 6078}
+                    ]},
+                    {"name": "Ex2-14.3","chapter": 4,"difficulty": 2,"dindex": 0.907,"correlation": 0.267,"children":[
+                      {"name": "HW6-6","chapter": 4,"difficulty": 3,"dindex": 0.937,"correlation": 0.120,"itemID": 116798},
+                      {"name": "HW6-9","chapter": 4,"difficulty": 3,"dindex": 0.931,"correlation": 0.127,"itemID": 6078}
+                    ]},
+                    {"name": "Ex3-1","chapter": 5,"difficulty": 1,"dindex": 0.948,"correlation": 0.197,"children":[
+                      {"name": "HW8-6*","chapter": 5,"difficulty": 3,"dindex": 0.938,"correlation": 0.317,"itemID": 14418},
+                      {"name": "HW9-2","chapter": 6,"difficulty": 2,"dindex": 0.973,"correlation": 0.202,"itemID": 1851},
+                      {"name": "HW9-6*","chapter": 6,"difficulty": 1,"dindex": 0.979,"correlation": 0.346,"itemID": 6550}
+                    ]},
+                    {"name": "Ex3-2","chapter": 6,"difficulty": 2,"dindex": 0.834,"correlation": 0.203,"children":[
+                      {"name": "HW10-6*","chapter": 6,"difficulty": 3,"dindex": 0.957,"correlation": 0.146,"itemID": 112275}
+                    ]},
+                    {"name": "Ex3-3","chapter": 6,"difficulty": 2,"dindex": 0.793,"correlation": 0.202,"children":[
+                      {"name": "HW8-6*","chapter": 5,"difficulty": 3,"dindex": 0.938,"correlation": 0.172,"itemID": 14418},
+                      {"name": "HW9-6*","chapter": 6,"difficulty": 1,"dindex": 0.979,"correlation": 0.153,"itemID": 6550}
+                    ]},
+                    {"name": "Ex3-4","chapter": 5,"difficulty": 3,"dindex": 0.632,"correlation": 0.164,"children":[
+                      {"name": "HW8-6*","chapter": 5,"difficulty": 3,"dindex": 0.938,"correlation": 0.134,"itemID": 14418}
+                    ]},
+                    {"name": "Ex3-5","chapter": 5,"difficulty": 2,"dindex": 0.707,"correlation": 0.167,"children":[
+                      {"name": "HW9-2","chapter": 6,"difficulty": 2,"dindex": 0.973,"correlation": 0.130,"itemID": 1851},
+                      {"name": "HW9-4","chapter": 6,"difficulty": 3,"dindex": 0.903,"correlation": 0.130,"itemID": 15866},
+                      {"name": "HW9-6*","chapter": 6,"difficulty": 1,"dindex": 0.979,"correlation": 0.159,"itemID": 6550}
+                    ]},
+                    {"name": "Ex3-12","chapter": 6,"difficulty": 1,"dindex": 0.941,"correlation": 0.274,"children":[
+                      {"name": "HW8-6*","chapter": 5,"difficulty": 3,"dindex": 0.966,"correlation": 0.186,"itemID": 14426},
+                      {"name": "HW9-5*","chapter": 6,"difficulty": 3,"dindex": 0.956,"correlation": 0.156,"itemID": 25768},
+                      {"name": "HW9-6*","chapter": 6,"difficulty": 1,"dindex": 0.979,"correlation": 0.260,"itemID": 6550}
+                    ]},
+                    {"name": "Ex3-14","chapter": 5,"difficulty": 2,"dindex": 0.744,"correlation": 0.211,"children":[
+                      {"name": "HW9-1","chapter": 6,"difficulty": 1,"dindex": 0.978,"correlation": 0.130,"itemID": 65286},
+                      {"name": "HW9-6*","chapter": 6,"difficulty": 2,"dindex": 0.972,"correlation": 0.136,"itemID": 2167}
+                    ]},
+                    {"name": "Ex3-17","chapter": 6,"difficulty": 2,"dindex": 0.751,"correlation": 0.161,"children":[
+                      {"name": "HW8-6*","chapter": 5,"difficulty": 3,"dindex": 0.938,"correlation": 0.186,"itemID": 14418},
+                      {"name": "HW8-9","chapter": 5,"difficulty": 3,"dindex": 0.919,"correlation": 0.184,"itemID": 2099},
+                      {"name": "HW9-4","chapter": 6,"difficulty": 3,"dindex": 0.903,"correlation": 0.147,"itemID": 15866}
+                    ]},
+                    {"name": "Ex3-18","chapter": 6,"difficulty": 3,"dindex": 0.693,"correlation": 0.218,"children":[
+                      {"name": "HW8-6*","chapter": 5,"difficulty": 3,"dindex": 0.938,"correlation": 0.272,"itemID": 14418},
+                      {"name": "HW9-1","chapter": 6,"difficulty": 1,"dindex": 0.978,"correlation": 0.138,"itemID": 65286},
+                      {"name": "HW9-6*","chapter": 6,"difficulty": 1,"dindex": 0.979,"correlation": 0.156,"itemID": 6550}
+                    ]},
+                    {"name": "HW11-6","chapter": 7,"difficulty": 3,"dindex": 0.928,"correlation": 0.178,"itemID": 1861},
+                    {"name": "HW11-1","chapter": 4,"difficulty": 3,"dindex": 0.933,"correlation": 0.140,"itemID": 1300},
+                    {"name": "HW11-2","chapter": 7,"difficulty": 1,"dindex": 0.983,"correlation": 0.138,"itemID": 3710}   
+                ]},
+                {"name": "Final-20.4","chapter": 6,"correlation": 1,"difficulty": 3,"dindex": 0.645,"children":[
+                    {"name": "Ex1-13.4","chapter": 1,"difficulty": 3,"dindex": 0.746,"correlation": 0.190,"children":[
+                      {"name": "HW1-9","chapter": 1,"difficulty": 3,"dindex": 0.939,"correlation": 0.141,"itemID": 118053},
+                      {"name": "HW2-2","chapter": 1,"difficulty": 3,"dindex": 0.944,"correlation": 0.146,"itemID": 114392},
+                      {"name": "HW2-8","chapter": 2,"difficulty": 3,"dindex": 0.922,"correlation": 0.157,"itemID": 114978}
+                    ]},
+                    {"name": "Ex2-11","chapter": 4,"difficulty": 3,"dindex": 0.664,"correlation": 0.187,"children":[
+                      {"name": "HW4-5","chapter": 2,"difficulty": 2,"dindex": 0.981,"correlation": 0.123,"itemID": 1268},
+                      {"name": "HW6-6","chapter": 4,"difficulty": 3,"dindex": 0.937,"correlation": 0.204,"itemID": 116798},
+                      {"name": "HW6-9","chapter": 4,"difficulty": 3,"dindex": 0.931,"correlation": 0.182,"itemID": 6078}
+                    ]},
+                    {"name": "Ex2-12","chapter": 4,"difficulty": 3,"dindex": 0.825,"correlation": 0.151,"children":[
+                      {"name": "HW3-2","chapter": 2,"difficulty": 2,"dindex": 0.977,"correlation": 0.133,"itemID": 1504},
+                      {"name": "HW6-6","chapter": 4,"difficulty": 3,"dindex": 0.937,"correlation": 0.149,"itemID": 116798},
+                      {"name": "HW6-9","chapter": 4,"difficulty": 3,"dindex": 0.931,"correlation": 0.134,"itemID": 6078}
+                    ]},
+                    {"name": "Ex2-14.2","chapter": 4,"difficulty": 2,"dindex": 0.876,"correlation": 0.157,"children":[
+                      {"name": "HW5-6","chapter": 3,"difficulty": 3,"dindex": 0.972,"correlation": 0.128,"itemID": 18744},
+                      {"name": "HW6-6","chapter": 4,"difficulty": 3,"dindex": 0.937,"correlation": 0.200,"itemID": 116798},
+                      {"name": "HW6-9","chapter": 4,"difficulty": 3,"dindex": 0.931,"correlation": 0.236,"itemID": 6078}
+                    ]},
+                    {"name": "Ex3-3","chapter": 6,"difficulty": 2,"dindex": 0.793,"correlation": 0.177,"children":[
+                      {"name": "HW8-6*","chapter": 5,"difficulty": 3,"dindex": 0.938,"correlation": 0.172,"itemID": 14418},
+                      {"name": "HW9-6*","chapter": 6,"difficulty": 1,"dindex": 0.979,"correlation": 0.153,"itemID": 6550}
+                    ]}
+                ]},
+            ]
+        }
+
+    ]
+};
+
+
+
+
+
+var exam1_tree =
+{
+    "name": "EXAM1","difficulty": 0,"chapter": 0,
+    "children": [
+        {
+            "name": "Ex1-1","chapter": 1,"dindex": 0.980,"correlation": 1,"difficulty": 1,"children": [
+                {"name": "HW2-1","chapter": 1,"difficulty": 1,"dindex": 0.980,"correlation": 0.273,"itemID": 20668},
+                {"name": "HW2-7","chapter": 2,"difficulty": 2,"dindex": 0.958,"correlation": 0.225,"itemID": 4123},
+                {"name": "HW2-8","chapter": 2,"difficulty": 3,"dindex": 0.922,"correlation": 0.208,"itemID": 6854}
+            ]
+        },
+        {
+            "name": "Ex1-2","chapter": 1,"dindex": 0.975,"correlation": 1,"difficulty": 1,"children": [
+                {"name": "HW2-1","chapter": 1,"difficulty": 1,"dindex": 0.980,"correlation": 0.174,"itemID": 20668},
+                {"name": "HW2-8","chapter": 2,"difficulty": 3,"dindex": 0.922,"correlation": 0.186,"itemID": 114978},
+                {"name": "HW2-9","chapter": 2,"difficulty": 3,"dindex": 0.951,"correlation": 0.195,"itemID": 141658}
+            ]
+        },
+        {"name": "Ex1-3","chapter": 1,"dindex": 0.950,"correlation": 1,"difficulty": 2},
+        {
+            "name": "Ex1-4","chapter": 1,"dindex": 0.874,"correlation": 1,"difficulty": 3,"children": [
+                {"name": "HW1-1","chapter": 1,"difficulty": 1,"dindex": 0.967,"correlation": 0.166,"itemID": 123669},
+                {"name": "HW1-9","chapter": 1,"difficulty": 3,"dindex": 0.939,"correlation": 0.162,"itemID": 118053},
+                {"name": "HW2-5*","chapter": 2,"difficulty": 2,"dindex": 0.956,"correlation": 0.173,"itemID": 6854}
+            ]
+        },
+        {
+            "name": "Ex1-5","chapter": 1,"dindex": 0.818,"correlation": 1,"difficulty": 3,"children": [
+                {"name": "HW1-8","chapter": 1,"difficulty": 3,"dindex": 0.912,"correlation": 0.120,"itemID": 114299},
+                {"name": "HW2-2","chapter": 1,"difficulty": 3,"dindex": 0.944,"correlation": 0.123,"itemID": 4123},
+                {"name": "HW2-7","chapter": 2,"difficulty": 2,"dindex": 0.958,"correlation": 0.118,"itemID": 114299}
+            ]
+        },
+        {
+            "name": "Ex1-6","chapter": 1,"dindex": 0.970,"correlation": 1,"difficulty": 2,"children": [
+                {"name": "HW1-3","chapter": 1,"difficulty": 2,"dindex": 0.956,"correlation": 0.138,"itemID": 73735}
+            ]
+        },
+        {
+            "name": "Ex1-7","chapter": 1,"dindex": 0.996,"correlation": 1,"difficulty": 1,"children": [
+                {"name": "HW2-1","chapter": 1,"difficulty": 1,"dindex": 0.980,"correlation": 0.167,"itemID": 20668},
+                {"name": "HW2-4","chapter": 1,"difficulty": 1,"dindex": 0.972,"correlation": 0.124,"itemID": 2990},
+                {"name": "HW2-5*","chapter": 2,"difficulty": 2,"dindex": 0.962,"correlation": 0.280,"itemID": 6856}
+            ]
+        },
+        {
+            "name": "Ex1-8","chapter": 1,"dindex": 0.783,"correlation": 1,"difficulty": 3,"children": [
+                {"name": "HW2-8","chapter": 2,"difficulty": 3,"dindex": 0.922,"correlation": 0.121,"itemID": 114978},
+                {"name": "HW2-9","chapter": 2,"difficulty": 3,"dindex": 0.951,"correlation": 0.153,"itemID": 141658}
+            ]
+        },
+        {
+            "name": "Ex1-9","chapter": 1,"dindex": 0.971,"correlation": 1,"difficulty": 2,"children": [
+                {"name": "HW1-1","chapter": 1,"difficulty": 1,"dindex": 0.967,"correlation": 0.155,"itemID": 123669},
+                {"name": "HW1-4","chapter": 1,"difficulty": 1,"dindex": 0.967,"correlation": 0.152,"itemID": 3763},
+                {"name": "HW2-2","chapter": 1,"difficulty": 3,"dindex": 0.944,"correlation": 0.172,"itemID": 114392}
+            ]
+        },
+        {
+            "name": "Ex1-10","chapter": 2,"dindex": 0.995,"correlation": 1,"difficulty": 1,"children": [
+                {"name": "HW2-1","chapter": 1,"difficulty": 1,"dindex": 0.980,"correlation": 0.143,"itemID": 20668},
+                {"name": "HW2-5*","chapter": 2,"difficulty": 2,"dindex": 0.962,"correlation": 0.150,"itemID": 6856},
+                {"name": "HW2-6","chapter": 2,"difficulty": 2,"dindex": 0.962,"correlation": 0.178,"itemID": 6335}
+            ]
+        },
+        {
+            "name": "Ex1-11","chapter": 2,"dindex": 0.943,"correlation": 1,"difficulty": 2,"children": [
+                {"name": "HW2-3","chapter": 1,"difficulty": 1,"dindex": 0.969,"correlation": 0.113,"itemID": 25560},
+                {"name": "HW2-4","chapter": 1,"difficulty": 1,"dindex": 0.972,"correlation": 0.127,"itemID": 2990},
+                {"name": "HW2-5*","chapter": 2,"difficulty": 2,"dindex": 0.962,"correlation": 0.172,"itemID": 6856}
+            ]
+        },
+        {
+            "name": "Ex1-12","chapter": 2,"dindex": 0.974,"correlation": 1,"difficulty": 1,"children": [
+                {"name": "HW2-7","chapter": 2,"difficulty": 2,"dindex": 0.958,"correlation": 0.155,"itemID": 4123},
+                {"name": "HW2-8","chapter": 2,"difficulty": 3,"dindex": 0.922,"correlation": 0.233,"itemID": 114978},
+                {"name": "HW2-9","chapter": 2,"difficulty": 3,"dindex": 0.951,"correlation": 0.180,"itemID": 141658}
+            ]
+        },
+        {
+            "name": "Ex1-13","chapter": 1,"dindex": 0.916,"correlation": 1,"difficulty": 2,"children": [
+                {"name": "Ex1-13.1","chapter": 1,"difficulty": 1,"dindex": 0.981,"correlation": 1,"children": [
+                    {"name": "HW2-1","chapter": 1,"difficulty": 1,"dindex": 0.980,"correlation": 0.295,"itemID": 20668},
+                    {"name": "HW2-5*","chapter": 2,"difficulty": 2,"dindex": 0.964,"correlation": 0.219,"itemID": 6858},
+                    {"name": "HW2-5*","chapter": 2,"difficulty": 2,"dindex": 0.956,"correlation": 0.220,"itemID": 6854}
+                ]},
+                {"name": "Ex1-13.2","chapter": 1,"difficulty": 2,"dindex": 0.966,"correlation": 1,"children": [
+                    {"name": "HW1-3","chapter": 1,"difficulty": 2,"dindex": 0.956,"correlation": 0.164,"itemID": 73735},
+                    {"name": "HW1-8","chapter": 1,"difficulty": 3,"dindex": 0.912,"correlation": 0.172,"itemID": 114299},
+                    {"name": "HW2-7","chapter": 2,"difficulty": 2,"dindex": 0.958,"correlation": 0.173,"itemID": 4123}
+                ]},
+                {"name": "Ex1-13.3","chapter": 1,"difficulty": 1,"dindex": 0.973,"correlation": 1,"children": [
+                    {"name": "HW1-8","chapter": 1,"difficulty": 3,"dindex": 0.912,"correlation": 0.175,"itemID": 114299},
+                    {"name": "HW2-8","chapter": 2,"difficulty": 3,"dindex": 0.922,"correlation": 0.152,"itemID": 114978},
+                    {"name": "HW2-9","chapter": 2,"difficulty": 3,"dindex": 0.951,"correlation": 0.159,"itemID": 141658}
+                ]},
+                {"name": "Ex1-13.4","chapter": 1,"difficulty": 3,"dindex": 0.746,"correlation": 1,"children": [
+                    {"name": "HW1-9","chapter": 1,"difficulty": 3,"dindex": 0.939,"correlation": 0.141,"itemID": 118053},
+                    {"name": "HW2-2","chapter": 1,"difficulty": 3,"dindex": 0.944,"correlation": 0.146,"itemID": 114392},
+                    {"name": "HW2-8","chapter": 2,"difficulty": 3,"dindex": 0.922,"correlation": 0.157,"itemID": 114978}
+                ]}
+            ]
+        },
+        {
+            "name": "Ex1-14","chapter": 2,"dindex": 0.895,"correlation": 1,"difficulty": 3,"children": [
+                {"name": "Ex1-14.1","chapter": 1,"difficulty": 3,"dindex": 0.886,"correlation": 1,"children": [
+                    {"name": "HW2-5*","chapter": 2,"difficulty": 2,"dindex": 0.956,"correlation": 0.274,"itemID": 6854},
+                    {"name": "HW2-5*","chapter": 2,"difficulty": 2,"dindex": 0.962,"correlation": 0.208,"itemID": 6856},
+                    {"name": "HW2-9","chapter": 2,"difficulty": 3,"dindex": 0.951,"correlation": 0.181,"itemID": 141658}
+                ]},
+                {"name": "Ex1-14.2","chapter": 1,"difficulty": 3,"dindex": 0.906,"correlation": 1,"children": [
+                    {"name": "HW1-8","chapter": 1,"difficulty": 3,"dindex": 0.912,"correlation": 0.111,"itemID": 114299},
+                    {"name": "HW2-2","chapter": 1,"difficulty": 3,"dindex": 0.944,"correlation": 0.114,"itemID": 114392},
+                    {"name": "HW2-8","chapter": 2,"difficulty": 3,"dindex": 0.922,"correlation": 0.159,"itemID": 114978}
+                ]},
+                {"name": "Ex1-14.3","chapter": 2,"difficulty": 2,"dindex": 0.933,"correlation": 1,"children": [
+                    {"name": "HW1-3","chapter": 1,"difficulty": 2,"dindex": 0.956,"correlation": 0.121,"itemID": 73735},
+                    {"name": "HW2-2","chapter": 1,"difficulty": 3,"dindex": 0.944,"correlation": 0.117,"itemID": 114392},
+                    {"name": "HW2-8","chapter": 2,"difficulty": 3,"dindex": 0.922,"correlation": 0.145,"itemID": 114978}
+                ]},
+                {"name": "Ex1-14.4","chapter": 2,"difficulty": 3,"dindex": 0.856,"correlation": 1}
+            ]
+        },
+        {
+            "name": "Ex1-15","chapter": 2,"dindex": 0.974,"correlation": 1,"difficulty": 1,"children": [
+                {"name": "Ex1-15.1","chapter": 2,"difficulty": 1,"dindex": 0.987,"correlation": 1,"children": [
+                    {"name": "HW2-5*","chapter": 2,"difficulty": 2,"dindex": 0.964,"correlation": 0.230,"itemID": 6858},
+                    {"name": "HW2-8","chapter": 2,"difficulty": 3,"dindex": 0.922,"correlation": 0.176,"itemID": 114978},
+                    {"name": "HW2-9","chapter": 2,"difficulty": 3,"dindex": 0.951,"correlation": 0.166,"itemID": 141658}
+                ]},
+                {"name": "Ex1-15.2","chapter": 2,"difficulty": 2,"dindex": 0.962,"correlation": 1,"children": [
+                    {"name": "HW2-8","chapter": 2,"difficulty": 3,"dindex": 0.922,"correlation": 0.153,"itemID": 114978},
+                    {"name": "HW2-9","chapter": 2,"difficulty": 3,"dindex": 0.951,"correlation": 0.128,"itemID": 141658}
+                ]}
+            ]
+        }
+
+    ]
+};
+
+
+var exam2_tree =
+{
+    "name": "EXAM2","difficulty": 0,"chapter": 0,
+    "children": [
+        {"name": "Ex2-1","chapter": 2,"dindex": 0.946,"correlation": 1,"difficulty": 2},
+        {"name": "Ex2-2","chapter": 2,"dindex": 0.748,"correlation": 1,"difficulty": 3},
+        {
+            "name": "Ex2-3","chapter": 2,"dindex": 0.907,"correlation": 1,"difficulty": 2,"children": [
+                {"name": "HW4-5","chapter": 2,"difficulty": 2,"dindex": 0.981,"correlation": 0.124,"itemID": 1268},
+                {"name": "HW6-6","chapter": 4,"difficulty": 3,"dindex": 0.937,"correlation": 0.133,"itemID": 116798}
+            ]
+        },
+        {
+            "name": "Ex2-4","chapter": 2,"dindex": 0.806,"correlation": 1,"difficulty": 3,"children": [
+                {"name": "HW6-9","chapter": 4,"difficulty": 3,"dindex": 0.931,"correlation": 0.114,"itemID": 6078}
+            ]
+        },
+        {
+            "name": "Ex2-5","chapter": 3,"dindex": 0.993,"correlation": 1,"difficulty": 1,"children": [
+                {"name": "HW3-1","chapter": 2,"difficulty": 2,"dindex": 0.976,"correlation": 0.185,"itemID": 1503},
+                {"name": "HW3-2","chapter": 2,"difficulty": 2,"dindex": 0.977,"correlation": 0.191,"itemID": 1504},
+                {"name": "HW3-3/4-2","chapter": 2,"difficulty": 2,"dindex": 0.982,"correlation": 0.145,"itemID": 23153}
+            ]
+        },
+        {
+            "name": "Ex2-6","chapter": 2,"dindex": 0.978,"correlation": 1,"difficulty": 1,"children": [
+                {"name": "HW5-1","chapter": 2,"difficulty": 1,"dindex": 0.990,"correlation": 0.162,"itemID": 40168},
+                {"name": "HW5-3","chapter": 2,"difficulty": 1,"dindex": 0.988,"correlation": 0.131,"itemID": 39677},
+                {"name": "HW5-5","chapter": 3,"difficulty": 1,"dindex": 0.983,"correlation": 0.123,"itemID": 14889}
+            ]
+        },
+        {"name": "Ex2-7","chapter": 3,"dindex": 0.872,"correlation": 1,"difficulty": 2},
+        {"name": "Ex2-8","chapter": 4,"dindex": 0.842,"correlation": 1,"difficulty": 3},
+        {
+            "name": "Ex2-9","chapter": 4,"dindex": 0.967,"correlation": 1,"difficulty": 1,"children": [
+                {"name": "HW5-4","chapter": 3,"difficulty": 2,"dindex": 0.983,"correlation": 0.133,"itemID": 1606},
+                {"name": "HW5-5","chapter": 3,"difficulty": 1,"dindex": 0.983,"correlation": 0.148,"itemID": 14889},
+                {"name": "HW5-8","chapter": 4,"difficulty": 2,"dindex": 0.977,"correlation": 0.145,"itemID": 76380}
+            ]
+        },
+        {
+            "name": "Ex2-10","chapter": 4,"dindex": 0.924,"correlation": 1,"difficulty": 2,"children": [
+                {"name": "HW4-5","chapter": 2,"difficulty": 2,"dindex": 0.981,"correlation": 0.174,"itemID": 1268},
+                {"name": "HW4-6","chapter": 2,"difficulty": 1,"dindex": 0.985,"correlation": 0.157,"itemID": 23146},
+                {"name": "HW4-7","chapter": 2,"difficulty": 2,"dindex": 0.981,"correlation": 0.180,"itemID": 114801}
+            ]
+        },
+        {
+            "name": "Ex2-11","chapter": 4,"dindex": 0.664,"correlation": 1,"difficulty": 3,"children": [
+                {"name": "HW4-5","chapter": 2,"difficulty": 2,"dindex": 0.981,"correlation": 0.123,"itemID": 1268},
+                {"name": "HW6-6","chapter": 4,"difficulty": 3,"dindex": 0.937,"correlation": 0.204,"itemID": 116798},
+                {"name": "HW6-9","chapter": 4,"difficulty": 3,"dindex": 0.931,"correlation": 0.182,"itemID": 6078}
+            ]
+        },
+        {
+            "name": "Ex2-12","chapter": 4,"dindex": 0.825,"correlation": 1,"difficulty": 3,"children": [
+                {"name": "HW3-2","chapter": 2,"difficulty": 2,"dindex": 0.977,"correlation": 0.133,"itemID": 1504},
+                {"name": "HW6-6","chapter": 4,"difficulty": 3,"dindex": 0.937,"correlation": 0.149,"itemID": 116798},
+                {"name": "HW6-9","chapter": 4,"difficulty": 3,"dindex": 0.931,"correlation": 0.134,"itemID": 6078}
+            ]
+        },
+        {
+            "name": "Ex2-13","chapter": 2,"dindex": 0.923,"correlation": 1,"difficulty": 2,"children": [
+                {"name": "Ex2-13.1","chapter": 2,"difficulty": 1,"dindex": 0.952,"correlation": 1,"children": [
+                    {"name": "HW6-6","chapter": 4,"difficulty": 3,"dindex": 0.937,"correlation": 0.163,"itemID": 116798}
+                ]},
+                {"name": "Ex2-13.2","chapter": 2,"difficulty": 1,"dindex": 0.965,"correlation": 1,"children": [
+                    {"name": "HW5-6","chapter": 3,"difficulty": 3,"dindex": 0.972,"correlation": 0.131,"itemID": 18744},
+                    {"name": "HW6-6","chapter": 4,"difficulty": 3,"dindex": 0.937,"correlation": 0.210,"itemID": 116798},
+                    {"name": "HW6-9","chapter": 4,"difficulty": 3,"dindex": 0.931,"correlation": 0.195,"itemID": 6078}
+                ]},
+                {"name": "Ex2-13.3","chapter": 2,"difficulty": 3,"dindex": 0.851,"correlation": 1,"children": [
+                    {"name": "HW4-1","chapter": 2,"difficulty": 2,"dindex": 0.976,"correlation": 0.125,"itemID": 3764},
+                    {"name": "HW4-5","chapter": 2,"difficulty": 2,"dindex": 0.981,"correlation": 0.159,"itemID": 1268}
+                ]}
+            ]
+        },
+        {
+            "name": "Ex2-14","chapter": 4,"dindex": 0.920,"correlation": 1,"difficulty": 2,"children": [
+                {"name": "Ex2-14.1","chapter": 4,"difficulty": 1,"dindex": 0.978,"correlation": 1,"children": [
+                    {"name": "HW6-9","chapter": 4,"difficulty": 3,"dindex": 0.93106,"correlation": 0.1,"itemID": 607821}
+                ]},
+                {"name": "Ex2-14.2","chapter": 4,"difficulty": 3,"dindex": 0.876,"correlation": 1,"children": [
+                    {"name": "HW5-6","chapter": 3,"difficulty": 3,"dindex": 0.972,"correlation": 0.128,"itemID": 18744},
+                    {"name": "HW6-6","chapter": 4,"difficulty": 3,"dindex": 0.937,"correlation": 0.200,"itemID": 116798},
+                    {"name": "HW6-9","chapter": 4,"difficulty": 3,"dindex": 0.931,"correlation": 0.236,"itemID": 6078}
+                ]},
+                {"name": "Ex2-14.3","chapter": 4,"difficulty": 2,"dindex": 0.907,"correlation": 1,"children": [
+                    {"name": "HW6-6","chapter": 4,"difficulty": 3,"dindex": 0.937,"correlation": 0.120,"itemID": 116798},
+                    {"name": "HW6-9","chapter": 4,"difficulty": 3,"dindex": 0.931,"correlation": 0.127,"itemID": 6078}
+                ]}
+            ]
+        }
+
+    ]
+};
+
+
+
+
+var exam3_tree =
+{
+    "name": "EXAM3","difficulty": 0,"chapter": 0,
+    "children": [
+        {
+            "name": "Ex3-1","chapter": 5,"dindex": 0.948,"correlation": 1,"difficulty": 1,"children": [
+                {"name": "HW8-6*","chapter": 5,"difficulty": 3,"dindex": 0.938,"correlation": 0.317,"itemID": 14418},
+                {"name": "HW9-2","chapter": 6,"difficulty": 2,"dindex": 0.973,"correlation": 0.202,"itemID": 1851},
+                {"name": "HW9-6*","chapter": 6,"difficulty": 1,"dindex": 0.979,"correlation": 0.346,"itemID": 6550}
+            ]
+        },
+        {
+            "name": "Ex3-2","chapter": 6,"dindex": 0.834,"correlation": 1,"difficulty": 2,"children": [
+                {"name": "HW10-6*","chapter": 6,"difficulty": 3,"dindex": 0.957,"correlation": 0.146,"itemID": 112275}
+            ]
+        },
+        {
+            "name": "Ex3-3","chapter": 6,"dindex": 0.793,"correlation": 1,"difficulty": 2,"children": [
+                {"name": "HW8-6*","chapter": 5,"difficulty": 3,"dindex": 0.938,"correlation": 0.172,"itemID": 14418},
+                {"name": "HW9-6*","chapter": 6,"difficulty": 1,"dindex": 0.979,"correlation": 0.153,"itemID": 6550}
+            ]
+        },
+        {
+            "name": "Ex3-4","chapter": 5,"dindex": 0.632,"correlation": 1,"difficulty": 3,"children": [
+                {"name": "HW8-6*","chapter": 5,"difficulty": 3,"dindex": 0.938,"correlation": 0.134,"itemID": 14418}
+            ]
+        },
+        {
+            "name": "Ex3-5","chapter": 5,"dindex": 0.707,"correlation": 1,"difficulty": 2,"children": [
+                {"name": "HW9-2","chapter": 6,"difficulty": 2,"dindex": 0.973,"correlation": 0.130,"itemID": 1851},
+                {"name": "HW9-4","chapter": 6,"difficulty": 3,"dindex": 0.903,"correlation": 0.130,"itemID": 15866},
+                {"name": "HW9-5*","chapter": 6,"difficulty": 3,"dindex": 0.956,"correlation": 0.159,"itemID": 25768}
+            ]
+        },
+        {
+            "name": "Ex3-6","chapter": 6,"dindex": 0.872,"correlation": 1,"difficulty": 2,"children": [
+                {"name": "HW7-3*","chapter": 5,"difficulty": 1,"dindex": 0.978,"correlation": 0.143,"itemID": 2483},
+                {"name": "HW9-5*","chapter": 6,"difficulty": 3,"dindex": 0.956,"correlation": 0.166,"itemID": 25768},
+                {"name": "HW10-2*","chapter": 6,"difficulty": 1,"dindex": 0.984,"correlation": 0.147,"itemID": 53073}
+            ]
+        },
+        {"name": "Ex3-7","chapter": 6,"dindex": 0.529,"correlation": 1,"difficulty": 3},
+        {
+            "name": "Ex3-8","chapter": 6,"dindex": 0.958,"correlation": 1,"difficulty": 1,"children": [
+                {"name": "HW8-6*","chapter": 5,"difficulty": 3,"dindex": 0.938,"correlation": 0.244,"itemID": 14418},
+                {"name": "HW9-6*","chapter": 6,"difficulty": 1,"dindex": 0.979,"correlation": 0.323,"itemID": 6550},
+                {"name": "HW10-2*","chapter": 6,"difficulty": 1,"dindex": 0.984,"correlation": 0.279,"itemID": 53073}
+            ]
+        },
+        { "name": "Ex3-9","chapter": 7,"dindex": 0.681,"correlation": 1,"difficulty": 3},
+        {
+            "name": "Ex3-10","chapter": 5,"dindex": 0.976,"correlation": 1,"difficulty": 1,"children": [
+                {"name": "HW8-4","chapter": 5,"difficulty": 2,"dindex": 0.977,"correlation": 0.153,"itemID": 6091},
+                {"name": "HW9-2","chapter": 6,"difficulty": 2,"dindex": 0.973,"correlation": 0.122,"itemID": 1851},
+                {"name": "HW9-5*","chapter": 6,"difficulty": 3,"dindex": 0.956,"correlation": 0.223,"itemID": 25768}
+            ]
+        },
+        {
+            "name": "Ex3-11","chapter": 6,"dindex": 0.996,"correlation": 1,"difficulty": 1,"children": [
+                {"name": "HW7-3*","chapter": 5,"difficulty": 1,"dindex": 0.987,"correlation": 0.313,"itemID": 2485},
+                {"name": "HW8-6*","chapter": 5,"difficulty": 3,"dindex": 0.938,"correlation": 0.267,"itemID": 14418},
+                {"name": "HW9-6*","chapter": 6,"difficulty": 1,"dindex": 0.979,"correlation": 0.299,"itemID": 6550}
+            ]
+        },
+        {
+            "name": "Ex3-12","chapter": 6,"dindex": 0.941,"correlation": 1,"difficulty": 1,"children": [
+                {"name": "HW8-6*","chapter": 5,"difficulty": 3,"dindex": 0.966,"correlation": 0.186,"itemID": 14426},
+                {"name": "HW9-5*","chapter": 6,"difficulty": 3,"dindex": 0.956,"correlation": 0.156,"itemID": 25768},
+                {"name": "HW9-6*","chapter": 6,"difficulty": 1,"dindex": 0.979,"correlation": 0.260,"itemID": 6550}
+            ]
+        },
+        {
+            "name": "Ex3-13","chapter": 5,"dindex": 0.691,"correlation": 1,"difficulty": 3,"children": [
+                {"name": "HW8-6*","chapter": 5,"difficulty": 3,"dindex": 0.938,"correlation": 0.128,"itemID": 14418},
+                {"name": "HW9-4","chapter": 6,"difficulty": 3,"dindex": 0.903,"correlation": 0.129,"itemID": 15866},
+                {"name": "HW10-2*","chapter": 6,"difficulty": 3,"dindex": 0.962,"correlation": 0.139,"itemID": 53014}
+            ]
+        },
+        {
+            "name": "Ex3-14","chapter": 5,"dindex": 0.744,"correlation": 1,"difficulty": 2,"children": [
+                {"name": "HW9-1","chapter": 6,"difficulty": 1,"dindex": 0.978,"correlation": 0.130,"itemID": 65286},
+                {"name": "HW9-6*","chapter": 6,"difficulty": 2,"dindex": 0.972,"correlation": 0.136,"itemID": 2167}
+            ]
+        },
+        {"name": "Ex3-15","chapter": 5,"dindex": 0.904,"correlation": 1,"difficulty": 1},
+        {
+            "name": "Ex3-16","chapter": 6,"dindex": 0.898,"correlation": 1,"difficulty": 2,"children": [
+                {"name": "HW9-4","chapter": 6,"difficulty": 3,"dindex": 0.903,"correlation": 0.125,"itemID": 15866},
+                {"name": "HW9-5*","chapter": 6,"difficulty": 2,"dindex": 0.971,"correlation": 0.165,"itemID": 2166},
+                {"name": "HW9-6*","chapter": 6,"difficulty": 1,"dindex": 0.979,"correlation": 0.173,"itemID": 6550}
+            ]
+        },
+        {
+            "name": "Ex3-17","chapter": 6,"dindex": 0.751,"correlation": 1,"difficulty": 2,"children": [
+                {"name": "HW8-6*","chapter": 5,"difficulty": 3,"dindex": 0.938,"correlation": 0.186,"itemID": 14418},
+                {"name": "HW8-9","chapter": 5,"difficulty": 3,"dindex": 0.919,"correlation": 0.184,"itemID": 2099},
+                {"name": "HW9-4","chapter": 6,"difficulty": 3,"dindex": 0.903,"correlation": 0.147,"itemID": 15866}
+            ]
+        },
+        {
+            "name": "Ex3-18","chapter": 6,"dindex": 0.693,"correlation": 1,"difficulty": 3,"children": [
+                {"name": "HW8-6*","chapter": 5,"difficulty": 3,"dindex": 0.938,"correlation": 0.272,"itemID": 14418},
+                {"name": "HW9-1","chapter": 6,"difficulty": 1,"dindex": 0.978,"correlation": 0.138,"itemID": 65286},
+                {"name": "HW9-6*","chapter": 6,"difficulty": 2,"dindex": 0.972,"correlation": 0.156,"itemID": 2167}
+            ]
+        },
+        {
+            "name": "Ex3-19","chapter": 6,"dindex": 0.680,"correlation": 1,"difficulty": 3,"children": [
+                {"name": "HW9-6*","chapter": 6,"difficulty": 1,"dindex": 0.979,"correlation": 0.124,"itemID": 6550}
+            ]
+        },
+        {"name": "Ex3-20","chapter": 6,"dindex": 0.655,"correlation": 1,"difficulty": 3}
+
+    ]
+};
+
