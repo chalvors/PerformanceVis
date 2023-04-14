@@ -1,11 +1,185 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<!--chart.js script-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+
 <head>
-  <title>Performance</title>
+    <title>Performance</title>
+    <link rel="stylesheet" type="text/css" href="Styles/index.css">
 </head>
 
-<body>
-  <a href="advancedPerformance.html">Advanced View</a>
+<body class="cont">
+    <h1 id="head">Performance</h1>
+    <h3 id="sub-head">Simple View of Student Performance</h3>
+
+    <div class="row">
+        <div class="col">
+            <canvas id="barChartHW" style="width:50%;max-width:700px"></canvas>
+        </div>
+    
+        <div class="col">
+            <canvas id="barChartExams" style="width:50%;max-width:700px"></canvas>
+        </div>
+    </div>   
+
+    <div class="form">
+        <form action="">
+            <label for="test">Select an exam or homework:</label>
+            <select name="exams" id="exams">
+              <option value="exam1">Exam 1</option>
+              <option value="exam2">Exam 2</option>
+              <option value="exam3">Exam 3</option>
+              <option value="final">final Exam</option>
+              <option value="exam1">HW 1</option>
+              <option value="exam2">HW 2</option>
+              <option value="exam3">HW 3</option>
+            </select>
+            <br><br>
+            <input type="submit" value="Generate">
+          </form>
+    </div>
+
+    <div class="row">
+        <div class="col">
+            <canvas id="scatterChart" style="width:50%;max-width:700px"></canvas>
+        </div>
+    
+        <div class="col">
+            <canvas id="pieChart" style="width:50%;max-width:700px"></canvas>
+        </div>
+    </div>  
+
+    <div class="stats">
+        <p>General Statistics for Exam 1</p>
+        <p>Mean Score: 73%</p>
+        <p>Median Score: 76%</p>
+        <p>Fails: 4</p>
+        <p>Perfect Scores: 1</p>
+    </div>
+
+
+
+    <div>
+        <a class="link" href="advancedPerformance.html">Advanced View</a>
+    </div>
+    <div>
+        <a class="link" href="index.html">Back</a>
+    </div>
 </body>
+
+
+
+<script>
+//HW Bar Chart
+var xValues = ["HW1", "HW2", "HW3", "HW4", "HW5", "HW6", "HW7"];
+var yValues = [82, 86, 77, 74, 62, 83, 71];
+var barColors = ["grey", "red", "green", "pink", "blue", "orange", "purple"];
+
+new Chart("barChartHW", {
+  type: "bar",
+  data: {
+    labels: xValues,
+    datasets: [{
+      backgroundColor: barColors,
+      data: yValues
+    }]
+  },
+  options: {
+    legend: {display: false},
+    title: {
+      display: true,
+      text: "2022 Chemistry101 Homework Performance Avergaes"
+    }
+  }
+});
+
+
+//Exam Bar Chart
+var xValues = ["Exam1", "Exam2", "Exam3", "Final"];
+var yValues = [82, 79, 67, 74];
+var barColors = ["red", "green", "blue", "orange"];
+
+new Chart("barChartExams", {
+  type: "bar",
+  data: {
+    labels: xValues,
+    datasets: [{
+      backgroundColor: barColors,
+      data: yValues
+    }]
+  },
+  options: {
+    legend: {display: false},
+    title: {
+      display: true,
+      text: "2022 Chemistry101 Exam Performance Avergaes"
+    }
+  }
+});
+
+//Scatter Chart
+var xyValues = [
+  {x:1, y:95},
+  {x:2, y:80},
+  {x:3, y:87},
+  {x:4, y:92},
+  {x:5, y:65},
+  {x:6, y:96},
+  {x:7, y:75},
+  {x:8, y:83},
+  {x:9, y:86},
+  {x:10, y:45}
+];
+
+new Chart("scatterChart", {
+  type: "scatter",
+  data: {
+    datasets: [{
+      pointRadius: 4,
+      pointBackgroundColor: "rgb(0,0,255)",
+      data: xyValues
+    }]
+  },
+  options: {
+    title: {display: true,
+    text: "Exam 1 Score Breakdown"},
+    legend: {display: false},
+    scales: {
+      xAxes: [{ticks: {min: 1, max:10}}],
+      yAxes: [{ticks: {min: 0, max:100}}],
+    }
+  }
+});
+
+//Pie Chart
+var xValues = ["Atoms", "Thermodynamics", "Titration", "Periodic Table", "Balancing"];
+var yValues = [55, 49, 44, 24, 15];
+var barColors = [
+  "#b91d47",
+  "#00aba9",
+  "#2b5797",
+  "#e8c3b9",
+  "#1e7145"
+];
+
+new Chart("pieChart", {
+  type: "doughnut",
+  data: {
+    labels: xValues,
+    datasets: [{
+      backgroundColor: barColors,
+      data: yValues
+    }]
+  },
+  options: {
+    title: {
+      display: true,
+      text: "Exam 1 Question Content Percentages"
+    }
+  }
+});
+
+</script>
+
 
