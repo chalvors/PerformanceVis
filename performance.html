@@ -142,9 +142,15 @@ new Chart("scatterChart", {
     }]
   },
   options: {
-    title: {display: true,
-    text: "Exam 1 Score Breakdown"},
-    legend: {display: false},
+    title: {
+        display: true,
+        text: "Exam 1 Score Breakdown"
+    },
+
+    legend: {
+        display: true,
+    },
+
     scales: {
       xAxes: [{ticks: {min: 1, max:10}}],
       yAxes: [{ticks: {min: 0, max:100}}],
