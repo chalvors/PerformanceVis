@@ -187,14 +187,18 @@ var drawComTwo = false
 var drawComThree = false
 var selection = "Group"
 
+const popButton = document.getElementById("populate-parallel-graph");
+const parallelDataInput = document.getElementById("parallel-graph-data");
+
+popButton.addEventListener("click", () => {
+  //drawParallel(parallelDataInput.value);
+  drawParallel("Parallel_Mock_Data.csv")
+});
 
 
-drawParallel();
 
-
-
-  function drawParallel(){
-    d3.csv("parallelData.csv", function(data) {
+  function drawParallel(parallelData) {
+    d3.csv(parallelData, function(data) {   //data input
 
     var newData = data
 

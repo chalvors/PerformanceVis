@@ -1,191 +1,377 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<!--chart.js script-->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
-
 <head>
-    <title>Performance</title>
-    <link rel="stylesheet" type="text/css" href="Styles/index.css">
+  <title>Performance</title>
+  <meta charset="utf-8">
+      <!-- Global site tag (gtag.js) - Google Analytics -->
+      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-146285645-4"></script>
+      <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(ARguments);}
+          gtag('js', new Date());
+          
+          gtag('config', 'UA-146285645-4');
+          </script>
 </head>
 
-<body class="cont">
-    <h1 id="head">Performance</h1>
-    <h3 id="sub-head">Simple View of Student Performance</h3>
+<script src="https://d3js.org/d3.v3.js"></script>
+  <script>
+    d3version3 = d3
+    window.d3 = null
+  </script>
+<script src="https://d3js.org/d3.v4.js"></script>
 
-    <div class="row">
-        <div class="col">
-            <canvas id="barChartHW" style="width:50%;max-width:700px"></canvas>
-        </div>
-    
-        <div class="col">
-            <canvas id="barChartExams" style="width:50%;max-width:700px"></canvas>
-        </div>
-    </div>   
+  
 
-    <div class="form">
-        <form action="">
-            <label for="test">Select an exam or homework:</label>
-            <select name="exams" id="exams">
-              <option value="exam1">Exam 1</option>
-              <option value="exam2">Exam 2</option>
-              <option value="exam3">Exam 3</option>
-              <option value="final">final Exam</option>
-              <option value="exam1">HW 1</option>
-              <option value="exam2">HW 2</option>
-              <option value="exam3">HW 3</option>
-            </select>
-            <br><br>
-            <input type="submit" value="Generate">
-          </form>
+<div id="force"></div>
+<div id="legend"></div>
+<p id="input_data_label"> Filter by Exam:</p>
+<p id="force_tree_color_dropdown_label"> Question Highlighter:</p>
+<select id="force_tree_color_dropdown"></select>
+<div id="tree"></div>
+<select id="input_data"></select>
+<p id="force_title" onclick="shrinkForce()">Detailed Exam Item Analysis</p>
+<p id="tree_title" onclick="shrinkTree()">Overall Exam & Homework Analysis</p>
+
+
+<div class="container" id="container">
+
+  <div class="tab">
+    <button class="tablinks" onclick="openTab(event, 'SankeyTab')" id="sankeyButton">Overall Exam Grade Pathway</button>
+    <button class="tablinks" onclick="openTab(event, 'ParallelTab')" id="parallelButton">Detailed Exam Grade Pathway</button>
+  </div>
+
+  <div id="SankeyTab" class="tabcontent">
+    <div id="sankey"></div>
+    <div id="SExam1">
+      <p >Exam1</p> 
     </div>
+    <div id="SExam2">
+      <p >Exam2</p> 
+    </div>
+    <div id="SExam3">
+      <p >Exam3</p> 
+    </div>
+    <div id="SFinal">
+      <p >Final</p> 
+    </div>
+  </div>
 
-    <div class="row">
-        <div class="col">
-            <canvas id="scatterChart" style="width:50%;max-width:700px"></canvas>
+  <div id="ParallelTab" class="tabcontent">
+
+    <div id="parallel"></div>
+
+      <div id="compares">
+        <div id="compareOne">
+        <select id="compareOne1"></select>
+        <select id="compareOne2"></select>
+        <select id="compareOne3"></select>
+        <select id="compareOne4"></select>
         </div>
-    
-        <div class="col">
-            <canvas id="pieChart" style="width:50%;max-width:700px"></canvas>
+        
+        <div id="compareTwo">
+        <select id="compareTwo1"></select>
+        <select id="compareTwo2"></select>
+        <select id="compareTwo3"></select>
+        <select id="compareTwo4"></select>
+        <input type="checkbox" id="showTwo"> Show Comparison</input>
         </div>
-    </div>  
 
-    <div class="stats">
-        <p>General Statistics for Exam 1</p>
-        <p>Mean Score: 73%</p>
-        <p>Median Score: 76%</p>
-        <p>Fails: 4</p>
-        <p>Perfect Scores: 1</p>
-    </div>
+        <div id="compareThree">
+        <select id="compareThree1"></select>
+        <select id="compareThree2"></select>
+        <select id="compareThree3"></select>
+        <select id="compareThree4"></select>
+        <input type="checkbox" id="showThree"> Show Comparison</input>
+        </div>
+
+      </div>
+
+      <div id="Ex1">
+        <p >Ex1</p> 
+      </div>
+      <div id="Ex2">
+        <p >Ex2</p> 
+      </div>
+      <div id="Ex3">
+        <p >Ex3</p> 
+      </div>
+      <div id="Final">
+        <p >Final</p> 
+      </div>
+
+      <!-- 480 data input -->
+      <div id="parallel-data-input">
+        <label for="data">Choose parallel graph data:</label>
+        <input id="parallel-graph-data" type="file" name="data" accept=".csv">
+
+        <button id="populate-parallel-graph">Populate</button>
+      </div>
+
+   </div>
+
+</div>
+
+
+<div id="filtercheckbox" class="tabcontent">
+<font size="3"><b>&nbspCharacteristics Highlighter: </b></font> 
+<select id="selectColor"></select><br><br>
+<font size="4"><b>&nbspFilter: </b></font> <br>
+
+<div class="cb bodertop">
+  <input type="checkbox" class="filter" id="Regular" value="Regular"/>
+  <label for="Regular">Regular Cohort</label><br><br>
+</div>
+
+<div class="cb bodermiddle">
+  <input type="checkbox" class="filter" id="Control" value="Control"/>
+  <label for="Control">Control Cohort</label><br><br>
+</div>
+
+<div class="cb boderbottom">
+  <input type="checkbox" class="filter" id="Scholars" value="Scholars"/>
+  <label for="Scholars">Scholars Cohort</label><br><br>
+</div>
+
+<div class="cb bodermiddle">
+  <input type="checkbox" class="filter" id="Firstgen" value="Firstgen"/>
+  <label for="Firstgen">First Gen</label><br><br>
+</div>
+
+<div class="cb boderbottom">
+  <input type="checkbox" class="filter" id="Not_Firstgen" value="Not_Firstgen"/>
+  <label for="Not_Firstgen">Not First Gen</label><br><br>
+</div>
+
+<div class="cb bodermiddle">
+  <input type="checkbox" class="filter" id="White" value="White"/>
+  <label for="White">White</label><br><br>
+</div>
+
+<div class="cb boderbottom">
+  <input type="checkbox" class="filter" id="Not_White" value="Not_White"/>
+  <label for="Not_White">Not White</label><br><br>
+</div>
+
+<div class="cb bodermiddle">
+  <input type="checkbox" class="filter" id="Male" value="Male"/>
+  <label for="Male">Male</label><br><br>
+</div>
+
+<div class="cb boderbottom">
+  <input type="checkbox" class="filter" id="Female" value="Female"/>
+  <label for="Female">Female</label><br><br>
+</div>
+
+<div class="cb bodermiddle">
+  <input type="checkbox" class="filter" id="Pell" value="Pell"/>
+  <label for="Pell">Pell Eligible</label><br><br>
+</div>
+
+<div class="cb boderbottom">
+  <input type="checkbox" class="filter" id="Not_Pell" value="Not_Pell"/>
+  <label for="Not_Pell">Not Pell Eligible</label><br><br>
+</div>
+
+<div class="cb bodermiddle">
+  <input type="checkbox" class="filter" id="Above_5" value="Above_5"/>
+  <label for="Above_5">AR <span>&#8805;</span> 5</label><br><br>
+</div>
+
+<div class="cb boderbottom">
+  <input type="checkbox" class="filter" id="Below_5" value="Below_5"/>
+  <label for="Below_5">AR < 5</label><br><br>
+</div>
+
+<div class="cb bodermiddle">
+  <input type="checkbox" class="filter" id="Above_1380" value="Above_1380"/>
+  <label for="Above_1380">Onetest <span>&#8805;</span> 1380</label><br><br>
+</div>
+
+<div class="cb boderbottom">
+  <input type="checkbox" class="filter" id="Below_1380" value="Below_1380"/>
+  <label for="Below_1380">Onetest < 1380</label><br><br>
+</div>
+
+<div class="cb bodermiddle">
+  <input type="checkbox" class="filter" id="More_then_2_pass" value="More_then_2_pass"/>
+  <label for="More_then_2_pass">STEM AP Pass <span>&#8805;</span> 2</label><br><br>
+</div>
+
+<div class="cb boderbottom">
+  <input type="checkbox" class="filter" id="Less_then_2_pass" value="Less_then_2_pass"/>
+  <label for="Less_then_2_pass">STEM AP Pass < 2</label><br><br>
+</div>
+
+<div class="cb bodermiddle">
+  <input type="checkbox" class="filter" id="C_and_Above" value="C_and_Above"/>
+  <label for="C_and_Above">Course Grade > C</label><br><br>
+</div>
+
+<div class="cb boderbottom">
+  <input type="checkbox" class="filter" id="C_and_Below" value="C_and_Below"/>
+  <label for="C_and_Below">Course Grade <span>&#8804;</span> C</label><br><br>
+</div>
+
+</div>
+
+<div id="barChart" class="tabcontent"></div>
+<div id="variableImportance" class="tabcontent"></div>
+
+<button id="color_blind_switch" onclick="colorBlindMode(event)">Colorblind Mode</button>
 
 
 
-    <div>
-        <a class="link" href="advancedPerformance.html">Advanced View</a>
-    </div>
-    <div>
-        <a class="link" href="index.html">Back</a>
-    </div>
-</body>
+<!-- import CSS  -->
+<link rel="stylesheet" type="text/css" href="Styles/GraphStyle.css">
+
+
 
 
 
 <script>
-//HW Bar Chart
-var xValues = ["HW1", "HW2", "HW3", "HW4", "HW5", "HW6", "HW7"];
-var yValues = [82, 86, 77, 74, 62, 83, 71];
-var barColors = ["grey", "red", "green", "pink", "blue", "orange", "purple"];
+var hide_barchart = true;
+var colorBlind = false;
+var force_folded = false;
+var tree_folded = false;
 
-new Chart("barChartHW", {
-  type: "bar",
-  data: {
-    labels: xValues,
-    datasets: [{
-      backgroundColor: barColors,
-      data: yValues
-    }]
-  },
-  options: {
-    legend: {display: false},
-    title: {
-      display: true,
-      text: "2022 Chemistry101 Homework Performance Avergaes"
-    }
+
+function openTab(evt, tabName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
   }
-});
-
-
-//Exam Bar Chart
-var xValues = ["Exam1", "Exam2", "Exam3", "Final"];
-var yValues = [82, 79, 67, 74];
-var barColors = ["red", "green", "blue", "orange"];
-
-new Chart("barChartExams", {
-  type: "bar",
-  data: {
-    labels: xValues,
-    datasets: [{
-      backgroundColor: barColors,
-      data: yValues
-    }]
-  },
-  options: {
-    legend: {display: false},
-    title: {
-      display: true,
-      text: "2022 Chemistry101 Exam Performance Avergaes"
-    }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
   }
-});
 
-//Scatter Chart
-var xyValues = [
-  {x:1, y:95},
-  {x:2, y:80},
-  {x:3, y:87},
-  {x:4, y:92},
-  {x:5, y:65},
-  {x:6, y:96},
-  {x:7, y:75},
-  {x:8, y:83},
-  {x:9, y:86},
-  {x:10, y:45}
-];
-
-new Chart("scatterChart", {
-  type: "scatter",
-  data: {
-    datasets: [{
-      pointRadius: 4,
-      pointBackgroundColor: "rgb(0,0,255)",
-      data: xyValues
-    }]
-  },
-  options: {
-    title: {
-        display: true,
-        text: "Exam 1 Score Breakdown"
-    },
-
-    legend: {
-        display: true,
-    },
-
-    scales: {
-      xAxes: [{ticks: {min: 1, max:10}}],
-      yAxes: [{ticks: {min: 0, max:100}}],
-    }
+  if (tabName == "ParallelTab"){
+    document.getElementById(tabName).style.display = "block";
+    document.getElementById("barChart").style.display = "block";
+    document.getElementById("variableImportance").style.display = "block";
+    document.getElementById("filtercheckbox").style.display = "block";
+    evt.currentTarget.className += " active";
+  }else{
+    document.getElementById(tabName).style.display = "block";
+    evt.currentTarget.className += " active";
   }
-});
+}
 
-//Pie Chart
-var xValues = ["Atoms", "Thermodynamics", "Titration", "Periodic Table", "Balancing"];
-var yValues = [55, 49, 44, 24, 15];
-var barColors = [
-  "#b91d47",
-  "#00aba9",
-  "#2b5797",
-  "#e8c3b9",
-  "#1e7145"
-];
 
-new Chart("pieChart", {
-  type: "doughnut",
-  data: {
-    labels: xValues,
-    datasets: [{
-      backgroundColor: barColors,
-      data: yValues
-    }]
-  },
-  options: {
-    title: {
-      display: true,
-      text: "Exam 1 Question Content Percentages"
-    }
+function colorBlindMode(evt){
+
+  if(colorBlind == false){
+    evt.currentTarget.className += " active";
+
+    colorBlind = true;
+
+    difficulty_color = d3.scaleOrdinal()
+      .domain([0,1,2,3])
+      .range([ "#fff","#bad7f9", "#3778c6", "#1f436e"])
+    chapter_color = d3.scaleOrdinal()
+      .domain([0,1,2,3,4,5,6,7])
+      .range([ "#fff", "#483c46", "#bce2bd", "#55828b", "#f45a18", "#87bba2", "#edeec9", "#ea0300"])
+
+    sankeycolor = d3.scaleOrdinal()
+      .domain(['A', 'B', 'C', 'D', 'F'])
+      .range(['#f92755', '#ef7f23', '#d7be82', '#9dd9d2', '#52b2cf'])
+
+    parallelcolor = d3.scaleOrdinal()
+      .domain(["Regular", "Control", "Scholars", "Firstgen", "Not_Firstgen", "White", "Not_White", "Male", "Female", "Pell", "Not_Pell", "Above_5", "Below_5", "Above_1380", "Below_1380", "More_then_2_pass", "Less_then_2_pass", "C_and_Above", "C_and_Below", "Empty"])
+      .range([ "#917c78", "#adcad6", "#1f271b", "#006e90", "#ffcb0f", "#ff9400", "#667761", "#eab89f", "#5c54c9", "#0fa9fc", "#e5293f", "#4545ad","#f75a11", "#00b2ca","#545e56","#b79492","#41bbd9","#79beee","#d10000","#312f34"])
+
+    barcolor = d3.scaleOrdinal()
+      .range([ "#917c78", "#adcad6", "#1f271b", "#006e90", "#ffcb0f", "#ff9400", "#667761", "#eab89f", "#5c54c9", "#0fa9fc", "#e5293f", "#4545ad","#f75a11", "#00b2ca","#545e56","#b79492","#41bbd9","#79beee","#d10000","#312f34"])
+      .domain([0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19]);
+
+  }else{
+    document.getElementById("color_blind_switch").className = document.getElementById("color_blind_switch").className.replace(" active", "");
+
+    colorBlind = false;  
+
+    difficulty_color = d3.scaleOrdinal()
+      .domain([0,1,2,3])
+      .range([ "#fff","#b4d4ff", "#1871ec", "#002e6f"])
+
+    chapter_color = d3.scaleOrdinal()
+      .domain([0,1,2,3,4,5,6,7])
+      .range([ "#fff", "#cea2ff", "#b6fea5", "#87b2ff", "#feaf7b", "#a3fff1", "#fffe99", "#fe8686"])
+
+    sankeycolor = d3.scaleOrdinal()
+      .domain(['A', 'B', 'C', 'D', 'F'])
+      .range(['#00ABA5', '#00A231', '#e2d000', '#E69200', '#DA1D02'])
+
+    parallelcolor = d3.scaleOrdinal()
+      .domain(["Regular", "Control", "Scholars", "Firstgen", "Not_Firstgen", "White", "Not_White", "Male", "Female", "Pell", "Not_Pell", "Above_5", "Below_5", "Above_1380", "Below_1380", "More_then_2_pass", "Less_then_2_pass", "C_and_Above", "C_and_Below", "Empty"])
+      .range([ "#e46c00", "#00b181", "#7b00b1", "#b10000", "#00a1b1", "#003cb1", "#b10066", "#6db800", "#9600de", "#006397", "#bd01a5", "#b80042","#00dcd5", "#c29603","#03c252","#d500dc","#007adc","#63bdff","#d55050","#312f34"])
+
+    barcolor = d3.scaleOrdinal()
+      .range([ "#e46c00", "#00b181", "#7b00b1", "#b10000", "#00a1b1", "#003cb1", "#b10066", "#6db800", "#9600de", "#006397", "#bd01a5", "#b80042","#00dcd5", "#c29603","#03c252","#d500dc","#007adc","#63bdff","#d55050","#312f34"])
+      .domain([0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19]);
+
   }
-});
 
+  update(root)
+  updateForce()
+  legend.selectAll(".chapter").remove();
+  legend.selectAll(".difficulty").remove();
+  updateLegend()
+  updateSankey()
+
+
+  barsvg
+    .selectAll(".bar")
+    .transition()
+    .duration(350)
+    .style('fill', function (d, i) { return barcolor(i) })
+
+  parallelsvg
+    .selectAll(".line1")
+    .transition()
+    .duration(350)
+    .style("stroke", function(d){ return( parallelcolor(d[selection]))} )
+
+}
+
+
+function shrinkTree() {
+
+	if(tree_folded == false){
+	  d3.select("#tree_title").text("OEHA")
+	  tree_folded = true
+	}else{
+	  d3.select("#tree_title").text("Overall Exam & Homework Analysis")
+	  tree_folded = false
+	}
+}
+
+function shrinkForce() {
+
+	if(force_folded == false){
+	  d3.select("#force_title").text("DEIA")
+	  force_folded = true
+	}else{
+	  d3.select("#force_title").text("Detailed Exam Item Analysis")
+	  force_folded = false
+	}
+}
+
+
+document.getElementById("sankeyButton").click();
 </script>
+
+
+
+<!-- Visualizations --> 
+<script src="TreeData.json"></script>
+<script src="TreeGraph.js"></script>
+<script src="ForceGraph.js"></script>
+<script src="sankey.js"></script>
+<script src="SankeyGraph.js"></script>
+<script src="ParallelGraph.js"></script>
+
 
 

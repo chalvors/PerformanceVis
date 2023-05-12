@@ -1,4 +1,4 @@
-<style>
+
 .node {
   cursor: pointer;
 }
@@ -242,6 +242,7 @@ div.cb label{
   border-right-width: 0.1px;
 }
 
+/*
 #compares {
   position: absolute;
   top: 670px;
@@ -268,7 +269,15 @@ div.cb label{
   top: 720px;
   left: 325px;
 }
+*/
 
+.compares {
+  padding-top: 20px;
+}
+
+#parallel-data-input {
+  padding-bottom: 50px;
+}
 
 .axis {
   opacity: 0.4;
@@ -337,5 +346,3 @@ div.cb label{
   from {opacity: 0;}
   to {opacity: 1;}
 }
-
-</style>
