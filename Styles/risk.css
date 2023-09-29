@@ -1,0 +1,51 @@
+#content {
+
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 24px;
+    text-align: left;
+}
+
+#button {
+
+    background-color: cornflowerblue; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    z-index: -1;
+}
+
+#head {
+
+    align-content: center;
+    text-align: center;
+}
+
+#foot {
+
+    align-content: center;
+    text-align: center;
+    font-size: 24px;
+}
+
+
+#tables {
+    display: flex;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#students-table {
+
+    padding-right: 30px;
+}
+
+#stats-table {
+
+   
+
+}

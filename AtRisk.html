@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>At Risk</title>
+    <link rel="stylesheet" type="text/css" href="Styles/risk.css">
+</head>
+
+<body class="cont">
+    <div id="head">
+        <h1>At Risk Students</h1>
+    </div>
+
+    <div id="content">
+
+        <button id="button" onclick={draw()}>analyze</button>
+
+        <div id="tables">
+
+            <div id="students-table">
+
+            </div>
+
+            <div id="stats-table">
+
+            </div>
+
+        </div>
+
+        <div id="foot">
+            <a class="link" href="index.html">Back</a>
+        </div>
+
+    </div>
+</body>
+
+</html>
+
+<script>
+
+    async function draw() {
+
+        //get results div
+        const studentsTableDiv = document.getElementById("students-table");
+
+        //get results div
+        const statsTableDiv = document.getElementById("stats-table");
+
+        //clear divs
+        studentsTableDiv.innerHTML = "";
+        statsTableDiv.innerHTML = "";
+
+        //init empty all students
+        var allStudents = {};
+
+        //grab student data (synchronously)
+        await fetch('./At_Risk_Mock_Data.json')
+            .then((response) => response.json())
+            .then((json) => allStudents = json)
+
+        //populate flagged students using method
+        flaggedStudents = analyzeStudents(allStudents);
+
+        /*---------------------------------------------------- FLAGGED STUDENTS TABLE -------------------------*/
+
+        //create flagged students table
+        var flaggedStudentsTable = document.createElement('table');
+
+        //create, populate, append flagged students table caption
+        var flaggedStudentsTableCaption = document.createElement('caption');
+        flaggedStudentsTableCaption.innerHTML = "<b>Flagged Students<b>";
+        flaggedStudentsTable.appendChild(flaggedStudentsTableCaption);
+
+        //style table
+        flaggedStudentsTable.style.cssText = "border: 1px solid black; border-collapse: collapse;"
+
+        //create headers
+        var headers = document.createElement('tr');
+        var header1 = document.createElement('th');
+        var header2 = document.createElement('th');
+        var header3 = document.createElement('th');
+        var header4 = document.createElement('th');
+
+        //populate headers
+        header1.innerHTML = "Student ID"
+        header2.innerHTML = "Flagged Because"
+        header3.innerHTML = "Ethnicity"
+        header4.innerHTML = "Gender"
+
+        //style headers
+        header1.style.cssText = "border: 1px solid black; border-collapse: collapse;"
+        header2.style.cssText = "border: 1px solid black; border-collapse: collapse;"
+        header3.style.cssText = "border: 1px solid black; border-collapse: collapse;"
+        header4.style.cssText = "border: 1px solid black; border-collapse: collapse;"
+
+        //set headers as children of "headers" row
+        headers.appendChild(header1);
+        headers.appendChild(header2);
+        headers.appendChild(header3);
+        headers.appendChild(header4);
+
+        //set "headers" row as child of table
+        flaggedStudentsTable.appendChild(headers);
+
+        /*------------------------------------------------ FLAGGED STUDENT ROWS ------------------------------*/
+
+        //iterate students to make rows
+        flaggedStudents.students.map((student) => {
+
+            //create new row
+            var tableRow = document.createElement('tr');
+
+            //create, style, populate id cell
+            var idCell = document.createElement('td');
+            idCell.style.cssText = "border: 1px solid black; border-collapse: collapse;"
+            idCell.innerHTML = student.id;
+
+            //create, style, populate flagged cell
+            var flaggedCell = document.createElement('td');
+            flaggedCell.style.cssText = "border: 1px solid black; border-collapse: collapse;"
+            flaggedCell.innerHTML = student.flagged;
+
+            //create, style, populate ethnicity cell
+            var ethnicityCell = document.createElement('td');
+            ethnicityCell.style.cssText = "border: 1px solid black; border-collapse: collapse;"
+            ethnicityCell.innerHTML = student.ethnicity;
+
+            //create, style, populate gender cell
+            var genderCell = document.createElement('td');
+            genderCell.style.cssText = "border: 1px solid black; border-collapse: collapse;"
+            genderCell.innerHTML = student.gender;
+
+            //set cells as children of  newrow
+            tableRow.appendChild(idCell);
+            tableRow.appendChild(flaggedCell);
+            tableRow.appendChild(ethnicityCell);
+            tableRow.appendChild(genderCell);
+
+            //set new row as child of table
+            flaggedStudentsTable.appendChild(tableRow);
+
+        });
+
+        /*--------------------------------------------------- STATS TABLE -----------------------------------------*/
+
+        //create stats table
+        var statsTable = document.createElement('table');
+
+        //create, populate, append stats table caption
+        var statsTableCaption = document.createElement('caption');
+        statsTableCaption.innerHTML = "<b>Stats<b>";
+        statsTable.appendChild(statsTableCaption);
+
+        //style table
+        statsTable.style.cssText = "border: 1px solid black; border-collapse: collapse;"
+
+        //create headers
+        var statHeaders = document.createElement('tr');
+        var statHeader1 = document.createElement('th');
+        var statHeader2 = document.createElement('th');
+
+        //populate headers
+        statHeader1.innerHTML = "Field"
+        statHeader2.innerHTML = "Value"
+
+        //style headers
+        statHeader1.style.cssText = "border: 1px solid black; border-collapse: collapse;"
+        statHeader2.style.cssText = "border: 1px solid black; border-collapse: collapse;"
+
+        //set headers as children of "headers" row
+        statHeaders.appendChild(statHeader1);
+        statHeaders.appendChild(statHeader2);
+
+        //set "headers" row as child of table
+        statsTable.appendChild(statHeaders);
+
+        /*---------------------------------------------- MAKE STATS ---------------------------------------------------*/
+
+        // init stats
+        const flaggedCount = flaggedStudents.students.length;
+        const allStudentsCount = allStudents.students.length
+        var flaggedWhiteCount = 0;
+        var flaggedMaleCount = 0;
+        var allStudentsWhiteCount = 0;
+        var allStudentsMaleCount = 0;
+
+        flaggedStudents.students.map((student) => {
+
+            if (student.ethnicity == "White") {
+
+                flaggedWhiteCount++;
+            }
+
+            if (student.gender == "Male") {
+
+                flaggedMaleCount++;
+            }
+        });
+
+        allStudents.students.map((student) => {
+
+            if (student.ethnicity == "White") {
+
+                allStudentsWhiteCount++;
+            }
+
+            if (student.gender == "Male") {
+
+                allStudentsMaleCount++;
+            }
+        });
+
+        //[key, value] pairs for stats 
+        const stats = {
+
+            "Total Students": allStudentsCount,
+            "Flagged Students": flaggedCount,
+            "Flagged Students Percentage": Math.round(((flaggedCount / allStudentsCount) * 100 )) + "%",
+            "Flagged Non-White Students Percentage": Math.round((((flaggedCount - flaggedWhiteCount) / flaggedCount) * 100)) + "%",
+            "Flagged Female Students Percentage": Math.round((((flaggedCount - flaggedMaleCount) / flaggedCount) * 100)) + "%",
+        };
+
+        /*-------------------------------------------------------- STATS ROWS -------------------------------------------*/
+
+        //iterate stats, make rows 
+        Object.entries(stats).map(([key, value]) => {
+
+            //create new row
+            var statsRow = document.createElement('tr');
+
+            //create, style, populate total students field cell
+            var statsFieldCell = document.createElement('td');
+            statsFieldCell.style.cssText = "border: 1px solid black; border-collapse: collapse;"
+            statsFieldCell.innerHTML = key;
+
+            //create, style, populate total students value cell
+            var statsValueCell = document.createElement('td');
+            statsValueCell.style.cssText = "border: 1px solid black; border-collapse: collapse;"
+            statsValueCell.innerHTML = value;
+
+            //set headers as children of "headers" row
+            statsRow.appendChild(statsFieldCell);
+            statsRow.appendChild(statsValueCell);
+
+            //set stats row as child of stats table
+            statsTable.appendChild(statsRow);
+        });
+
+
+        /*----------------------------------------------- APPEND TABLES TO DIVS ------------------------------------*/ 
+
+        //set flagged student table as child of div
+        studentsTableDiv.appendChild(flaggedStudentsTable);
+
+        //set stats table as child of div
+        statsTableDiv.appendChild(statsTable);
+    }
+
+
+
+
+
+
+
+
+    function analyzeStudents(allStudents) {
+
+        //init empty flagged students json
+        var flaggedStudents = {
+
+            "students": []
+        }
+
+        allStudents.students.map((student) => {
+
+            /*  ADDED METHODS 
+                last test was a D or Lower
+                last Quiz was a D or Lower
+                Last HW was a D or Lower
+
+            */
+
+            /*  TO ADD
+                overall course grade C or Lower
+                trending downward over last few assignments
+
+
+            */
+
+            var flaggedFor = "";
+
+            if (student.hw.slice(-1) < 70) {
+
+                flaggedFor += "- D on last HW<BR>"
+            }
+            if (student.quizes.slice(-1) < 70) {
+
+                flaggedFor += "- D on last quiz<BR>"
+            }
+            if (student.exams.slice(-1) < 70) {
+
+                flaggedFor += "- D on last exam<BR>"
+            }
+
+
+            if (flaggedFor != "") {
+
+                var newStudent = {
+                    "id": student.id,
+                    "flagged": flaggedFor,
+                    "gender": student.gender,
+                    "ethnicity": student.ethnicity
+                }
+
+                flaggedStudents.students.push(newStudent);
+            }
+        })
+
+        return flaggedStudents;
+    }
+
+
+</script>
